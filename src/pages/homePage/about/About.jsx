@@ -25,7 +25,7 @@ const About = () => {
                  <p  className='text-start'>               
                   In diam erat, malesuada sit amet sagittis vel, varius eu ante. Sed rutrum pretium magna sit amet dapibus. Pellentesque vitae diam sit amet nulla ultricies blandit vitae quis dui. Donec arcu massa, varius id ipsum a, lobortis lobortis nulla. Vestibulum hendrerit ex non <Link to="/">cursus lacinia</Link>
                  </p>
-                 <Button className="px-5 mt-3">Learn more</Button>
+                 <Button className="px-5 mt-3 common-btn">Learn more</Button>
                 </div>
         </div>
         <div className='col-md-7'>

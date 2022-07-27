@@ -24,5 +24,21 @@
     font-size: 16px;
     text-transform: capitalize;
     line-height: 21px;
-    margin-right: 45px;
+    margin-left: 45px;
+
+}
+@media screen and (max-width:991px){
+    .footer-section a{
+        margin-right: 30px;
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width:767px){
+    
+.footer-section a{
+    margin-right: 20px;
+    margin-left: 0;
+
+}
 }

@@ -50,7 +50,7 @@ const Workflow = () => {
             </div>
           </div>
         </div>
-        <button className='workflow-btn'>Find a teacher </button>
+        <button className='common-btn d-block m-auto mt-5 '>Find a teacher </button>
       </div>
     </div>
   )
