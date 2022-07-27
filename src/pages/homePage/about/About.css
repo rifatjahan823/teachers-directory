@@ -8,11 +8,12 @@ margin:5px 7px;
  
 }
 .feaured_teachers div h6{
-margin-bottom: 10px;
+margin-bottom: 0px;
 }
 .feaured_teachers div p{
  font-size: 12px;
  color: gray;
+ margin:0;
  line-height: 12px;
 }
 .feaured_teachers div img{
@@ -22,4 +23,12 @@ margin-bottom: 10px;
 .shape-img{
     margin: 100px 0 30px 0;
 }
- 
+ .dot-top{
+    color: #2697FF;
+    font-size: 30px;
+   margin-right: -10px;
+   margin-left: -12px;
+ }
+ .dots{
+color: #53AE32;
+ }

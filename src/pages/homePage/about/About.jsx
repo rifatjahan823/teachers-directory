@@ -12,7 +12,8 @@ import image7 from "../../../assets/about/Rectangle 193 (6).png";
 import image8 from "../../../assets/about/Rectangle 193 (7).png";
 import image9 from "../../../assets/about/Rectangle 193 (8).png";
 import image10 from "../../../assets/about/Rectangle 193 (9).png";
-import shapebackground from '../../../assets/home/shape-Background.png'
+import shapebackground from '../../../assets/home/shape-Background.png';
+import { BsDot} from "react-icons/bs";
 
 const About = () => {
   return (
@@ -34,63 +35,63 @@ const About = () => {
            <div>
              <img src={image1} alt="feaured_teachers" className='img-fluid'/>
              <h6 className='fw-bold'>James Doe</h6>
-              <p>London</p>
-               <p>Engineering</p>                           
+              <p><BsDot className='dot-top'/>London</p>
+               <p><BsDot className='dot-top dots'/>Engineering</p>                           
            </div>
            <div>
            <img src={image2} alt="feaured_teachers" className='img-fluid'/>
               <h6 className='fw-bold'>Martin R.</h6>            
-               <p>Exeter</p>
-               <p>Biology,Chemistry</p>
+               <p><BsDot className='dot-top'/>Exeter</p>
+               <p><BsDot className='dot-top dots'/>Biology,Chemistry</p>
            </div>
            <div>
            <img src={image3} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Jonathan Doe</h6>            
-           <p>London</p>
-           <p>Art,Painting</p>
+           <p><BsDot className='dot-top'/>London</p>
+           <p><BsDot className='dot-top dots'/>Art,Painting</p>
            </div>
            <div>
            <img src={image4} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Jane Doe</h6>            
-           <p>Brighton & Hove</p>
-           <p>Music,singing</p>
+           <p><BsDot className='dot-top'/>Brighton & Hove</p>
+           <p><BsDot className='dot-top dots'/>Music,singing</p>
            </div>
            <div>
            <img src={image5} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Martin R.</h6>            
-            <p>London</p>
-            <p>Math, Science</p>
+            <p><BsDot className='dot-top'/>London</p>
+            <p><BsDot className='dot-top dots'/>Math, Science</p>
            </div>
            <div>
            <img src={image6} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Janet Doe</h6>            
-            <p>Menchester</p>
-            <p>Accounting</p>
+            <p><BsDot className='dot-top'/>Menchester</p>
+            <p><BsDot className='dot-top dots'/>Accounting</p>
            </div>
            <div>
            <img src={image7} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>James Doe</h6>            
-            <p>Cambridge</p>
-            <p>Music</p>
+            <p><BsDot className='dot-top'/>Cambridge</p>
+            <p><BsDot className='dot-top dots'/>Music</p>
            </div>
            <div>
            <img src={image8} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Julia Doe</h6>
            
-            <p>Leeds</p>
-            <p>Coding,web design</p>
+            <p><BsDot className='dot-top'/>Leeds</p>
+            <p><BsDot className='dot-top dots'/>Coding,web design</p>
            </div>
            <div>
            <img src={image9} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Martin R.</h6>            
-            <p>London</p>
-            <p>Math,Science</p>
+            <p><BsDot className='dot-top'/>London</p>
+            <p><BsDot className='dot-top dots'/>Math,Science</p>
            </div>
            <div>
            <img src={image10} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Jane Doe</h6>            
-           <p>Brighton & Hove</p>
-           <p>Music,singing</p>
+           <p><BsDot className='dot-top'/>Brighton & Hove</p>
+           <p><BsDot  className='dot-top dots'/>Music,singing</p>
            </div>                  
           </div>    
         </div>        
