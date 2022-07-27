@@ -1,6 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper';
+import { Navigation,} from 'swiper';
+import { Autoplay} from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import logoslide1 from '../../../assets/home/logo-slider-1.png'
@@ -20,17 +21,27 @@ const Support = () => {
           <div className='col-12'>
             <div className='slide-logo'>
               {/* ---------for desktop--------- */}
-              <Swiper className='d-none d-lg-block'
+              <Swiper 
                 spaceBetween={5}
                 slidesPerView={5}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
-                modules={[Autoplay, Pagination]}
+                modules={[Autoplay,Navigation]}
                 navigation
                 loop={true}
                  autoplay={{ delay: 3000 }}
-                pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
+                breakpoints={{
+                  991: {
+                    slidesPerView: 5,
+                  },
+                  768: {
+                    slidesPerView: 3,
+                  },
+                  0: {
+                    slidesPerView: 1,
+                  },
+                }}
               >
                 <SwiperSlide ><img src={logoslide1} alt="" /></SwiperSlide>
                 <SwiperSlide><img src={logoslide2} alt="" /></SwiperSlide>
@@ -39,46 +50,7 @@ const Support = () => {
                 <SwiperSlide><img src={logoslide5} alt="" /></SwiperSlide>
                 <SwiperSlide><img src={logoslide3} alt="" /></SwiperSlide>
               </Swiper>
-              {/* ---------for tab--------- */}
-              <Swiper className='d-none d-lg-none d-md-block'
-                spaceBetween={50}
-                slidesPerView={2}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
-                modules={[Autoplay,Pagination]}
-                navigation
-                loop={true}
-                autoplay={{ delay: 3000 }}
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
-              >
-                <SwiperSlide ><img src={logoslide1} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={logoslide2} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={logoslide3} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={logoslide4} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={logoslide5} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={logoslide3} alt="" /></SwiperSlide>
-              </Swiper>
-              {/* ---------for mobile--------- */}
-              <Swiper className='d-block d-md-none'
-                spaceBetween={50}
-                slidesPerView={1}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
-                modules={[Autoplay,Pagination]}
-                navigation
-                loop={true}
-                autoplay={{ delay: 3000 }}
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
-              >
-                <SwiperSlide ><img src={logoslide1} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={logoslide2} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={logoslide3} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={logoslide4} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={logoslide5} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={logoslide3} alt="" /></SwiperSlide>
-              </Swiper>
+             
             </div>
           </div>
         </div>
