@@ -3,12 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
-
-import logoslide1 from '../../../assets/logo-slider-1.png';
-import logoslide2 from '../../../assets/logo-slider-2.png';
-import logoslide3 from '../../../assets/logo-slider-3.png';
-import logoslide4 from '../../../assets/logo-slider-4.png';
-import logoslide5 from '../../../assets/logo-slider-5.png';
+import logoslide1 from '../../../assets/home/logo-slider-1.png'
+import logoslide2 from '../../../assets/home/logo-slider-2.png';
+import logoslide3 from '../../../assets/home/logo-slider-3.png'
+import logoslide4 from '../../../assets/home/logo-slider-4.png';
+import logoslide5 from '../../../assets/home/logo-slider-5.png';
 import './Support.css'
 
 
@@ -16,7 +15,7 @@ const Support = () => {
   return (
     <div className='support-section'>
       <div className='container'>
-        <h2>Supported by</h2>
+        <h2 className='common-title'>Supported by</h2>
         <div className='row'>
           <div className='col-12'>
             <div className='slide-logo'>

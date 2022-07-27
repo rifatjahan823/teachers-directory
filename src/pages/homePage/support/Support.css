@@ -1,9 +1,9 @@
 .support-section{
     padding: 80px 0;
 }
-.support-section h2{
+.common-title{
     color:#1A1A2B;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-transform: capitalize;
@@ -16,7 +16,7 @@
     display: block;
 }
  .swiper-button-prev{
-    padding-right: 2%;
+    padding-right: 1.8%;
 }
 .swiper-button-next{
     padding-left: 2%;

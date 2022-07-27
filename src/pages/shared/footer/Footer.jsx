@@ -3,7 +3,7 @@ import { TiSocialFacebook,TiSocialTwitter,TiSocialLinkedin,TiSocialYoutube } fro
 import { IoLogoInstagram } from "react-icons/io";
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import footerlogo from '../../../assets/Group 42.png'
+import footerlogo from '../../../assets/home/footer-logo.png'
 
 
 const Footer = () => {
