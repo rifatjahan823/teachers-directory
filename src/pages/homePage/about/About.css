@@ -1,0 +1,12 @@
+.feaured_teachers{
+display: grid;
+grid-template-columns: repeat(5,1fr); 
+}
+
+.feaured_teachers div{
+margin:0px 5px;
+}
+.feaured_teachers div img{
+ object-fit: cover;
+}
+ 
