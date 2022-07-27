@@ -17,13 +17,13 @@ const About = () => {
   return (
     <div className="container overflow-hidden">
         <div  className='row'>
-        <div className='col-md-5'>
-                <div>
-                 <h2>Who we are</h2>
-                 <p className='text-start'>               
+        <div className='col-md-5 d-flex align-items-center justify-content-center'>
+                <div >
+                 <h1 className="fw-bold my-4">Who we are</h1>
+                 <p  className='text-start'>               
                   In diam erat, malesuada sit amet sagittis vel, varius eu ante. Sed rutrum pretium magna sit amet dapibus. Pellentesque vitae diam sit amet nulla ultricies blandit vitae quis dui. Donec arcu massa, varius id ipsum a, lobortis lobortis nulla. Vestibulum hendrerit ex non <Link to="/">cursus lacinia</Link>
                  </p>
-                 <Button>Learn more</Button>
+                 <Button className="px-5 mt-3">Learn more</Button>
                 </div>
         </div>
         <div className='col-md-7'>
@@ -73,15 +73,16 @@ const About = () => {
            </div>
            <div>
            <img src={image8} alt="feaured_teachers" className='img-fluid'/>
-           <h6 className='fw-bold'>Julia Doe</h6>            
+           <h6 className='fw-bold'>Julia Doe</h6>
+           
             <p>Leeds</p>
-            <p>Coading,web design</p>
+            <p>Coding,web design</p>
            </div>
            <div>
            <img src={image9} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Martin R.</h6>            
             <p>London</p>
-            <p>Math, Science</p>
+            <p>Math,Science</p>
            </div>
            <div>
            <img src={image10} alt="feaured_teachers" className='img-fluid'/>
