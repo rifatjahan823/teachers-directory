@@ -1,0 +1,23 @@
+.support-section{
+    padding: 80px 0;
+}
+.common-title{
+    color:#1A1A2B;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.slide-logo img{
+    width:130px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+ .swiper-button-prev{
+    padding-right: 1.8%;
+}
+.swiper-button-next{
+    padding-left: 2%;
+}

@@ -12,9 +12,11 @@ import image7 from "../../../assets/about/Rectangle 193 (6).png";
 import image8 from "../../../assets/about/Rectangle 193 (7).png";
 import image9 from "../../../assets/about/Rectangle 193 (8).png";
 import image10 from "../../../assets/about/Rectangle 193 (9).png";
+import shapebackground from '../../../assets/home/shape-Background.png'
 
 const About = () => {
   return (
+    <div>
     <div className="container overflow-hidden">
         <div  className='row'>
         <div className='col-md-5 d-flex align-items-center justify-content-center'>
@@ -23,7 +25,7 @@ const About = () => {
                  <p  className='text-start'>               
                   In diam erat, malesuada sit amet sagittis vel, varius eu ante. Sed rutrum pretium magna sit amet dapibus. Pellentesque vitae diam sit amet nulla ultricies blandit vitae quis dui. Donec arcu massa, varius id ipsum a, lobortis lobortis nulla. Vestibulum hendrerit ex non <Link to="/">cursus lacinia</Link>
                  </p>
-                 <Button className="px-5 mt-3">Learn more</Button>
+                 <Button className="px-5 mt-3 common-btn">Learn more</Button>
                 </div>
         </div>
         <div className='col-md-7'>
@@ -92,6 +94,10 @@ const About = () => {
            </div>                  
           </div>    
         </div>        
+    </div>
+    </div>
+    <div className='shape-img'>
+    <img className='img-fluid' src={shapebackground} alt="" />
     </div>
     </div>
   )

@@ -3,13 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import logo from '.././../../assets/home/Logo.png';
 import "./Header.css";
 
 const Header=()=>{
   return (
     <Navbar style={{background:'white'}} expand="lg">
       <Container fluid>
-        <Navbar.Brand>Td Teachers' Directory</Navbar.Brand>
+        <Navbar.Brand><img className='img-fluid' src={logo} alt="" /> </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
