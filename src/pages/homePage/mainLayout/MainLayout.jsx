@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../about/About';
 import HeroSection from '../heroSection/HeroSection';
 import Support from '../support/Support';
 import Testimonial from '../testimonial/Testimonial';
@@ -9,6 +10,7 @@ const MainLayout = () => {
   return (
     <div>
        <HeroSection></HeroSection>
+       <About></About>
        <Workflow></Workflow>
        <Testimonial></Testimonial>
        <Support></Support>
