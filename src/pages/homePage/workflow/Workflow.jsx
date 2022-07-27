@@ -15,7 +15,7 @@ const Workflow = () => {
         <div className='row g-4 align-items-center justify-content-center'>
           <div className='col-lg-4 col-md-6 col-12'>
               <div className='circle'>
-              <img className='img-fluid' src={circle1} alt="" />
+              <img className='img-fluid d-block m-auto' src={circle1} alt="" />
                 <div className='circle-1'>
                   <h5>Nam ornare leo eu turpis</h5>
                 <p>Nulla suscipit fermentum diam nec interdum. Nullam erat sapien, pulvinar vel felis eu, ultrices mattis eros. Suspendisse consequat, elit convallis vulputate pellentesque.</p>
@@ -27,7 +27,7 @@ const Workflow = () => {
           </div>
           <div className='col-lg-4 col-md-6 col-12'>
             <div className='circle'>
-            <img className='img-fluid' src={circle2} alt="" />
+            <img className='img-fluid d-block m-auto' src={circle2} alt="" />
             <div className='circle-2 '>
                  <h5>Praesent diam ex</h5>
                 <p>In eget aliquam urna. Ut viverra erat nec ante dictum, ut rhoncus erat imperdiet. Praesent vel pretium neque.</p>
@@ -39,7 +39,7 @@ const Workflow = () => {
           </div>
           <div className='col-lg-4 col-md-6 col-12'>
             <div className=' circle'>
-               <img className='img-fluid' src={circle3} alt="" />
+               <img className='img-fluid d-block m-auto' src={circle3} alt="" />
                 <div className='circle-3'>
                 <h5>Maecenas tempor vulputate tellus id</h5>
                 <p>Fusce non euismod risus. Praesent velit erat, convallis sit amet rutrum ut, pulvinar molestie libero. Morbi tempus quam vel pretium viverra.</p>

@@ -132,7 +132,7 @@ const Testimonial = () => {
                             </div>
                             <div>
                               <h6>John Doe, Art Teacher</h6>
-                              <p className='date'>12/08/2021</p>
+                              <p className='date'>05/07/2022</p>
                               <AiFillStar className='testimonial-rating'/>
                               <AiFillStar className='testimonial-rating'/>
                               <AiFillStar className='testimonial-rating'/>
@@ -206,7 +206,7 @@ const Testimonial = () => {
                             </div>
                             <div>
                               <h6>John Doe, Art Teacher</h6>
-                              <p className='date'>12/08/2021</p>
+                              <p className='date'>05/07/2022</p>
                               <AiFillStar className='testimonial-rating'/>
                               <AiFillStar className='testimonial-rating'/>
                               <AiFillStar className='testimonial-rating'/>
