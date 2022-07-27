@@ -1,0 +1,29 @@
+.footer-section {
+    background-color: #EEF5FB;
+    height: 263px;
+    padding-top: 65px;
+}
+.footer-section p {
+    color: #797995;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 21px;
+    margin: 0;
+}
+.footer-top-icon{
+    color: #797995;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.footer-section a{
+    text-decoration: none;
+    color: #797995;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 21px;
+    margin-left: 45px;
+}
