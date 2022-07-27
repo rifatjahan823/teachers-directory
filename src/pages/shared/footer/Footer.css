@@ -1,7 +1,6 @@
 .footer-section {
     background-color: #EEF5FB;
-    height: 263px;
-    padding-top: 65px;
+    padding: 65px 0;
 }
 .footer-section p {
     color: #797995;
@@ -25,5 +24,5 @@
     font-size: 16px;
     text-transform: capitalize;
     line-height: 21px;
-    margin-left: 45px;
+    margin-right: 45px;
 }
