@@ -1,0 +1,62 @@
+.workflow-section{
+    padding: 80px 0;
+}
+.circle{
+    position: relative;
+}
+.inner-content img{
+    width: 100%;
+}
+.inner-content{
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    z-index: -999;
+}
+.circle-1{
+    position: absolute;
+    top: 22%;
+    left: 15%;
+    right: 15%;
+}
+.circle-2{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    right: 15%;
+    bottom: 20%;
+}
+.circle-3{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    right: 15%;
+    bottom: 20%;
+}
+.circle p{
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top:25px;
+}
+.circle h5{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+.workflow-btn{
+    background: #2697FF;
+    color:white;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 35px;
+   display: block;
+   margin: auto;
+   margin-top: 70px;
+   font-weight: 600;
+   font-size: 18px;
+}
