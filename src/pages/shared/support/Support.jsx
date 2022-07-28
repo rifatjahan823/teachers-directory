@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation,} from 'swiper';
 import { Autoplay} from 'swiper';
@@ -9,7 +9,7 @@ import logoslide2 from '../../../assets/home/logo-slider-2.png';
 import logoslide3 from '../../../assets/home/logo-slider-3.png'
 import logoslide4 from '../../../assets/home/logo-slider-4.png';
 import logoslide5 from '../../../assets/home/logo-slider-5.png';
-import './Support.css'
+import './Support.css';
 
 
 const Support = () => {
@@ -59,4 +59,4 @@ const Support = () => {
   )
 }
 
-export default Support
+export default Support;

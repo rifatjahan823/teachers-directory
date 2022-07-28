@@ -4,6 +4,7 @@ import MainLayout from './pages/homePage/mainLayout/MainLayout';
 import SearchLayout from './pages/searchTeachers/serachLayout/SearchLayout';
 import Footer from './pages/shared/footer/Footer';
 import Header from './pages/shared/header/Header';
+import Support from './pages/shared/support/Support';
 import ProfileLayout from './pages/teachersProfile/profileLayout/ProfileLayout';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path='/search_teacher' element={<SearchLayout/>}/> 
       <Route path='/teacher_profile' element={<ProfileLayout/>}/> 
       </Routes>
+      <Support></Support>
       <Footer></Footer>      
       </BrowserRouter>      
     </div>

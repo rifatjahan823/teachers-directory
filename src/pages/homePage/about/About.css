@@ -1,6 +1,6 @@
 .feaured_teachers{
 display: grid;
-grid-template-columns: repeat(5,1fr); 
+grid-template-columns: repeat(5,1fr);
 }
 
 .feaured_teachers div{
@@ -33,6 +33,11 @@ margin-bottom: 10px;
  font-size: 14px;
 }
  
+@media(max-width:800px){
+.feaured_teachers{
+ grid-template-columns: auto auto;
+ }
+}
   
            
   
