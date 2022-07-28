@@ -42,7 +42,7 @@ const About = () => {
            <img src={image2} alt="feaured_teachers" className='img-fluid'/>
               <h6 className='fw-bold'>Martin R.</h6>            
                <p><BsDot className='dot-top'/>Exeter</p>
-               <p><BsDot className='dot-top dots'/>Biology,Chemistry</p>
+               <p><BsDot className='dot-top dots'/>Biology, Chemistry</p>
            </div>
            <div>
            <img src={image3} alt="feaured_teachers" className='img-fluid'/>

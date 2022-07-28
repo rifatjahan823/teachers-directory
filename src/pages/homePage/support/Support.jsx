@@ -35,7 +35,7 @@ const Support = () => {
                   991: {
                     slidesPerView: 5,
                   },
-                  768: {
+                  767: {
                     slidesPerView: 3,
                   },
                   0: {

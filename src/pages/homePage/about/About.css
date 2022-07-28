@@ -32,3 +32,9 @@ margin-bottom: 0px;
  .dots{
 color: #53AE32;
  }
+
+ @media screen  and (max-width:767px){
+  .feaured_teachers{
+    grid-template-columns: repeat(3,1fr); 
+    }
+ }

@@ -20,7 +20,7 @@ const Header=()=>{
           >
              
           </Nav>           
-           <Link className='header_link' to='/'>Search teachers</Link>
+           <Link className='header_link' to='/search_teacher'>Search teachers</Link>
            <Link className='header_link' to='/'>Job search</Link>
            <Link className='header_link' to='/'>How it works</Link>
            <Link className='header_link' to='/'>About us</Link>
