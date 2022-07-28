@@ -33,7 +33,7 @@ const Workflow = () => {
                 <p>In eget aliquam urna. Ut viverra erat nec ante dictum, ut rhoncus erat imperdiet. Praesent vel pretium neque.</p>
             </div>
             <div className='inner-content'>
-              <img src={two} alt="" />
+              <img   src={two} alt="" />
             </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ const Workflow = () => {
                <img className='img-fluid d-block m-auto' src={circle3} alt="" />
                 <div className='circle-3'>
                 <h5>Maecenas tempor vulputate tellus id</h5>
-                <p>Fusce non euismod risus. Praesent velit erat, convallis sit amet rutrum ut, pulvinar molestie libero. Morbi tempus quam vel pretium viverra.</p>
+                <p>Fusce non euismod risus. Praesent velit erat, convallisamet rutrum ut, pulvinar molestie libero. Morbi tempus quam vel pretium viverra.</p>
                 </div>
                 <div className='inner-content'>
                   <img src={three} alt="" />

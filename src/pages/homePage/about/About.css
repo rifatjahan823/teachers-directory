@@ -4,7 +4,7 @@ grid-template-columns: repeat(5,1fr);
 }
 
 .feaured_teachers div{
-margin:5px 7px;
+margin:5px 6px;
  
 }
 .feaured_teachers div h6{
@@ -22,4 +22,18 @@ margin-bottom: 10px;
 .shape-img{
     margin: 100px 0 30px 0;
 }
+.dot-1{
+    color:#2697FF;
+    margin-right: -4px;
+    font-size: 14px;
+}
+.dot-2{
+ color:#53AE32;
+ margin-right: -4px;
+ font-size: 14px;
+}
+ 
+  
+           
+  
  

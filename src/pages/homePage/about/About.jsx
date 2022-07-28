@@ -12,7 +12,9 @@ import image7 from "../../../assets/about/Rectangle 193 (6).png";
 import image8 from "../../../assets/about/Rectangle 193 (7).png";
 import image9 from "../../../assets/about/Rectangle 193 (8).png";
 import image10 from "../../../assets/about/Rectangle 193 (9).png";
-import shapebackground from '../../../assets/home/shape-Background.png'
+import shapebackground from '../../../assets/home/shape-Background.png';
+import {  GoPrimitiveDot } from "react-icons/go";
+// GoPrimitiveDot
 
 const About = () => {
   return (
@@ -34,63 +36,68 @@ const About = () => {
            <div>
              <img src={image1} alt="feaured_teachers" className='img-fluid'/>
              <h6 className='fw-bold'>James Doe</h6>
-              <p>London</p>
-               <p>Engineering</p>                           
+              
+              
+             
+              <p>< GoPrimitiveDot className="dot-1"/> London</p>
+               <p>< GoPrimitiveDot className="dot-2"/> Engineering</p>                           
            </div>
            <div>
            <img src={image2} alt="feaured_teachers" className='img-fluid'/>
-              <h6 className='fw-bold'>Martin R.</h6>            
-               <p>Exeter</p>
-               <p>Biology,Chemistry</p>
+              <h6 className='fw-bold'>Martin R.</h6> 
+              {/* <li className='li'><span>Exeter</span></li>
+              <li className='li-2'><span>Biology,Chemistry</span></li>           */}
+               <p>< GoPrimitiveDot className="dot-1"/> Exeter</p>
+               <p>< GoPrimitiveDot className="dot-2"/> Biology,Chemistry</p>
            </div>
            <div>
            <img src={image3} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Jonathan Doe</h6>            
-           <p>London</p>
-           <p>Art,Painting</p>
+           <p>< GoPrimitiveDot className="dot-1"/> London</p>
+           <p>< GoPrimitiveDot className="dot-2"/> Art,Painting</p>
            </div>
            <div>
            <img src={image4} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Jane Doe</h6>            
-           <p>Brighton & Hove</p>
-           <p>Music,singing</p>
+           <p>< GoPrimitiveDot className="dot-1"/> Brighton & Hove</p>
+           <p>< GoPrimitiveDot className="dot-2"/> Music,singing</p>
            </div>
            <div>
            <img src={image5} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Martin R.</h6>            
-            <p>London</p>
-            <p>Math, Science</p>
+            <p>< GoPrimitiveDot className="dot-1"/> London</p>
+            <p>< GoPrimitiveDot className="dot-2"/> Math, Science</p>
            </div>
            <div>
            <img src={image6} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Janet Doe</h6>            
-            <p>Menchester</p>
-            <p>Accounting</p>
+            <p>< GoPrimitiveDot className="dot-1"/> Menchester</p>
+            <p>< GoPrimitiveDot className="dot-2"/> Accounting</p>
            </div>
            <div>
            <img src={image7} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>James Doe</h6>            
-            <p>Cambridge</p>
-            <p>Music</p>
+            <p>< GoPrimitiveDot className="dot-1"/> Cambridge</p>
+            <p>< GoPrimitiveDot className="dot-2"/> Music</p>
            </div>
            <div>
            <img src={image8} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Julia Doe</h6>
            
-            <p>Leeds</p>
-            <p>Coding,web design</p>
+            <p>< GoPrimitiveDot className="dot-1"/> Leeds</p>
+            <p>< GoPrimitiveDot className="dot-2"/> Coding,webDesign</p>
            </div>
            <div>
            <img src={image9} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Martin R.</h6>            
-            <p>London</p>
-            <p>Math,Science</p>
+            <p>< GoPrimitiveDot className="dot-1"/> London</p>
+            <p>< GoPrimitiveDot className="dot-2"/> Math,Science</p>
            </div>
            <div>
            <img src={image10} alt="feaured_teachers" className='img-fluid'/>
            <h6 className='fw-bold'>Jane Doe</h6>            
-           <p>Brighton & Hove</p>
-           <p>Music,singing</p>
+           <p>< GoPrimitiveDot className="dot-1"/> Brighton & Hove</p>
+           <p>< GoPrimitiveDot className="dot-2"/> Music,singing</p>
            </div>                  
           </div>    
         </div>        
