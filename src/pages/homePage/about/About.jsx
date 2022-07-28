@@ -21,7 +21,7 @@ const About = () => {
                 <div >
                  <h1 className="fw-bold my-4">Who we are</h1>
                  <p  className='text-start'>               
-                  In diam erat, malesuada sit amet sagittis vel, varius eu ante. Sed rutrum pretium magna sit amet dapibus. Pellentesque vitae diam sit amet nulla ultricies blandit vitae quis dui. Donec arcu massa, varius id ipsum a, lobortis lobortis nulla. Vestibulum hendrerit ex non <Link to="/">cursus lacinia</Link>
+                  In diam erat, malesuada sit amet sagittis vel, varius eu ante. Sed rutrum pretium magna sit amet dapibus. Pellentesque vitae diam sit nulla ultricies blandit vitae quis dui. Donec arcu, varius id ipsum a, lobortis lobortis nulla. Vestibulum hendrerit ex non <Link to="/">cursus lacinia</Link>
                  </p>
                  <Button className="px-5 mt-3">Learn more</Button>
                 </div>
