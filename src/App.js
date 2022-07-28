@@ -1,10 +1,10 @@
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
 import MainLayout from './pages/homePage/mainLayout/MainLayout';
-import Support from './pages/homePage/support/Support';
 import SearchLayout from './pages/searchTeachers/serachLayout/SearchLayout';
 import Footer from './pages/shared/footer/Footer';
 import Header from './pages/shared/header/Header';
+import Support from './pages/shared/support/Support';
 import ProfileLayout from './pages/teachersProfile/profileLayout/ProfileLayout';
 
 function App() {
