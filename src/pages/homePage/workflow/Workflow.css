@@ -57,7 +57,10 @@
    font-weight: 600;
    font-size: 18px;
 }
-@media screen and (max-width:1316px) {
+@media screen and (max-width:1399px) {
+    .circle-1{
+        top: 18%;
+    }
     .circle-3{
         top: 20%;
     }

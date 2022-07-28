@@ -1,10 +1,23 @@
-.teachers-content{
-    padding: 20px;
+.teachers-info{
+    background: #EEF5FB;
+    padding: 80px 0;
 }
-.teachers-content img{
-    width: 120px;
-    margin-right: 30px;
+.teachers-area-title {
+    color:#1A1A2B;
+    text-transform: capitalize;
+    font-size: 24px;
 }
-.content-paragrapgh {
-    padding-right: 180px;
+.view p{
+    margin: 0;
+}
+.list-icon{
+    background: #2697FF;
+    color: white;
+   height: 20px;
+   width: 20px;
+   padding: 3px;
+
+}
+.fill-icon{
+    color:#797995;
 }

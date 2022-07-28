@@ -1,44 +1,41 @@
 import React from 'react';
-import './TeachersInfo.css';
-import teachers1 from '../../../../assets/Serach-Tearchers/teachers-1.png'
+import TearchersDetails from '../teachersDetails/TearchersDetails';
+import TeachersFilter from '../teachersFilter/TeachersFilter';
+import { BsFillGrid3X3GapFill,BsListUl } from "react-icons/bs";
+import { AiOutlineCloseCircle } from "react-icons/ai";
+import './TeachersInfo.css'
 
 const TeachersInfo = () => {
     return (
         <div className='teachers-info'>
-            <div className='container'>
-                <div className='row g-3 justify-content-center align-items-start'>
+            <div className='container-fluid px-3 px-lg-5'>
+                <div className='row gx-3 gy-4 justify-content-center align-items-start'>
                     {/* -----------------filter-area---------------  */}
-                    <div className='col-md-4'>
-                        <div className='filter-area'>
-
-                        </div>
+                    <div className='col-lg-3 col-12'>
+                        <TeachersFilter></TeachersFilter>
                     </div>
-                    {/* -----------------teachers-arrea---------------    */}
-                    <div className='col-md-8'>
-                        <div className='teachers-arrea card'>
-                            {/* -----------teachers-content---------- */}
-                            <div className='teachers-content d-flex justify-content-between align-items-top'>
-                                <img src={teachers1} alt="" />
-                                <div>
-                                    <div className='d-flex justify-content-between'>
-                                        <div>
-                                        <h6>john d. <span>Match teacher</span></h6>
-                                        <p>soho,London <span>full time</span></p>
-                                        </div>
-                                        <div>
-                                            <button className='common-btn'>goat hired</button>
-                                        </div>
-                                    </div>
-                                     <div className='content-paragrapgh'>
-                                     <p>Maecenas tempus, ligula eget dapibus viverra, tellus risus fringilla lacus, a pellentesque lorem quam vitae dolor. Ut ut sapien quis tortor fringilla interdum. Nam at gravida sem. In ultricies ante non enim rhoncus, gravida tempor dolor varius. Cras vitae sapien et neque tristique vehicula volutpat vitae ante. Ut convallis id dui nec...</p>
-                                  </div>   
-                                </div>
+                    {/* -----------------teachers-area---------------    */}
+                    <div className='col-lg-9 col-12'>
+                        <h3 className='teachers-area-title mb-3 '><span style={{fontWeight:"900"}}>378</span> Teachers teaching <span style={{fontWeight:"900"}}>Maths</span> near you: </h3>
+                        <div className='d-flex align-items-center justify-content-between mb-5 g-4'>
+                            <div>
+                                <button className='teacher-btn me-2 mb-2'>London <AiOutlineCloseCircle /></button>
+                                <button className='teacher-btn me-2 '>Manchester <AiOutlineCloseCircle /></button>
+                                <button className='teacher-btn me-2'>Maths <AiOutlineCloseCircle /></button>
+                                <button className='teacher-btn me-2'>Science <AiOutlineCloseCircle /></button>
+                                <button className='teacher-btn me-2'>Full-time <AiOutlineCloseCircle /></button>
+                                <button className='teacher-btn me-2'>2-5 yrs experience <AiOutlineCloseCircle /></button>
                             </div>
-                            {/* ----------teacher-experience------------------ */}
-                            <div className='teacher-experience'>
-
+                            <div className='view d-flex align-items-center'>
+                                <p>View:</p>
+                                <BsListUl className='list-icon mx-2'/>
+                                <BsFillGrid3X3GapFill className='fill-icon' />
                             </div>
                         </div>
+                        <TearchersDetails></TearchersDetails>
+                        <TearchersDetails></TearchersDetails>
+                        <TearchersDetails></TearchersDetails>
+                        <button className='common-btn d-block m-auto mt-5'>load more teachers</button>
                     </div>
                 </div>
             </div>
