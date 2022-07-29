@@ -10,11 +10,11 @@ const HeroSection = () => {
             <div className='d-flex justify-content-center  search-filed'>
                 <div >
                 <label htmlFor="">Search words</label><br />
-                <input type="text" name="" id="" />
+                <input type="text" placeholder='Enter subject or keyword' name="" id="" />
                 </div>
                <div className='mx-2'>
                <label htmlFor="">location</label><br />
-                <input type="text" name="" id="" />
+                <input type="text" placeholder='Location or postcode' name="" id="" />
                </div>
                <div>
                <button className='common-btn input-btn'>Search</button>

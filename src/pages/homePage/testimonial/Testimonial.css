@@ -13,6 +13,9 @@ padding-top: 140px;
     border-radius: 5px;
     padding: 20px;
 }
+.main-swiper{
+background-color: aqua;
+}
 .testimonial-content img{
     width: 80px;
     height: 80px;
@@ -42,4 +45,56 @@ padding-top: 140px;
     font-weight: 400;
     font-size: 16px;
     color:  #1A1A2B;
+}
+.swiper-button-prev{
+    background-image: url('../../../assets/home/arrow-right.png');
+    left: 0px;
+    width: 40px;
+    background-repeat: no-repeat;
+    z-index: 10000;
+    transform: rotate(180deg);
+}
+.swiper-button-next  {
+    background-image: url('../../../assets/home/arrow-right.png');
+    right: 0px;
+    width: 40px;
+    background-repeat: no-repeat;
+    z-index: 10000;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: '';
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: '';
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family:none;
+    font-size: none;
+    text-transform: none!important;
+    letter-spacing: 0;
+    font-feature-settings: none;
+    font-variant: none;
+    line-height: 1;
+}
+.swiper-main{
+    position: relative;
+}
+.swiper {
+    margin: 5%;
+    position:static !important;
+}
+@media screen and (max-width:991px) {
+    .swiper {
+        margin: 7%;
+    }
+}
+@media screen and (max-width:767px) {
+    .swiper {
+        margin: 10%;
+    }
+}
+@media screen and (max-width:418px) {
+    .swiper {
+        margin: 12%;
+    }
 }

@@ -21,6 +21,7 @@ const Support = () => {
           <div className='col-12'>
             <div className='slide-logo'>
               {/* ---------for desktop--------- */}
+              <div className='swiper-main'>
               <Swiper 
                 spaceBetween={5}
                 slidesPerView={5}
@@ -50,7 +51,7 @@ const Support = () => {
                 <SwiperSlide><img src={logoslide5} alt="" /></SwiperSlide>
                 <SwiperSlide><img src={logoslide3} alt="" /></SwiperSlide>
               </Swiper>
-             
+              </div>
             </div>
           </div>
         </div>
