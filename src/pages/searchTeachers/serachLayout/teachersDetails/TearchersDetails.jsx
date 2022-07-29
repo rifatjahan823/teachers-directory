@@ -56,7 +56,7 @@ const TearchersDetails = () => {
                                 <p><BsDot className='dot-top' /> soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
                             </div>
                             <div>
-                                <button className='common-btn'>goat hired</button>
+                                <button className='common-btn '>goat hired</button>
                             </div>
                         </div>
                         <div className='content-paragrapgh mt-3'>

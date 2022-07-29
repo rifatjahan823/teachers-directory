@@ -86,7 +86,7 @@
 .teacher-title{
     flex-direction: column;
     margin-bottom: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 13%;
 }
 .teacher-experience {
    grid-template-columns: repeat(4,1fr);
@@ -98,10 +98,10 @@
         padding-right: 0px;
     }
 }
-@media screen and (max-width:488px) {
+@media screen and (max-width:540px) {
     .teacher-experience {
      
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
       
      } 
 }
@@ -111,4 +111,13 @@
         grid-template-columns: repeat(2,1fr);
       
      } 
+}
+@media screen and (max-width:642px) {
+  .tearcher-title{
+    flex-direction: column;
+  }
+  .tearcher-title,  .common-btn{
+    margin-bottom: 4%;
+  }
+
 }
