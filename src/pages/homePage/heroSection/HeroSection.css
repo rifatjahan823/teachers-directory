@@ -1,5 +1,117 @@
-.hero-section{
+.hero-section {
     background-image: url('../../../assets/home/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    padding-top:180px;
+    padding-bottom: 30px;
+}
+
+.hero-section h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.hero-section p {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+.input-btn{
+    padding: 6px 35px !important;
+}
+.search-filed {
+    background-color: #EEF5FB;
+    border-radius: 5px;
+    padding: 20px 0;
+    width: 58%;
+    margin: auto;
+    align-items:end;
+}
+
+.search-filed input {
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    outline: 0;
+    width: 280px;
+    height: 38px;
+}
+.search-filed label{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 6px;
+}
+.hero-bottom{
+    margin-top: 20%;
+}
+.hero-bottom p{
+    margin: 0;
+}
+@media screen and (max-width:1400px) {
+    .search-filed {
+        width: 65%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .search-filed input {
+        width: 200px;
+        height: 38px;
+    }
+}
+@media screen and (max-width:992px) {
+    .hero-section {
+        padding-top:90px;
+    }
+    .input-btn{
+        padding: 5px 25px !important;
+    }
+    .search-filed {
+        width: 80%;
+    }
+    .search-filed input {
+        width: 180px;
+        height: 38px;
+    }
+}
+@media screen and (max-width:765px) {
+    .hero-section {
+        padding-top:90px;
+    }
+    .hero-section h1 {
+        font-size: 45px;
+    }
+    .hero-section p {
+        font-size: 18px;
+    }
+    .search-filed {
+        width: 100%;
+    }
+    .search-filed input {
+        width: 170px;
+        height: 38px;
+    }
+}
+@media screen and (max-width:501px) {
+  
+    .search-filed {
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .search-filed input {
+        width:300px;
+        height: 38px;
+    }
+    .input-btn{
+        margin-top: 10%;
+    }
 }

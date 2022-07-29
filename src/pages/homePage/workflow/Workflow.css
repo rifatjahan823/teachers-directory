@@ -5,14 +5,13 @@
     position: relative;
 }
 .inner-content img{
-    width: 100%;
+    width: 90%;
 }
 .inner-content{
     position: absolute;
     top: 18%;
     left: 25%;
     z-index: -999;
-     
 }
 .circle-1{
     position: absolute;
@@ -39,14 +38,13 @@
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     margin-top:25px;
-     
 }
 .circle h5{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
 }
 .common-btn{
@@ -124,6 +122,7 @@
     }
     .inner-content{
         top: 20%;
+        left: 35%;
     }
 }
 @media screen and (max-width:480px) {
@@ -143,6 +142,9 @@
         left: 15%;
         right: 18%;
     }
+    .inner-content{
+        left: 30%;
+    }
 }
 @media screen and (max-width:388px) {
     .circle-1{
@@ -160,5 +162,8 @@
         top: 25%;
         left: 15%;
         right: 18%;
+    }
+    .inner-content{
+        left: 25%;
     }
 }
