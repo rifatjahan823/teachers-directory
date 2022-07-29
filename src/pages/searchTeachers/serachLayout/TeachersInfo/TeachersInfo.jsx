@@ -4,9 +4,12 @@ import TeachersFilter from '../teachersFilter/TeachersFilter';
 import { BsFillGrid3X3GapFill,BsListUl } from "react-icons/bs";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import './TeachersInfo.css'
+import TeachersSearchBar from '../../../shared/teachersSerachBar/TeachersSearchBar';
 
 const TeachersInfo = () => {
     return (
+        <>
+        <TeachersSearchBar></TeachersSearchBar>
         <div className='teachers-info'>
             <div className='container-fluid px-3 px-lg-5'>
                 <div className='row gx-3 gy-4 justify-content-center align-items-start'>
@@ -40,6 +43,7 @@ const TeachersInfo = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 
