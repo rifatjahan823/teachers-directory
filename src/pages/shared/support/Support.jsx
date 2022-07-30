@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation,} from 'swiper';
 import { Autoplay} from 'swiper';
@@ -9,7 +9,7 @@ import logoslide2 from '../../../assets/home/logo-slider-2.png';
 import logoslide3 from '../../../assets/home/logo-slider-3.png'
 import logoslide4 from '../../../assets/home/logo-slider-4.png';
 import logoslide5 from '../../../assets/home/logo-slider-5.png';
-import './Support.css';
+import './Support.css'
 
 
 const Support = () => {
@@ -21,6 +21,7 @@ const Support = () => {
           <div className='col-12'>
             <div className='slide-logo'>
               {/* ---------for desktop--------- */}
+              <div className='swiper-main'>
               <Swiper 
                 spaceBetween={5}
                 slidesPerView={5}
@@ -35,7 +36,7 @@ const Support = () => {
                   991: {
                     slidesPerView: 5,
                   },
-                  768: {
+                  767: {
                     slidesPerView: 3,
                   },
                   0: {
@@ -50,7 +51,7 @@ const Support = () => {
                 <SwiperSlide><img src={logoslide5} alt="" /></SwiperSlide>
                 <SwiperSlide><img src={logoslide3} alt="" /></SwiperSlide>
               </Swiper>
-             
+              </div>
             </div>
           </div>
         </div>
@@ -59,4 +60,4 @@ const Support = () => {
   )
 }
 
-export default Support;
+export default Support

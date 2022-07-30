@@ -13,7 +13,7 @@ const Footer = () => {
           {/* ------------footer-top--------- */}
             <div className='row align-items-center justify-content-center gy-4 mb-5'>
                 <div className='col-lg-6 col-12'>
-                   <img src={footerlogo } alt="" />
+                   <img src={footerlogo } alt="logo" />
                 </div>
                 <div className='col-lg-6 col-12'>
                   {/* -------------icon-area------- */}

@@ -14,7 +14,7 @@
      font-size: 12px;
      color: gray;
      margin:0;
-     line-height: 12px;
+     padding: 0;    
     }
     .feaured_teachers div img{
      object-fit: cover;
@@ -25,8 +25,8 @@
     }
      .dot-top{
         color: #2697FF;
-        font-size: 30px;
-       margin-right: -10px;
+        font-size: 33px;
+       margin-right: -12px;
        margin-left: -12px;
      }
      .dots{
@@ -36,5 +36,10 @@
      @media screen  and (max-width:767px){
       .feaured_teachers{
         grid-template-columns: repeat(3,1fr); 
+        }
+     }
+     @media screen  and (max-width:400px){
+      .feaured_teachers{
+        grid-template-columns: repeat(2,1fr); 
         }
      }

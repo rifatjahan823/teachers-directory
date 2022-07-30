@@ -1,8 +1,11 @@
 import React from 'react'
+import TeachersInfo from './TeachersInfo/TeachersInfo'
 
 const SearchLayout = () => {
   return (
-    <div>SearchLayout</div>
+    <div>
+      <TeachersInfo></TeachersInfo>
+    </div>
   )
 }
 

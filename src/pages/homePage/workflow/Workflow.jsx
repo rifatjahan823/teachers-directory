@@ -38,7 +38,7 @@ const Workflow = () => {
             </div>
           </div>
           <div className='col-lg-4 col-md-6 col-12'>
-            <div className=' circle'>
+            <div className='circle'>
                <img className='img-fluid d-block m-auto' src={circle3} alt="" />
                 <div className='circle-3'>
                 <h5>Maecenas tempor vulputate tellus id</h5>

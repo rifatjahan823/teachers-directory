@@ -15,9 +15,9 @@ const Testimonial = () => {
     <div className='testimonial-section '>
       <div className='container'>
           <h2 className='common-title'>Client testimonials</h2>
-          <div>
+          <div className='swiper-main'>
             {/* ---------for desktop--------- */}
-            <Swiper className=' px-4'
+            <Swiper
                 spaceBetween={10}
                 slidesPerView={3}
                 onSlideChange={() => console.log('slide change')}
@@ -99,7 +99,7 @@ const Testimonial = () => {
                         <p>Nulla varius porttitor odio, in finibus est tincidunt quis. Nam rutrum turpis at quam gravida, eget feugiat nisl ultrices. Maecenas tempor vulputate tellus, id accumsan libero ultricies eu. Fusce sapien lorem, auctor ac risus sed, auctor ultricies ipsum.</p>
                     </div>
                 </SwiperSlide>
-              </Swiper>
+              </Swiper>   
           </div>
       </div>
     </div>

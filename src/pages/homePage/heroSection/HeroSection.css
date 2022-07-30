@@ -3,26 +3,32 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top:180px;
-    padding-bottom: 30px;
 }
 
-.hero-section h1 {
+.display_content h1 {
     color: white;
     text-align: center;
     font-size: 60px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+    
+}
+.display_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
 }
 
-.hero-section p {
+.display_content p {
     color: white;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 65px;
+    font-weight:normal;  
+    line-height: 29.5px;
+    
 }
 .input-btn{
     padding: 6px 35px !important;
@@ -42,6 +48,7 @@
     outline: 0;
     width: 280px;
     height: 38px;
+    padding: 10px;
 }
 .search-filed label{
     font-weight: 500;
@@ -114,4 +121,12 @@
     .input-btn{
         margin-top: 10%;
     }
+    .display_content h1{
+        font-size: 40px;
+        }
+        .display_content p{
+        font-size: 16px;
+         
+        }
 }
+ 

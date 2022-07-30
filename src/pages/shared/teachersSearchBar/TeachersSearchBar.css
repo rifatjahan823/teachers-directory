@@ -1,0 +1,158 @@
+.teachers-search-bar{
+        background-image: url('../../../assets/search-teacher/Search\ teachers\ 5.png');
+        width: 100%;
+        height: 100%;
+        padding: 50px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .teachers-search-bar-res{
+        display: none;
+    }
+    .teachers-search-filed{
+        display: flex;
+        justify-content: center;
+        background-color: #EEF5FB;
+        border-radius: 5px;
+        padding: 20px 0;
+        width: 80%;
+        margin: auto;
+        align-items:end;
+    }
+    .teachers-input {
+        background: #FFFFFF;
+        border: 1px solid #BFBFBF;
+        outline: 0;
+        width: 280px;
+        height: 38px;
+        padding: 5px;
+    }
+    .search-input{
+        width: 390px; 
+    }
+    .edu-select {
+        width: 230px;
+        padding: 5px;
+    }
+    .location-div{
+        position: absolute;
+        width:1px;
+        height: 30px;
+        background-color: #BFBFBF;
+        top: 3px;
+        right: 130px;
+    
+    }
+    select{
+        color:#757779;
+    }
+    .location-input{
+        border-top: 1 solid #BFBFBF;
+        border-bottom: 1 solid #BFBFBF;
+        border-left: 1 solid #BFBFBF; 
+        border-right: 0px;
+        padding: 5px;
+    }
+    .location-select {
+        width: 100px;
+        border-top: 1 solid #BFBFBF;
+        border-bottom: 1 solid #BFBFBF;
+        border-right: 1 solid #BFBFBF;
+        border-left: 0px;
+        width: 130px;
+    }
+    .teachers-search-filed label{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 6px;
+    }
+    
+    @media screen and (max-width:1508px){
+        .teachers-search-filed{
+            width: 90%
+        }
+    }
+    @media screen and (max-width:1328px){
+        .teachers-search-filed{
+            width: 98%
+        }
+    }
+    @media screen and (max-width:1214px){
+        .location-input{
+            width: 220px;
+        }
+        .location-select {
+            width: 90px;
+        }
+       .location-div{
+        right: 100px;
+       }
+        .search-input{
+            width: 250px; 
+        }
+        .edu-select {
+            width: 150px;
+        }
+    }
+    @media screen and (max-width:991px){
+        .teachers-search-bar{
+            display: none;
+        }
+      .teachers-search-bar-res{
+        background-image: url('../../../assets//search-teacher/Search\ teachers\ 5.png');
+        width: 100%;
+        height: 100%;
+        padding: 50px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+      }
+      .teachers-search-filed{
+       align-items: center;
+    }
+    .input-btn{
+        margin-top: 28%;
+    }
+    .location-input{
+        width: 330px;
+    }
+    .location-select {
+        width: 90px;
+    }
+    .location-div{
+    right: 100px;
+    }
+    .search-input{
+        width: 350px; 
+    }
+    .edu-select {
+        width: 170px;
+    }
+    }
+    @media screen and (max-width:667px){
+        .teachers-search-filed{
+            flex-direction: column;
+           align-items: center;
+        }
+        .search-input{
+            width: 400px; 
+        }
+        .edu-select {
+            width: 270px;
+        }
+    }
+    @media screen and (max-width:434px){
+        .search-input{
+            width: 300px; 
+        }
+        .edu-select {
+            width: 200px;
+        }
+        .location-input{
+            width: 260px;
+        }
+        .location-select {
+            width: 85px;
+        }
+    }

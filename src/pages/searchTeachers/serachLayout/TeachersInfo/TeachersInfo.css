@@ -1,0 +1,23 @@
+.teachers-info{
+        background: #EEF5FB;
+        padding: 80px 0;
+    }
+    .teachers-area-title {
+        color:#1A1A2B;
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+    .view p{
+        margin: 0;
+    }
+    .list-icon{
+        background: #2697FF;
+        color: white;
+       height: 20px;
+       width: 20px;
+       padding: 3px;
+    
+    }
+    .fill-icon{
+        color:#797995;
+    }

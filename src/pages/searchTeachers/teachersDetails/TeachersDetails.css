@@ -1,0 +1,123 @@
+.teachers-content {
+        padding: 20px;
+    }
+    .teachers-content img {
+        width: 170px;
+        height: 230px;
+        margin-right: 30px;
+    }
+    .content-paragrapgh {
+        padding-right: 180px;
+    }
+    .tearcher-title p {
+        color: #797995;
+        font-size: 18px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+    }
+    .tearcher-title h6 {
+        color: #1A1A2B;
+        font-size: 24px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .teacher-title-span {
+        color: #2697FF;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    }
+    .content-paragrapgh {
+        color: #797995;
+        font-size: 18px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    }
+    .teacher-experience {
+        padding: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .teacher-experience p {
+        font-weight: 500;
+        font-size: 18px;
+        color: #797995;
+        margin: 0;
+    }
+    .teacher-btn {
+        background: #EDF0F2;
+        border: 1px solid #C4C6C8;
+        border-radius: 5px;
+        padding: 5px 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 16px;
+        color: #797995;
+        display: inline-block;
+    }
+    @media screen and (max-width:991px){
+        .content-paragrapgh {
+            padding-right: 0px;
+        }
+    }
+    @media screen and (max-width:1064px){
+        .teacher-experience {
+            padding: 8px;
+            display: grid;
+           grid-template-columns: repeat(4,1fr);
+           grid-gap:10px
+        }
+    }
+    @media screen and (max-width:990px){
+        .teacher-experience {
+            padding: 8px;
+            display: grid;
+           grid-template-columns: repeat(5,1fr);
+           grid-gap:10px
+        }
+    }
+    @media screen and (max-width:767px){
+    .teachers-content {
+        flex-direction: column;
+    }
+    .teachers-content img {
+      margin-bottom: 5%;
+    }
+    .teacher-title{
+        flex-direction: column;
+        margin-bottom: 3%;
+        padding-bottom: 13%;
+    }
+    .teacher-experience {
+       grid-template-columns: repeat(4,1fr);
+       grid-gap:10px
+    }
+    }
+    @media screen and (max-width:1300px){
+        .content-paragrapgh {
+            padding-right: 0px;
+        }
+    }
+    @media screen and (max-width:540px) {
+        .teacher-experience {
+         
+            grid-template-columns: repeat(2,1fr);
+          
+         } 
+    }
+    @media screen and (max-width:424px) {
+        .teacher-experience {
+         
+            grid-template-columns: repeat(2,1fr);
+          
+         } 
+    }
+    @media screen and (max-width:642px) {
+      .tearcher-title{
+        flex-direction: column;
+      }
+      .tearcher-title,  .common-btn{
+        margin-bottom: 4%;
+      }
+    
+    }
