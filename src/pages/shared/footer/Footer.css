@@ -1,6 +1,7 @@
 .footer-section {
     background-color: #EEF5FB;
     padding: 65px 0;
+    position: relative;
 }
 .footer-section p {
     color: #797995;
@@ -26,6 +27,16 @@
     line-height: 21px;
     margin-left: 45px;
 
+}
+.top-bottom{
+    position: absolute;
+    top:-28px;
+    left: 45%;
+    right: 50%;
+}
+.footer-icon{
+color: #797995;
+font-size: 50px;
 }
 @media screen and (max-width:991px){
     .footer-section a{

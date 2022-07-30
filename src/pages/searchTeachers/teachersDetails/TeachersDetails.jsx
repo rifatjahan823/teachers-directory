@@ -19,7 +19,7 @@ const TeachersDetails = () => {
                         <div className='d-flex justify-content-between tearcher-title border-bottom'>
                             <div>
                                 <h6>john d. <span className=' teacher-title-span'>Match teacher</span></h6>
-                                <p><BsDot className='dot-top' /> soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
+                                <p><BsDot className='dot-top' /> Soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
                             </div>
                             <div>
                              <Link to="/teacher_profile">
@@ -57,7 +57,7 @@ const TeachersDetails = () => {
                         <div className='d-flex justify-content-between tearcher-title border-bottom'>
                             <div>
                                 <h6>Janice T. <span className=' teacher-title-span'>English Literature Teacher</span></h6>
-                                <p><BsDot className='dot-top' /> soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
+                                <p><BsDot className='dot-top' /> Soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
                             </div>
                             <div>
                             <Link to="/teacher_profile">
@@ -94,7 +94,7 @@ const TeachersDetails = () => {
                         <div className='d-flex justify-content-between tearcher-title border-bottom'>
                             <div>
                                 <h6>Martin R.<span className=' teacher-title-span'>French Teacher</span></h6>
-                                <p><BsDot className='dot-top' /> soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
+                                <p><BsDot className='dot-top' /> Soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
                             </div>
                             <div>
                             <Link to="/teacher_profile">

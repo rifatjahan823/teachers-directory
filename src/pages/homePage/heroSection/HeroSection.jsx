@@ -16,7 +16,7 @@ const HeroSection = () => {
                 <input type="text" placeholder='Enter subject or keyword' name="" id="" />
                 </div>
                <div className='mx-2'>
-               <label htmlFor="">location</label><br />
+               <label htmlFor="">Location</label><br />
                 <input type="text" placeholder='Location or postcode' name="" id="" />
                </div>
                <div>

@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -8,7 +7,7 @@ import "./Header.css";
 
 const Header=()=>{
   return (
-    <Navbar style={{background:'white'}} expand="lg">
+    <Navbar id="top-bottom" style={{background:'white'}} expand="lg">
       <Container fluid>
         <Navbar.Brand><img className='img-fluid' src={logo} alt="logo" /> </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -26,10 +25,10 @@ const Header=()=>{
            <Link className='header_link' to='/'>About us</Link>
            <Link className='header_link' to='/'>Contact us</Link>
            <Link className='header_link' to='/'>
-           <Button variant="outline-info px-4">Login</Button>
+           <button className="login_btn">Login</button>
            </Link>
            <Link className='header_link' to='/'>
-           <Button>Register</Button>
+           <button className="register_btn">Register</button>
            </Link>
         </Navbar.Collapse>
       </Container>

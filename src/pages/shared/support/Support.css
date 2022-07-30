@@ -10,10 +10,11 @@
     margin-bottom: 50px;
 }
 .slide-logo img{
-    width:130px;
-    height: 80px;
+    width:150px;
+    height: 150px;
     margin: auto;
     display: block;
+     object-fit: contain;
 }
  .swiper-button-prev{
     padding-right: 1.8%;
