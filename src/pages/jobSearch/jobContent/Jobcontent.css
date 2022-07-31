@@ -1,0 +1,53 @@
+.job-img {
+    width: 200px !important;
+    background-size: cover !important;
+    height: 200px !important;
+    margin: 0;
+}
+.job-content p {
+    margin: 0;
+    padding: 0;
+}
+.job-content h6 {
+    color: #797995;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.job-content p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #797995;
+}
+.job-experience p{
+    color: #2697FF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.job-details-btn{
+    background-color: white;
+    color: #2697FF;
+    border: 2px solid  #2697FF;
+    padding: 7px 20px;
+    margin-bottom: 15px;
+}
+.get-btn {
+    margin-bottom: 15px;
+}
+@media screen and (max-width:604px) {
+   .job-description {
+    flex-direction: column;
+    align-items: start;
+   } 
+   .job-experience p{
+    font-size: 14px;
+}
+}
+@media screen and (max-width:388px) {
+   .job-experience p{
+    font-size: 11px;
+}
+}

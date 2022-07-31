@@ -1,0 +1,27 @@
+.job-area-title {
+    color: #1A1A2B;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.job-select {
+    width: 130px;
+}
+
+.job-search-input label {
+    color: #797995;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+.job-filter-btn {
+    color: #2697FF;
+    background-color: white;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    border: 2px solid #2697FF;
+    border-radius: 5px;
+   padding: 8px 50px;
+}

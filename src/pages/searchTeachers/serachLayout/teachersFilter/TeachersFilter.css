@@ -17,7 +17,9 @@
     font-weight: 600;
     text-transform: capitalize;
 }
-
+.filter-area h4 span{
+    color: #797995;
+}
 .form-check-input:focus {
     box-shadow:none;
 }
