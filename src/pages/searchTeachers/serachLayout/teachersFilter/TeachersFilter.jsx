@@ -1,7 +1,5 @@
 import React from 'react';
 import './TeachersFilter.css';
-import { BsCheckSquareFill, BsSquare } from "react-icons/bs";
-import { BiChevronDown } from "react-icons/bi";
 import Accordion from 'react-bootstrap/Accordion';
 
 const TeachersFilter = () => {
@@ -188,28 +186,28 @@ const TeachersFilter = () => {
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault18" />
                                                 <label class="form-check-label" for="flexCheckDefault18">
-                                                <h4 className='text-uppercase'> male</h4>
+                                                    <h4 className='text-uppercase'> male</h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault19" />
                                                 <label class="form-check-label" for="flexCheckDefault19">
-                                                <h4 className='text-uppercase'> female </h4>
+                                                    <h4 className='text-uppercase'> female </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault20" />
                                                 <label class="form-check-label" for="flexCheckDefault20">
-                                                <h4 className='text-uppercase'> DBS checked</h4>
+                                                    <h4 className='text-uppercase'> DBS checked</h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault21" />
                                                 <label class="form-check-label" for="flexCheckDefault21">
-                                                <h4 className='text-uppercase'> ECTs / NQTs </h4>
+                                                    <h4 className='text-uppercase'> ECTs / NQTs </h4>
                                                 </label>
                                             </div>
                                         </div>

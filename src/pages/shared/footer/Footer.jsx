@@ -3,7 +3,8 @@ import { TiSocialFacebook,TiSocialTwitter,TiSocialLinkedin,TiSocialYoutube } fro
 import { IoLogoInstagram } from "react-icons/io";
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import footerlogo from '../../../assets/home/footer-logo.png'
+import footerlogo from '../../../assets/home/footer-logo.png';
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 
 const Footer = () => {
@@ -26,7 +27,7 @@ const Footer = () => {
                         <TiSocialYoutube className='footer-top-icon'/>
                     </div>
                     {/* -----------link-area---------- */}
-                    <div className='d-flex justify-content-lg-end justify-content-start align-items-center mt-3 '>
+                    <div className='d-flex flex-column flex-lg-row flex-md-row justify-content-lg-end justify-content-start align-items-start mt-3 '>
                         <Link to=''>How it works</Link>
                         <Link to=''>Search teachers</Link>
                         <Link to=''>About us</Link>
@@ -46,6 +47,9 @@ const Footer = () => {
                     </div> 
                 </div>
             </div>          
+        </div>
+        <div id="top-bottom" className='top-bottom'>
+            <a href="#top-bottom"><BsFillArrowUpCircleFill className='footer-icon'/></a>
         </div>
     </div>
   )

@@ -41,7 +41,6 @@
     outline: 0;
     box-shadow:none;
     background-color: white;
- 
 }
 .accordion-button:not(.collapsed) {
     color: var(--bs-accordion-active-color);
@@ -50,15 +49,11 @@
 }
 .accordion-button {
     padding:9px 12px 12px 12px ;
-
 }
 .accordion {
-
     --bs-accordion-border-width: 1px;
     --bs-accordion-border-radius:8px;
     --bs-accordion-inner-border-radius: 8px;
-
     --bs-accordion-btn-icon: url('../../../../assets/Search-Tearchers/chevron.png');
-  
     --bs-accordion-btn-active-icon: url('../../../../assets/Search-Tearchers/chevron.png');
 }

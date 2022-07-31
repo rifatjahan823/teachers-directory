@@ -1,6 +1,17 @@
 .footer-section {
     background-color: #EEF5FB;
     padding: 65px 0;
+    position: relative;
+}
+.top-bottom{
+    position: absolute;
+    top:-28px;
+    left: 45%;
+    right: 50%;
+}
+.footer-icon{
+color: #797995;
+font-size: 50px;
 }
 .footer-section p {
     color: #797995;
