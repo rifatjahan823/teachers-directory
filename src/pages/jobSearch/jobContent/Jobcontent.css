@@ -33,6 +33,7 @@
     border: 2px solid  #2697FF;
     padding: 7px 20px;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 .get-btn {
     margin-bottom: 15px;

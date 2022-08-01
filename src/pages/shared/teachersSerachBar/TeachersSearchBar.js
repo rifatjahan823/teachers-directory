@@ -4,7 +4,7 @@ import './TeachersSearchBar.css'
 const TeachersSearchBar = () => {
     return (
         <>
-            <div className='teachers-search-bar '>
+            <div className='teachers-search-bar'>
                 <div className=' teachers-search-filed'>
                     <div className='tecahers-div left'>
                         <label htmlFor="">Search words</label><br />
