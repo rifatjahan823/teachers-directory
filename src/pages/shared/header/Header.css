@@ -10,17 +10,19 @@ Line-height:19.36px;
 }
 .login_btn{
 border:2px solid #2697FF;
-border-radius: 4px;
+border-radius: 6px;
 padding:0.4rem 1.9rem;
 background-color: #fff;
 color:#2697FF;
 font-size: 17px;
+font-weight:500; 
 }
 .register_btn{
 border:2px solid #2697FF;
-border-radius: 4px;
+border-radius: 6px;
 padding:0.4rem 1.4rem;
 color: #fff;
 background-color:#2697FF;
-font-size: 17px;       
+font-size: 17px;
+font-weight:500;       
 }

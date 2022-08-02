@@ -2,27 +2,29 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import "./ProfileLayout.css";
 import {Table} from "react-bootstrap";
-import { BsDot,BsSquare,BsCheckSquareFill,BsCheckCircle} from "react-icons/bs";
- import profile from ".././../../assets/search-teacher/teachers-1.png";
- import twitter from ".././../../assets/search-teacher/Path 298 (2).png";
- import linkedin from ".././../../assets/search-teacher/Path 298 (1).png";
- import facebook from ".././../../assets/search-teacher/Path 298 (3).png";
- import cursor from ".././../../assets/search-teacher/Path 298.png";
- import pdf from ".././../../assets/search-teacher/pdf.png";
- import doc from ".././../../assets/search-teacher/doc.png";
- import ppt from ".././../../assets/search-teacher/ppt.png";
- import {FaRegHeart,FaMousePointer,FaFacebookF,FaLinkedinIn,FaTwitter} from "react-icons/fa";
+import { BsDot,BsSquare,BsCheckSquareFill,BsCheckCircle,BsArrowLeft,BsArrowRight} from "react-icons/bs";
+import profile from ".././../../assets/search-teacher/teachers-1.png";
+import twitter from ".././../../assets/search-teacher/Path 298 (2).png";
+import linkedin from ".././../../assets/search-teacher/Path 298 (1).png";
+import facebook from ".././../../assets/search-teacher/Path 298 (3).png";
+import cursor from ".././../../assets/search-teacher/Path 298.png";
+import pdf from ".././../../assets/search-teacher/pdf.png";
+import doc from ".././../../assets/search-teacher/doc.png";
+import ppt from ".././../../assets/search-teacher/ppt.png";
+import {FaRegHeart,FaMousePointer,FaFacebookF,FaLinkedinIn,FaTwitter} from "react-icons/fa";
 import TeachersSearchBar from '../../shared/teachersSearchBar/TeachersSearchBar';
-
-
+  
 const ProfileLayout = () => {
   return (
     <>
      <TeachersSearchBar></TeachersSearchBar>
 
     <div className="container-fluid  profile-section px-4">
-   
-      <div className="row mb-3">
+        <div className='d-flex justify-content-between align-items-center'>
+         <Link className='text-decoration-none fw-bold my-5' to=""><BsArrowLeft/> Previous teacher</Link>
+         <Link className='text-decoration-none fw-bold my-5' to="">Next teacher <BsArrowRight/></Link>
+        </div>
+    <div className="row mb-3">
       <div className=' col-lg-8 col-12 mb-3'>
         <div className="info_section card h-100">
         <div className="d-flex justify-content-between profile_intro">

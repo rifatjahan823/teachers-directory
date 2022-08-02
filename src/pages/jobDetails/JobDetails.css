@@ -1,0 +1,84 @@
+ .files_content{
+ background-color:aliceblue;
+ }
+ .file_size{
+ font-size:10px;
+ color:gray;
+ margin-left:20px;
+ }
+ 
+.location_grid{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 20px;
+}
+.border_box{
+border: 2px dashed gray;
+}
+ .map_content{
+ line-height: 5px;
+  
+ }
+ .ul li{
+color: #2697FF;
+font-size: 24px;
+line-height:100%;
+ }
+ .span_paragraph{
+color: black;
+font-size:16px;
+ }
+ .job_image{
+  padding-right: 2rem;
+ } 
+.save_btn{
+border:2px solid #E882A5;
+border-radius: 6px;
+padding:0.4rem 1.9rem;
+background-color: #fff;
+color:#E882A5;
+font-size: 17px;
+font-weight:500; 
+}
+.alert_btn{
+border:2px solid #009FF5;;
+border-radius: 6px;
+padding:0.4rem 1.9rem;
+ background-color: #fff;
+color:#009FF5;
+font-size: 15px;
+font-weight:500;        
+}
+   
+
+@media(max-width:900px){
+.job_details_card{
+flex-direction: column;
+}
+.location_grid{
+display: flex;
+flex-direction: column;
+}
+}
+@media (max-width:450px){
+.features_card div p {
+font-size: 10px;
+ font-weight: 500;
+ padding: 0;
+}
+.deadline{
+font-size: 12px;
+font-weight: 500;
+}
+.job_location{
+font-size: 14px;
+}
+.job_image img{
+width:100%;
+}
+ 
+.alert_btn{
+font-size: 10px;
+padding: 0;
+}
+}

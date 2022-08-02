@@ -23,7 +23,7 @@ const TeachersDetails = () => {
                             </div>
                             <div>
                              <Link to="/teacher_profile">
-                            <button className='common-btn'>goat hired</button>
+                            <button className='register_btn'>Get in touch</button>
                             </Link>
 
                             </div>
@@ -61,7 +61,7 @@ const TeachersDetails = () => {
                             </div>
                             <div>
                             <Link to="/teacher_profile">
-                            <button className='common-btn'>goat hired</button>
+                            <button className='register_btn'>Get in touch</button>
                             </Link>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ const TeachersDetails = () => {
                             </div>
                             <div>
                             <Link to="/teacher_profile">
-                            <button className='common-btn'>goat hired</button>
+                            <button className='register_btn'>Get in touch</button>
                             </Link>
                             </div>
                         </div>

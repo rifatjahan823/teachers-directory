@@ -1,7 +1,5 @@
 import React from 'react';
 import './TeachersFilter.css';
-import { BsCheckSquareFill, BsSquare } from "react-icons/bs";
-import { BiChevronDown } from "react-icons/bi";
 import Accordion from 'react-bootstrap/Accordion';
 
 const TeachersFilter = () => {
@@ -170,7 +168,7 @@ const TeachersFilter = () => {
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault17" />
                                                 <label class="form-check-label" for="flexCheckDefault17">
-                                                    <h4 className='text-uppercase'> WJEC/Eduqas </h4>
+                                                    <h4 className='text-uppercase'> WJEC/ Eduqas </h4>
                                                 </label>
                                             </div>
                                         </div>
