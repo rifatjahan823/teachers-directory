@@ -6,7 +6,9 @@
  color:gray;
  margin-left:20px;
  }
- 
+ .marginTop{
+ margin-top: -105px;
+}
 .location_grid{
 display: grid;
 grid-template-columns: repeat(2,1fr);
@@ -29,7 +31,7 @@ color: black;
 font-size:16px;
  }
  .job_image{
-  padding-right: 2rem;
+  padding-right: 1.7rem;
  } 
 .save_btn{
 border:2px solid #E882A5;
@@ -49,7 +51,9 @@ color:#009FF5;
 font-size: 15px;
 font-weight:500;        
 }
-   
+.arrow_content{
+line-height: 8px;
+}   
 
 @media(max-width:900px){
 .job_details_card{
@@ -58,6 +62,9 @@ flex-direction: column;
 .location_grid{
 display: flex;
 flex-direction: column;
+}
+.marginTop{
+margin-top: 0px;
 }
 }
 @media (max-width:450px){

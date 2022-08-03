@@ -11,6 +11,8 @@ import ppt from ".././../assets/search-teacher/ppt.png";
 import "./JobDetails.css";
 import detailsImage from ".././../assets/job-search/photo.png";
 import { TiSocialFacebook,TiSocialTwitter,TiSocialLinkedin} from "react-icons/ti";
+import Map from './googleMap/Map';
+ 
 
 const JobDetails = () => {
   return (
@@ -28,7 +30,7 @@ const JobDetails = () => {
              <div className=' col-lg-8 col-12 mb-3'>
              <div className="info_section card">
               <div className='d-flex justify-content-between profile_intro'>
-               <div className='job_image'>
+               <div className='job_image mx-1'>
                 <img  src={detailsImage} alt="job_details" />
                </div>
                <div className="profile_content">
@@ -58,18 +60,18 @@ const JobDetails = () => {
            <div className="info_section card">
             <h4>About the job</h4>        
            </div>
-           <div className='d-flex align-items-center justify-content-around my-4'>
-            <div>
+           <div className='d-flex justify-content-around my-4'>
+            <div className="arrow_content">
               <p className='text-secondary fs-5'>Posted</p>
               <p>01/07/2022</p>
             </div>
             <div><FaArrowRight className='text-info fs-3'/></div>
-            <div>
+            <div className="arrow_content">
             <p className='text-secondary fs-5'>Clossing</p>
             <p>15/07/2022</p>
             </div>
             <div><FaArrowRight className='text-info fs-3'/></div>
-            <div>
+            <div className="arrow_content">
             <p className='text-secondary fs-5'>Starts</p>
             <p>01/08/2022</p>
             </div>
@@ -87,15 +89,15 @@ const JobDetails = () => {
                 <button className='save_btn py-3 my-4'>
                   <FaRegHeart/>  save to my job
                 </button>
-                <p className='fw-bold text-secondary text-center'>or</p>
-                <Link to="" className='text-center mb-2'>
+                <p className='fw-bold text-secondary text-center fs-5'>or</p>
+                <Link to="" className='text-center mb-3'>
                 https://www.london.edu/jobs-at-lbs
                 </Link>
                 <hr className='mt-4'/>
                 <button className='alert_btn py-3 my-4'>
-                <AiOutlineBell className='fs-3'/> Alert me when similar jobs are posted
+                <AiOutlineBell className='fs-4'/> Alert me when similar jobs are posted
                 </button>
-                <p className='fw-bold text-center my-3 text-secondary'>Share 
+                <p className='fw-bold text-center my-4 text-secondary'>Share 
                  <FaRegEnvelopeOpen className='footer-top-icon '/> 
                 <TiSocialTwitter className='footer-top-icon fs-3'/> <TiSocialLinkedin className='footer-top-icon fs-3'/> <TiSocialFacebook className='footer-top-icon fs-3'/></p>
             </div>           
@@ -104,7 +106,7 @@ const JobDetails = () => {
           {/* document section  */}
             <div className="row mb-3">
              <div className=' col-lg-8 col-md-12 col-12 mb-3'>
-            <div className="info_section card ">
+            <div className="p-4 card ">
               <h4>Further documents</h4>
               <hr/>
               <div className='files_grid'>
@@ -165,7 +167,7 @@ const JobDetails = () => {
           <hr/>
           <button className='register_btn py-3'>Quick apply</button>
           <br/>
-          <button className='login_btn py-3'>Recruiter's website</button>
+          <button className='login_btn py-3 my-2'>Recruiter's website</button>
           <br/>
           <button className='login_btn py-3'>Recruiter's application form</button>
          </div>       
@@ -173,15 +175,15 @@ const JobDetails = () => {
              </div>
              {/* other job vaccancy  */}
              <div className="row mb-3">
-             <div className=' col-lg-8 col-md-12 col-12 mb-5'>
-             <div className="info_section card">
+             <div className='marginTop col-lg-8 col-md-12 col-12 mb-5'>
+             <div className="card p-3">
                <h4>
                 Other job vacancies from <span style={{color:'#2697FF'}}>London Business School</span>
                </h4>
              </div>
-               <div className='d-flex mt-2  justify-content-between job_details_card'>
+               <div className='d-flex mt-3  justify-content-between job_details_card'>
                 <div>
-                <div className='px-5 card'>
+                <div className='px-5 card my-3'>
                  <h5 className='my-3'>Head of Department</h5>
                  <div className='d-flex justify-content-between features_card'>
                  <div className='text-secondary'>
@@ -207,7 +209,7 @@ const JobDetails = () => {
                 </div>
 
                 <div>
-                <div  className='px-5 card '>
+                <div  className='px-5 card my-3'>
                 <h5 className='my-3'>Supply Eanglish teacher</h5>
                 <div className='d-flex justify-content-between features_card'>
                  <div className='text-secondary'>
@@ -267,7 +269,7 @@ const JobDetails = () => {
                   </div>
                 </div>
                 </div>               
-           </div>
+             </div>
            {/* about the school section  */}
              <div className='col-lg-4 col-12 mb-3'>
              <div className="info_section card">
@@ -285,7 +287,8 @@ const JobDetails = () => {
          <Link to="">
          +44 (0)20 7000 7000
          </Link>
-         </div>       
+             </div> 
+          {/* <Map></Map>       */}
           </div>
           </div>
           </div>

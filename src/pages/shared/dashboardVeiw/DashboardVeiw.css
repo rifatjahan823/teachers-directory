@@ -1,0 +1,26 @@
+.dashboard-view {
+        padding: 30px 0;
+    }
+    .dashboard-view h5 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        color: #797995;
+    }
+    .dashboard-view h2 {
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 97px;
+    }
+    .view-1 h2 {
+        color: #2697FF;
+    }
+    .view-2 h2 {
+        color: #6FE9C0;
+    }
+    .view-3 h2 {
+        color: #FFA700;
+    }
+    .view-4 h2 {
+        color: #E882A5;
+    }
