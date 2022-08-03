@@ -18,7 +18,7 @@ const SchoolDasboardLayout = () => {
                             <div className='d-flex flex-column flex-md-row align-items-md-center align-items-start justify-content-between'>
                                 <div><h3 >Welcome back, <span style={{ color: '#2697FF' }}> Jane</span></h3>
                                 <h6 className='mb-4'>Representing Business School of London</h6></div>
-                               <div> <button className='get-btn '>Create job</button></div>
+                               <div> <button className='register_btn'>Create job</button></div>
                             </div>
                             <DashboardView></DashboardView>
                              <Application></Application>

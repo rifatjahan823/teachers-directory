@@ -1,3 +1,15 @@
+.user_img{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+margin: 1.5px 0;
+object-fit: contain;
+}
+.line{
+height: 40px;
+border: 1px solid #BFBFBF;
+margin-right: 7px;
+}
 .header_link{
 display: flex;
 text-decoration: none;
@@ -25,4 +37,11 @@ color: #fff;
 background-color:#2697FF;
 font-size: 17px;
 font-weight:500;       
+}
+@media(max-width:980px){
+.line{
+height: 0px;
+border: 0px solid #BFBFBF;
+margin-right: 0px;
+}       
 }

@@ -11,7 +11,7 @@ import ppt from ".././../assets/search-teacher/ppt.png";
 import "./JobDetails.css";
 import detailsImage from ".././../assets/job-search/photo.png";
 import { TiSocialFacebook,TiSocialTwitter,TiSocialLinkedin} from "react-icons/ti";
-import Map from './googleMap/Map';
+ 
  
 
 const JobDetails = () => {
@@ -287,8 +287,21 @@ const JobDetails = () => {
          <Link to="">
          +44 (0)20 7000 7000
          </Link>
+         {/* google map  */}
+         <div className="mapouter pt-2">
+            <div className="gmap_canvas"><iframe width="100%"   height="400" id="gmap_canvas"
+            src="https://maps.google.com/maps?q=%209/A,%20Dhanmondi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+            href="https://2piratebay.org"></a><br/>
+            <style>
+              {/* styles included in JobDetails.css file*/}
+            </style><a href="https://www.embedgooglemap.net">make google map responsive</a>                
+            </div>
+            </div>
              </div> 
           {/* <Map></Map>       */}
+           
+           
           </div>
           </div>
           </div>
@@ -297,4 +310,4 @@ const JobDetails = () => {
    )
 }
 
-export default JobDetails
+export default JobDetails;

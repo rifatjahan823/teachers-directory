@@ -12,6 +12,7 @@
         font-size: 70px;
         line-height: 97px;
     }
+    
     .view-1 h2 {
         color: #2697FF;
     }
@@ -23,4 +24,16 @@
     }
     .view-4 h2 {
         color: #E882A5;
+    }
+    .view-1 h5{
+    font-size: 18px;
+    }
+    .view-2 h5{
+    font-size: 18px;
+    }
+    .view-3 h5{
+    font-size: 18px;
+    }
+    .view-4 h5{
+    font-size: 18px;
     }

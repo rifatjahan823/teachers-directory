@@ -23,14 +23,14 @@ const DashboardView = () => {
                     <div className='view-3 border-end'>
                         <h2>2</h2>
                         <h5>Pending job applications</h5>
-                        <button className='job-details-btn mt-4'>Open inbox</button>
+                        <button className='job-details-btn mt-4 px-5'>Open inbox</button>
                     </div>
                 </div>
                 <div className='col-lg-3 col-md-6 col-12'>
                     <div className='view-4 border-end'>
                         <h2>34</h2>
                         <h5>Pending job applications</h5>
-                        <button className='job-details-btn mt-4'>View favourites</button>
+                        <button className='job-details-btn mt-4 px-5'>View favourites</button>
                     </div>
                 </div>
             </div>

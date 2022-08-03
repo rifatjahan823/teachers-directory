@@ -39,7 +39,7 @@ const JobSearchLayout = () => {
                                             <option value="3">Three</option>
                                         </select>
                                     </div>
-                                    <p>View:</p>
+                                    <p className='fw-bold text-secondary'>View:</p>
                                     <BsListUl className='list-icon mx-2' />
                                     <BsFillGrid3X3GapFill className='fill-icon' />
                                 </div>
