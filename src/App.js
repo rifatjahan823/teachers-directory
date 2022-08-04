@@ -7,6 +7,7 @@ import SearchLayout from './pages/searchTeachers/serachLayout/SearchLayout';
 import Footer from './pages/shared/footer/Footer';
 import Header from './pages/shared/header/Header';
 import Support from './pages/shared/support/Support';
+import SignUp from './pages/signUp/SignUp';
 import TeacherDashboardLayout from './pages/teacherDashboard/TeacherDashboardLayout';
 import ProfileLayout from './pages/teachersProfile/profileLayout/ProfileLayout';
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/job_search' element={<JobSearchLayout/>}/> 
       <Route path='/teacher_dashboard' element={<TeacherDashboardLayout/>}/> 
       <Route path='/school_dashboard' element={<SchoolDasboardLayout/>}/> 
+      <Route path='/signup' element={<SignUp/>}/> 
       </Routes>
       <Support></Support>
       <Footer></Footer>      
