@@ -8,6 +8,7 @@ import Footer from './pages/shared/footer/Footer';
 import Header from './pages/shared/header/Header';
 import Support from './pages/shared/support/Support';
 import SignUp from './pages/signUp/SignUp';
+import SignupSchool from './pages/signUp/signupSchool/SignupSchool';
 import TeacherDashboardLayout from './pages/teacherDashboard/TeacherDashboardLayout';
 import ProfileLayout from './pages/teachersProfile/profileLayout/ProfileLayout';
 
@@ -24,6 +25,7 @@ function App() {
       <Route path='/teacher_dashboard' element={<TeacherDashboardLayout/>}/> 
       <Route path='/school_dashboard' element={<SchoolDasboardLayout/>}/> 
       <Route path='/signup' element={<SignUp/>}/> 
+      <Route path='/signupschool' element={<SignupSchool/>}/> 
       </Routes>
       <Support></Support>
       <Footer></Footer>      

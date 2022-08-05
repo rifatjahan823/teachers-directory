@@ -21,7 +21,7 @@ const SignUp = () => {
                             <p><BsDot className='dot-top' /> A teaching qualification (QTS)</p>
                             <p><BsDot className='dot-top' /> 2 years of teaching experience</p>
                             <p><BsDot className='dot-top' /> UK citizenship</p>
-                            <button className='get-btn signup-btn my-4'>Register as a Teacher/Staff</button>
+                           <Link to="/signupschool"> <button className='get-btn signup-btn my-4'>Register as a Teacher/Staff</button></Link>
                         </div> 
                     </div>
                     <div className="col">
