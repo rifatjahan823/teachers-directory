@@ -67,7 +67,9 @@
   width: 75%;
   margin-right: 2%;
 }
-
+.form-control:focus {
+  box-shadow: none;
+}
 @media screen and (max-width:1408px){
   .width-50{
     width:290px;

@@ -79,6 +79,14 @@ textarea{
 .pdf{
     width:75%;
 }
+input {
+    border: 1px solid #BFBFBF;
+    border-radius: 2px;
+  }
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #BFBFBF;
+  }
 @media screen and (max-width:1200px) {
     .pdf{
         width:85%;
