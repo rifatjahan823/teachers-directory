@@ -7,6 +7,7 @@ import SearchLayout from './pages/searchTeachers/serachLayout/SearchLayout';
 import Footer from './pages/shared/footer/Footer';
 import Header from './pages/shared/header/Header';
 import Support from './pages/shared/support/Support';
+import JobDetails from './pages/signUp/jobDetails/JobDetails';
 import SignUp from './pages/signUp/SignUp';
 import SignupSchool from './pages/signUp/signupSchool/SignupSchool';
 import SignUpTeacher from './pages/signUp/signUpTeacher/SignUpTeacher';
@@ -28,6 +29,7 @@ function App() {
       <Route path='/signup' element={<SignUp/>}/> 
       <Route path='/signupschool' element={<SignupSchool/>}/> 
       <Route path='/signupteacher' element={<SignUpTeacher/>}/> 
+      <Route path='/jobdetails' element={<JobDetails/>}/> 
       </Routes>
       <Support></Support>
       <Footer></Footer>      

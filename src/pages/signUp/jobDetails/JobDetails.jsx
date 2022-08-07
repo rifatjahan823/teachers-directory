@@ -1,39 +1,35 @@
 import React, { useState } from 'react';
-import AccountInfo from './accountInfo/AccountInfo';
-import Address from './address/Address';
-import Admin from './admin/Admin';
-import bg1 from '../../../assets/Sign-up/Group 428.png';
-import bg2 from '../../../assets/Sign-up/Group 428 (1).png';
-import bg3 from '../../../assets/Sign-up/Group 428 (2).png';
-import './SignupSchool.css'
+import './JobDetails.css'
+import JobDetailsOne from './jobDetailsOne/JobDetailsOne';
+import JobDetailsThree from './jobDetailsThree/JobDetailsThree';
+import JobDetailsTwo from './jobDetailsTwo/JobDetailsTwo';
+import bg1 from '../../../assets/Sign-up/job-details-steper-1.png';
+import bg2 from '../../../assets/Sign-up/job-details-steper-2.png';
 
-const SignupSchool = () => {
+const JobDetails = () => {
     const [page, setPage] = useState(0);
     const [formData, setFormData] = useState({
-        email: "",
-        password: "",
-        firstName: "",
-        sureName: "",
-        username: "",
-        schoolName: "",
-        address: "",
-        authority: "",
-        administrator: "",
-        schoolAddress: "",
+        title: "",
+        date: "",
+        expiryDate: "",
+        time: "",
+        contact: "",
+        hour: "",
+        jobtitle: "",
         number: "",
-        administratorEmail: "",
-        urn: "",
+        applications: "",
+
     });
 
-    const FormTitles = ["Sign Up", "Personal Info", "Other"];
+    const FormTitles = ["1", "2", "3"];
 
     const PageDisplay = () => {
         if (page === 0) {
-            return <AccountInfo formData={formData} setFormData={setFormData} />;
+            return <JobDetailsOne formData={formData} setFormData={setFormData} />;
         } else if (page === 1) {
-            return <Address formData={formData} setFormData={setFormData} />;
+            return <JobDetailsTwo formData={formData} setFormData={setFormData} />;
         } else {
-            return <Admin formData={formData} setFormData={setFormData} />;
+            return <JobDetailsThree formData={formData} setFormData={setFormData} />;
         }
     };
 
@@ -43,7 +39,7 @@ const SignupSchool = () => {
                 <div className="form">
                     <div className='my-3'>
                         {
-                            page === 0 ? <img className='img-fluid' src={bg1} alt="" /> : page === 1 ? <img className='img-fluid' src={bg2} alt="" /> : <img className='img-fluid' src={bg3} alt="" />
+                            page === 0 ? <img className='img-fluid d-block m-auto' src={bg1} alt="" /> : page === 1 ? <img className='img-fluid d-block m-auto' src={bg1} alt="" /> : <img className='img-fluid d-block m-auto' src={bg1} alt="" />
                         }
                     </div>
 
@@ -58,6 +54,8 @@ const SignupSchool = () => {
                             >
                                 Back
                             </button>
+                            <div>
+                            <button className='prev me-2'>svae as a draft</button>
                             <button className='next'
                                 onClick={() => {
                                     if (page === FormTitles.length - 1) {
@@ -71,6 +69,7 @@ const SignupSchool = () => {
                                 {page === FormTitles.length - 1 ? "Submit" : "Continue"}
                             </button>
                         </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,4 +77,4 @@ const SignupSchool = () => {
     );
 };
 
-export default SignupSchool;
+export default JobDetails;

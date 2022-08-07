@@ -56,6 +56,9 @@
   input:focus {
     border: 1px solid #BFBFBF;
 }
+label{
+  font-weight: 700;
+}
 /* ----------account-info----------- */
 .width-100{
     width:100%;
