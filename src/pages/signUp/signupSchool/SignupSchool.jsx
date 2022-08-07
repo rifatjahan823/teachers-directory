@@ -42,7 +42,7 @@ const SignupSchool = () => {
                 <div className="form">
                     <div className='my-3'>
                         {
-                            page === 0 ? <img src={bg1} alt="" /> : page === 1 ? <img src={bg2} alt="" /> : <img src={bg3} alt="" />
+                            page === 0 ? <img className='img-fluid' src={bg1} alt="" /> : page === 1 ? <img className='img-fluid' src={bg2} alt="" /> : <img className='img-fluid' src={bg3} alt="" />
                         }
                     </div>
 

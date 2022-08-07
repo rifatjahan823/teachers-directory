@@ -30,7 +30,7 @@ const SignUp = () => {
                             <div className='border-top my-2'></div>
                             <h6><IoInformationCircleOutline/> Requires:</h6>
                             <p><BsDot className='dot-top' /> UK citizenship</p>
-                            <button className='get-btn signup-btn my-4'>Register as a Teacher/Staff</button>
+                            <Link to="/signupteacher"><button className='get-btn signup-btn my-4'>Register as a Teacher/Staff</button></Link>
                         </div>
                     </div>
                 </div>
