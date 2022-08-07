@@ -1,0 +1,98 @@
+.sign-up {
+        background-color: #F5F8FA;
+    }
+    
+    .sign-up h6 {
+        font-weight: 500;
+        font-size: 40px;
+        color: #1A1A2B;
+    }
+    
+    .sign-up p {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 39px;
+        color: #797995;
+        margin: 0;
+    }
+    
+    .signup-content h5 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 30px;
+        color: #1A1A2B;
+        padding: 8px 0;
+    }
+    
+    .signup-content h6 {
+        color: #2697FF;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 5px;
+    }
+    .signup-content p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 29px;
+        color: #1A1A2B;
+        margin-top: 6px;
+    }
+    .card{
+        position: relative;
+        height: 350px;
+    }
+    .signup-btn {
+        background-color: white;
+        color: #2697FF;
+        border: 2px solid #2697FF;
+        padding: 7px 20px;
+        border-radius: 5px;
+        width: 50%;
+        margin: auto;
+        display: block;
+        position: absolute;
+        bottom: 10%;
+        left: 20%;
+        right: 25%;
+    }
+    .sign-up  a{
+        text-decoration: none;
+    }
+    .login-here {
+        font-family: 'Inter' !important;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 20px !important;
+        color: #1A1A2B !important;
+    }
+    
+    @media screen and (max-width:1204px) {
+        .signup-btn {
+            width: 80%;
+            left: 8.5%;
+            right: 25%;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .signup-content h5 {
+            font-size: 20px;
+        }
+    
+        .signup-btn {
+            width: 90%;
+            left:5%;
+            right: 5%;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .signup-content h5 {
+            font-size: 22px;
+        }
+    
+    }

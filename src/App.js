@@ -10,6 +10,9 @@ import Support from './pages/shared/support/Support';
 import TeacherDashboardLayout from './pages/teacherDashboard/TeacherDashboardLayout';
 import SchoolDashboardLayout from './pages/schoolDashboard/SchoolDashboardLayout';
 import ProfileLayout from './pages/teachersProfile/profileLayout/ProfileLayout';
+import SignUp from './pages/signUp/SignUp';
+import SignUpSchool from './pages/signUp/signUpSchool/SignUpSchool';
+import SignUpTeacher from './pages/signUp/signUpTeacher/SignUpTeacher';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
       <Route path='/job_details' element={<JobDetails/>}/> 
       <Route path='/teacher_dashboard' element={<TeacherDashboardLayout/>}/> 
       <Route path='/school_dashboard' element={<SchoolDashboardLayout/>}/> 
+      <Route path='/signup' element={<SignUp/>}/> 
+      <Route path='/signupschool' element={<SignUpSchool/>}/> 
+      <Route path='/signupteacher' element={<SignUpTeacher/>}/> 
       </Routes>
       <Support></Support>
       <Footer></Footer>      
