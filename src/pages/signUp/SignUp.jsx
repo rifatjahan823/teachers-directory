@@ -14,22 +14,34 @@ const SignUp = () => {
                 <p>Please choose one of these options</p>
                 <div className="row row-cols-1 row-cols-md-2 g-4 justify-content-center mt-3">
                     <div className="col">
-                       <div className="card signup-content ">
+                       <div className="card signup-content bg-white">
                             <h5>I am a <span style={{color:'#2697FF'}}> Teacher/Support staff</span></h5>
                             <div className='border-top my-2'></div>
-                            <h6><IoInformationCircleOutline/> Requires:</h6>
-                            <p><BsDot className='dot-top' /> A teaching qualification (QTS)</p>
-                            <p><BsDot className='dot-top' /> 2 years of teaching experience</p>
-                            <p><BsDot className='dot-top' /> UK citizenship</p>
+                            <h6  style={{color:'#2697FF'}}className="fw-bold"><IoInformationCircleOutline/> Requires:</h6>
+                           <div className="d-flex justify-content-center">
+                           <ul className='login_ul'>
+                                <li className='li_style'><span>teaching qualification (QTS)</span></li>
+                                <li className='li_style my-2'><span>years of teaching experience</span></li>
+                                <li className='li_style'><span>UK citizenship</span></li>
+                            </ul>
+                           </div>
+                             
                            <Link to="/signupschool"> <button className='get-btn signup-btn '>Register as a Teacher/Staff</button></Link>
                         </div> 
                     </div>
                     <div className="col">
-                        <div className="card signup-content">
+                        <div className="card signup-content bg-white">
                             <h5>I represent a <span style={{color:'#2697FF'}}> School/Organisation</span></h5>
                             <div className='border-top my-2'></div>
-                            <h6><IoInformationCircleOutline/> Requires:</h6>
-                            <p><BsDot className='dot-top' /> UK citizenship</p>
+                            <h6 style={{color:'#2697FF'}}className="fw-bold"><IoInformationCircleOutline/> Requires:</h6>
+                            <div className="d-flex justify-content-center">
+                             <ul className='login_ul'>
+                                <li className='li_style'><span>UK citizenship</span></li>                            
+                               </ul>
+                            </div>
+                              
+
+ 
                             <Link to="/signupteacher"><button className='get-btn signup-btn'>Register as a Teacher/Staff</button></Link>
                         </div>
                     </div>

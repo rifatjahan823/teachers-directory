@@ -15,7 +15,11 @@ const Header=()=>{
   return (
     <Navbar id="top-bottom" style={{background:'white'}} expand="lg">
       <Container fluid>
-        <Navbar.Brand><img className='img-fluid' src={logo} alt="logo" /> </Navbar.Brand>
+        <Navbar.Brand>
+        <Link to="/">
+        <img className='img-fluid' src={logo} alt="logo" />
+        </Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -42,11 +46,9 @@ const Header=()=>{
               <option value="1"></option>               
             </select></p>            
             </>:
-            <>
         
             <button onClick={handleLogin} className="register_btn header_link">Register</button>
-            </>
-            
+           
            } 
            
             

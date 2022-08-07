@@ -62,9 +62,21 @@ const Address = ({ formData, setFormData }) => {
                       setFormData({ ...formData, website: e.target.value });
                     }}
                     required />
-                  <p className='card-p'><  IoInformationCircleOutline />  Must be 8 characters long and must contain at least 1 uppercase letter and 1 digit character.</p>
+                   
                 </div>
               </div>
+              <div className=''>
+                  <label for="exampleFormControlInput1" class="form-label">School Unique Reference Number (URN)</label>
+                  <input className='form-control '
+                    type="text"
+                    placeholder='GLS895'
+                    value={formData.urn}
+                    onChange={(e) => {
+                      setFormData({ ...formData, urn: e.target.value });
+                    }}
+                    required />
+                  <p className='card-p'><  IoInformationCircleOutline />  Must be 8 characters long and must contain at least 1 uppercase letter and 1 digit character.</p>
+                </div>
             </div>
           </div>
         </div>

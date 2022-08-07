@@ -1,6 +1,21 @@
+ .login_ul{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.li_style{
+color: #2697FF;
+font-size: 20px;
+}
+
+.li_style span{
+color: #1A1A2B;
+font-size: 19px;
+}
+
 .sign-up {
-        background-color: #F5F8FA;
-    }
+background-color: #F5F8FA;
+}
     
     .sign-up h6 {
         font-weight: 500;
@@ -41,9 +56,10 @@
         color: #1A1A2B;
         margin-top: 6px;
     }
-    .card{
+    .signup-content{
         position: relative;
         height: 350px;
+        
     }
     .signup-btn {
         background-color: white;
