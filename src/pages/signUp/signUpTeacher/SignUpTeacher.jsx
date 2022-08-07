@@ -13,6 +13,8 @@ import Details from './details/Details';
 import Qualification from './qualification/Qualification';
 import Profile from './profile/Profile';
 import Photos from './photos/Photos';
+import Ability from './ability/Ability';
+import Verified from './verified/Verified';
 
 const SignUpTeacher = () => {
     const [page, setPage] = useState(0);
@@ -38,7 +40,7 @@ const SignUpTeacher = () => {
 
     });
 
-    const FormTitles = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+    const FormTitles = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
     const PageDisplay = () => {
         if (page === 0) {
@@ -63,8 +65,12 @@ const SignUpTeacher = () => {
 
         else if (page === 6) {
             return <Photos formData={formData} setFormData={setFormData} />;
-        } else {
-            return <Subject formData={formData} setFormData={setFormData} />;
+        } 
+        else if (page === 7) {
+            return <Ability formData={formData} setFormData={setFormData} />;
+        } 
+        else {
+            return <Verified formData={formData} setFormData={setFormData} />;
         }
     };
 
@@ -74,7 +80,7 @@ const SignUpTeacher = () => {
                 <div className="form">
                     <div className='my-3'>
                         {
-                            page === 0 ? <img className='img-fluid' src={img1} alt="" /> : page === 1 ? <img className='img-fluid' src={img1} alt="" /> : page === 2 ? <img className='img-fluid' src={img2} alt="" /> : page === 3 ? <img className='img-fluid' src={img2} alt="" /> : page === 4 ? <img className='img-fluid' src={img2} alt="" /> : page === 5 ? <img className='img-fluid' src={img3} alt="" /> : page === 6 ? <img className='img-fluid' src={img4} alt="" /> : page === 7 ? <img className='img-fluid' src={img5} alt="" /> : page === 8 ? <img className='img-fluid' src={img6} alt="" /> : page === 9 ? <img className='img-fluid' src={img6} alt="" /> : ""
+                            page === 0 ? <img className='img-fluid' src={img1} alt="" /> : page === 1 ? <img className='img-fluid' src={img1} alt="" /> : page === 2 ? <img className='img-fluid' src={img2} alt="" /> : page === 3 ? <img className='img-fluid' src={img2} alt="" /> : page === 4 ? <img className='img-fluid' src={img3} alt="" /> : page === 5 ? <img className='img-fluid' src={img4} alt="" /> : page === 6 ? <img className='img-fluid' src={img5} alt="" /> : page === 7 ? <img className='img-fluid' src={img6} alt="" /> : page === 8 ? <img className='img-fluid' src={img6} alt="" /> : page === 9 ? <img className='img-fluid' src={img6} alt="" /> : ""
                         }
                     </div>
 

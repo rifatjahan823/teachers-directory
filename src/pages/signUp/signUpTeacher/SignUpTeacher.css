@@ -72,6 +72,9 @@ textarea{
    object-fit: cover;
     height: 245px;
 }
+.verified h6{
+    font-size: 13px;
+}
 @media screen and (max-width:991px) {
     .form-width{
         width: 100%;
@@ -83,5 +86,8 @@ textarea{
         width: 200px;
        height: 200px;
        object-fit: contain;
+    }
+    .verified h6{
+        font-size: 16px;
     }
 }
