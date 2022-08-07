@@ -30,6 +30,7 @@
     color: #2697FF;
     border: 2px solid #2697FF;
     padding: 4.5px 20px;
+    border-radius: 5px;
 }
 .union-img {
     width: 60px;
@@ -75,6 +76,25 @@ textarea{
 .verified h6{
     font-size: 13px;
 }
+.pdf{
+    width:75%;
+}
+@media screen and (max-width:1200px) {
+    .pdf{
+        width:85%;
+    }
+.subject-flex{
+    flex-direction: column;
+    
+}
+.form-width{
+    width: 100%;
+    margin-bottom: 2%;
+}
+.adds-btn{
+    margin-top: 2%;
+}
+}
 @media screen and (max-width:991px) {
     .form-width{
         width: 100%;
@@ -89,5 +109,23 @@ textarea{
     }
     .verified h6{
         font-size: 16px;
+    }
+    .pdf{
+        width: 100%;
+    }
+}
+@media screen and (max-width:767px){
+    .pdf{
+        flex-direction: column-reverse;
+    }
+   
+}
+@media screen and (max-width:470px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .prev{
+        margin: 2% 0;
     }
 }

@@ -32,18 +32,18 @@ const Admin = ({ formData, setFormData }) => {
                     }} required />
                 </div>
                 <div className='d-flex align-items-end justify-content-between form-flex'>
-                  <div class="mb-2 ms-1">
+                  <div class="mb-2 ms-1 address-width">
                     <label for="exampleFormControlInput1" class="form-label">Address</label>
                     <input
                       type="text"
-                      class="form-control width-80"
+                      class="form-control "
                       placeholder="School address"
                       value={formData.schoolAddress}
                       onChange={(e) => {
                         setFormData({ ...formData, schoolAddress: e.target.value });
                       }} required />
                   </div>
-                  <div className='mb-2 '>
+                  <div className='mb-2 address-btn-width'>
                     <button className='add-btn'>Add manually</button>
                   </div>
                 </div>

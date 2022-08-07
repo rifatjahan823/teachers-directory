@@ -14,23 +14,23 @@ const SignUp = () => {
                 <p>Please choose one of these options</p>
                 <div className="row row-cols-1 row-cols-md-2 g-4 justify-content-center mt-3">
                     <div className="col">
-                       <div className="card signup-content h-100">
+                       <div className="card signup-content ">
                             <h5>I am a <span style={{color:'#2697FF'}}> Teacher/Support staff</span></h5>
                             <div className='border-top my-2'></div>
                             <h6><IoInformationCircleOutline/> Requires:</h6>
                             <p><BsDot className='dot-top' /> A teaching qualification (QTS)</p>
                             <p><BsDot className='dot-top' /> 2 years of teaching experience</p>
                             <p><BsDot className='dot-top' /> UK citizenship</p>
-                           <Link to="/signupschool"> <button className='get-btn signup-btn my-4'>Register as a Teacher/Staff</button></Link>
+                           <Link to="/signupschool"> <button className='get-btn signup-btn '>Register as a Teacher/Staff</button></Link>
                         </div> 
                     </div>
                     <div className="col">
-                        <div className="card signup-content h-100">
+                        <div className="card signup-content">
                             <h5>I represent a <span style={{color:'#2697FF'}}> School/Organisation</span></h5>
                             <div className='border-top my-2'></div>
                             <h6><IoInformationCircleOutline/> Requires:</h6>
                             <p><BsDot className='dot-top' /> UK citizenship</p>
-                            <Link to="/signupteacher"><button className='get-btn signup-btn my-4'>Register as a Teacher/Staff</button></Link>
+                            <Link to="/signupteacher"><button className='get-btn signup-btn'>Register as a Teacher/Staff</button></Link>
                         </div>
                     </div>
                 </div>

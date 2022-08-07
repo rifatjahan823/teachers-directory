@@ -32,7 +32,6 @@
     font-weight: 700;
     margin: 5px;
 }
-
 .signup-content p {
     font-family: 'Inter';
     font-style: normal;
@@ -42,16 +41,23 @@
     color: #1A1A2B;
     margin-top: 6px;
 }
+.card{
+    position: relative;
+    height: 350px;
+}
 .signup-btn {
     background-color: white;
     color: #2697FF;
     border: 2px solid #2697FF;
     padding: 7px 20px;
-    margin-bottom: 15px;
     border-radius: 5px;
     width: 50%;
     margin: auto;
     display: block;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    right: 25%;
 }
 .sign-up  a{
     text-decoration: none;
@@ -67,6 +73,8 @@
 @media screen and (max-width:1204px) {
     .signup-btn {
         width: 80%;
+        left: 8.5%;
+        right: 25%;
     }
 }
 
@@ -77,6 +85,8 @@
 
     .signup-btn {
         width: 90%;
+        left:5%;
+        right: 5%;
     }
 }
 

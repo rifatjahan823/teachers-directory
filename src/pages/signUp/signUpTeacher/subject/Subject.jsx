@@ -64,9 +64,9 @@ const Subject = ({ formData, setFormData }) => {
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div className='d-flex flex-column flex-md-row justify-content-between'>
+                                <div className='d-flex subject-flex justify-content-between'>
                                 <div className='form-width'>
-                                    <select class="form-select w-100" aria-label="Default select example" value={formData.subject} onChange={(e) => {
+                                    <select class="form-select" aria-label="Default select example" value={formData.subject} onChange={(e) => {
                                         setFormData({ ...formData, subject: e.target.value });
                                     }} >
                                         <option selected>Type/Choose subject</option>

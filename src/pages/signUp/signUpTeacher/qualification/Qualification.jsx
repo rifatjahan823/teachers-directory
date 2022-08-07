@@ -180,7 +180,7 @@ const Qualification = ({ formData, setFormData }) => {
                                 <p className='card-p'><  IoInformationCircleOutline />  Accepted file formats: PDF, DOC, DOCX, JPG, JPEG, PNG</p>
                             </div>
                             {/* -----++++++----------- */}
-                            <div className='d-flex pdf mt-2 justify-content-between'>
+                            <div className='d-flex pdf mt-2 pdf justify-content-between'>
                                 <div className='d-flex align-items-center'>
                                     <img className='img-fluif me-2' src={doc} alt="" />
                                     <h6>Showcase work</h6>
@@ -192,7 +192,7 @@ const Qualification = ({ formData, setFormData }) => {
                                 </div>
                             </div>
                             {/* -----++++++----------- */}
-                            <div className='d-flex pdf mt-2 justify-content-between'>
+                            <div className='d-flex pdf mt-2 justify-content-between pdf'>
                                 <div className='d-flex align-items-center'>
                                     <img className='img-fluif me-2' src={doc} alt="" />
                                     <h6>Academic paper on subject</h6>
@@ -204,7 +204,7 @@ const Qualification = ({ formData, setFormData }) => {
                                 </div>
                             </div>
                             {/* -----++++++----------- */}
-                            <div className='d-flex pdf mt-2 justify-content-between'>
+                            <div className='d-flex pdf mt-2 justify-content-between pdf'>
                                 <div className='d-flex align-items-center'>
                                     <img className='img-fluif me-2' src={pdf} alt="" />
                                     <h6>Academic certificate</h6>
