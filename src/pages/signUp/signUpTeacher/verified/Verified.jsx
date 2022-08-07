@@ -14,8 +14,9 @@ const Verified = ({ formData, setFormData }) => {
             <div className='container'>
                 <div className="row g-1 align-items-start justify-content-center">
                     <div className="col-lg-4">
-                        <h4 className='fw-bold'>Availability</h4>
-                        <p>By selecting ‘Yes’ this will be shown on your profile as ‘Available’ for work.</p>
+                        <h4 className='fw-bold'>Become a Verified
+                            Teacher</h4>
+                        <p>If you are a teacher, you can have a ‘Verified Teacher’ tab on your profile by providing evidence.</p>
                     </div>
                     <div className="col-lg-8">
                         <div className="account-container">
@@ -86,8 +87,8 @@ const Verified = ({ formData, setFormData }) => {
                                 </div>
                             </div>
                             {/* --------============--------- */}
-                            <div className=' border rounded mt-3'>
-                                <div class="form-check me-4 py-2 ms-2">
+                            <div className=' border rounded mt-3 pdf bg-white'>
+                                <div class="form-check me-4 py-1 ms-2">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11" />
                                     <label class="form-check-label " for="flexCheckDefault11">
                                         <h6>School’s/educational email address</h6>
