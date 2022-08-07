@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoInformationCircleOutline } from "react-icons/io5";
 
 const AccountInfo = ({ formData, setFormData }) => {
     return (
@@ -57,6 +58,7 @@ const AccountInfo = ({ formData, setFormData }) => {
                                             setFormData({ ...formData,email: e.target.value });
                                         }}
                                         required />
+                                         <p className='card-p'><  IoInformationCircleOutline />  Must be a valid school/organisational email address.</p>
                                     </div>
                                     <div className='mb-2 ms-1'>
                                         <label for="exampleFormControlInput1" class="form-label">Password</label>
@@ -67,6 +69,7 @@ const AccountInfo = ({ formData, setFormData }) => {
                                                 setFormData({ ...formData, password: e.target.value });
                                             }}
                                             required />
+                                             <p className='card-p'><  IoInformationCircleOutline />  Must be 8 characters long and must contain at least 1 uppercase letter and 1 digit character.</p>
                                     </div>
                                 </div>
                         </div>
