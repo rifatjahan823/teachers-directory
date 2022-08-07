@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { BsEye, BsEyeSlash } from "react-icons/bs";
 
 
 const TeacherAccount = ({ formData, setFormData }) => {
+    const [showPassword, setShowPassword] = useState(true);
+    const togglePassword = () => {
+        setShowPassword(!showPassword)
+    }
     return (
         <div className="account-section">
             <div className='container'>
@@ -61,20 +66,23 @@ const TeacherAccount = ({ formData, setFormData }) => {
                                 </div>
                                 <div className='mb-2 ms-1'>
                                     <label for="exampleFormControlInput1" class="form-label">Password</label>
-                                    <input className='form-control width-50'
-                                        type="password"
-                                        value={formData.password}
-                                        onChange={(e) => {
-                                            setFormData({ ...formData, password: e.target.value });
-                                        }}
-                                        required />
+                                    <div className='input-group'>
+                                        <input className='form-control width-50 border-end-0'
+                                            type={showPassword?"text":"password"}
+                                            value={formData.password}
+                                            onChange={(e) => {
+                                                setFormData({ ...formData, password: e.target.value });
+                                            }}
+                                            required />
+                                        <button onClick={togglePassword} className='input-group-text bg-white border-start-0 '>{showPassword ? <BsEye /> : <BsEyeSlash />}</button>
+                                    </div>
                                 </div>
                             </div>
                             {/* -----------===========--------- */}
                             <div class="form-check me-4">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11" />
                                 <label class="form-check-label" for="flexCheckDefault11">
-                                    <h6>I have read and accept the <span style={{color:'#2697FF'}}>terms and conditions.</span></h6>
+                                    <h6>I have read and accept the <span style={{ color: '#2697FF' }}>terms and conditions.</span></h6>
                                 </label>
                             </div>
                         </div>

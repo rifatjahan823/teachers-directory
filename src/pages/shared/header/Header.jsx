@@ -30,6 +30,9 @@ const Header=()=>{
            <Link className='header_link' to='/'>How it works</Link>
            <Link className='header_link' to='/school_dashboard'>About us</Link>
            <Link className='header_link' to='/teacher_dashboard'>Contact us</Link>
+           <Link className='header_link' to='/signup'>
+           <button  className="login_btn header_link">Login</button>
+            </Link>
           
            {
             login?<>
@@ -40,9 +43,7 @@ const Header=()=>{
             </select></p>            
             </>:
             <>
-              
-            <button onClick={handleLogin}  className="login_btn header_link">Login</button>
-            
+        
             <button onClick={handleLogin} className="register_btn header_link">Register</button>
             </>
             
