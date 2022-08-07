@@ -11,6 +11,8 @@ import TeacherAddress from './teacherAddress/TeacherAddress';
 import Subject from './subject/Subject';
 import Details from './details/Details';
 import Qualification from './qualification/Qualification';
+import Profile from './profile/Profile';
+import Photos from './photos/Photos';
 
 const SignUpTeacher = () => {
     const [page, setPage] = useState(0);
@@ -56,11 +58,11 @@ const SignUpTeacher = () => {
             return <Qualification formData={formData} setFormData={setFormData} />;
         }
         else if (page === 5) {
-            return <Subject formData={formData} setFormData={setFormData} />;
+            return <Profile formData={formData} setFormData={setFormData} />;
         }
 
         else if (page === 6) {
-            return <Subject formData={formData} setFormData={setFormData} />;
+            return <Photos formData={formData} setFormData={setFormData} />;
         } else {
             return <Subject formData={formData} setFormData={setFormData} />;
         }
