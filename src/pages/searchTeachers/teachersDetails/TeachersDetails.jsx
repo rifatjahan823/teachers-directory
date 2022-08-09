@@ -21,12 +21,13 @@ const TeachersDetails = () => {
                                 <h6>john d. <span className=' teacher-title-span'>Match teacher</span></h6>
                                 <p><BsDot className='dot-top' /> Soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
                             </div>
-                            <div>
+                            <div className='d-flex btn_res
+                            '>
                              <Link to="/teacher_profile">
-                            <button className=' mx-2 input-btn'>View Profile</button>
+                            <button className='m-2 input-btn'>View Profile</button>
                             </Link>
                              <Link to="/teacher_profile">
-                            <button className='input-btn'>Get in touch</button>
+                            <button className='m-2 input-btn'>Get in touch</button>
                             </Link>
 
                             </div>
@@ -62,12 +63,12 @@ const TeachersDetails = () => {
                                 <h6>Janice T. <span className=' teacher-title-span'>English Literature Teacher</span></h6>
                                 <p><BsDot className='dot-top' /> Soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
                             </div>
-                            <div>
+                            <div className="d-flex btn_res">
                             <Link to="/teacher_profile">
-                            <button className=' mx-2 input-btn'>View Profile</button>
+                            <button className='m-2 input-btn'>View Profile</button>
                             </Link>
                             <Link to="/teacher_profile">
-                            <button className='input-btn px-3'>Get in touch</button>
+                            <button className='m-2 input-btn px-3'>Get in touch</button>
                             </Link>
                             </div>
                         </div>
@@ -102,12 +103,12 @@ const TeachersDetails = () => {
                                 <h6>Martin R.<span className=' teacher-title-span'>French Teacher</span></h6>
                                 <p><BsDot className='dot-top' /> Soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
                             </div>
-                            <div>
+                            <div className='d-flex btn_res'>
                             <Link to="/teacher_profile">
-                            <button className=' mx-2 input-btn'>View Profile</button>
+                            <button className='m-2 input-btn'>View Profile</button>
                             </Link>
                             <Link to="/teacher_profile">
-                            <button className='input-btn px-3'>Get in touch</button>
+                            <button className='input-btn px-3 m-2'>Get in touch</button>
                             </Link>
                             </div>
                         </div>

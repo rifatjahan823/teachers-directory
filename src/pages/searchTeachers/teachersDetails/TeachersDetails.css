@@ -60,6 +60,12 @@
         .content-paragrapgh {
             padding-right: 0px;
         }
+        .btn_res{
+        justify-content:center;
+        }
+        .btn_res button{
+         font-size: 14px;
+        }
     }
     @media screen and (max-width:1064px){
         .teacher-experience {
