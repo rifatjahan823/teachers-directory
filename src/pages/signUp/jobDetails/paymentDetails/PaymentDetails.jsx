@@ -13,7 +13,7 @@ const PaymentDetails = ({ formData, setFormData }) => {
                     <div className="col-lg-8">
                         <div className="account-container">
                             <div className='table-responsive'>
-                                <table class="table table-bordered ">
+                                <table class="table table-bordered payment-table">
                                     <thead>
                                         <tr>
                                             <th scope="col">Item</th>
@@ -21,30 +21,47 @@ const PaymentDetails = ({ formData, setFormData }) => {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
+                                        <tr >
                                             <td rowspan="4">1 job advert (30 day duration)</td>
                                             <td className='text-end'>£99.00</td>
                                         </tr>
-                                        <tr>
+                                        <tr className='tbale-nth'>
                                             <td className='d-flex justify-content-between align-items-center'>
                                                 <p>Subtotal</p>
                                                 <p>£99.00</p>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr className='tbale-nth'>
                                             <td className='d-flex justify-content-between align-items-center'>
-                                            <p>VAT/Tax</p>
-                                            <p>£99.00</p>
+                                                <p>VAT/Tax</p>
+                                                <p>£99.00</p>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr className='table-total'>
                                             <td className='d-flex justify-content-between align-items-center'>
-                                               <p>Total</p>
-                                               <p>£108.90</p>
+                                                <p className='text-white'>Total</p>
+                                                <p className='text-white'>£108.90</p>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
+                            </div>
+                            {/* -----=============---------- */}
+                            <div className='d-flex align-items-end justify-content-between form-flex'>
+                                <div className='mb-2 ms-1 address-width'>
+                                    <label for="exampleFormControlInput1" class="form-label">Add discount code</label>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Discount code"
+                                        value={formData.discount}
+                                        onChange={(e) => {
+                                            setFormData({ ...formData,discount: e.target.value });
+                                        }} required />
+                                </div>
+                                <div className='mb-2 address-btn-width'>
+                                    <button className='add-btn px-5'>Apply</button>
+                                </div>
                             </div>
                         </div>
                     </div>

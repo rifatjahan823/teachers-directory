@@ -30,6 +30,7 @@ const JobDetails = () => {
         jobTitle: "",
         phoneNumber: "",
         email: "",
+        discount: "",
        
 
     });
