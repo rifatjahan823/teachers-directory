@@ -4,6 +4,12 @@
 .select-number{
     width: 20%;
 }
+.contact-condition{
+    background-color:#F5F8FA;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 2%;
+}
 @media screen and (max-width:767px){
     .select-width{
         width: 100%;
