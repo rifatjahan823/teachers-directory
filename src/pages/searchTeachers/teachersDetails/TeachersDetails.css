@@ -7,9 +7,7 @@
         margin-right: 30px;
         object-fit: cover;
     }
-    .content-paragrapgh {
-        padding-right: 180px;
-    }
+     
     .tearcher-title p {
         color: #797995;
         font-size: 18px;
@@ -31,8 +29,10 @@
     .content-paragrapgh {
         color: #797995;
         font-size: 18px;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Inter';
         font-weight: 400;
+        text-align: start; 
+        min-width: 100%;
     }
     .teacher-experience {
         padding: 8px;

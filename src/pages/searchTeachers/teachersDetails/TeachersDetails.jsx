@@ -23,6 +23,9 @@ const TeachersDetails = () => {
                             </div>
                             <div>
                              <Link to="/teacher_profile">
+                            <button className=' mx-2 input-btn'>View Profile</button>
+                            </Link>
+                             <Link to="/teacher_profile">
                             <button className='input-btn'>Get in touch</button>
                             </Link>
 
@@ -61,6 +64,9 @@ const TeachersDetails = () => {
                             </div>
                             <div>
                             <Link to="/teacher_profile">
+                            <button className=' mx-2 input-btn'>View Profile</button>
+                            </Link>
+                            <Link to="/teacher_profile">
                             <button className='input-btn px-3'>Get in touch</button>
                             </Link>
                             </div>
@@ -97,6 +103,9 @@ const TeachersDetails = () => {
                                 <p><BsDot className='dot-top' /> Soho,London <span className='ms-2'><BsDot className='dot-top dots' /> full time</span> <span className='ms-2'><BsSuitHeart className='text-danger' /></span></p>
                             </div>
                             <div>
+                            <Link to="/teacher_profile">
+                            <button className=' mx-2 input-btn'>View Profile</button>
+                            </Link>
                             <Link to="/teacher_profile">
                             <button className='input-btn px-3'>Get in touch</button>
                             </Link>
