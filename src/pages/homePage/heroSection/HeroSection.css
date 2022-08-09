@@ -8,10 +8,10 @@
 .display_content h1 {
     color: white;
     text-align: center;
-    font-size: 60px;
-    font-family: 'Inter', sans-serif;
+    font-size: 59px;
+    font-family: 'Inter';
     font-weight: 600;
-    
+    line-height: 71.4px;
 }
 .display_content{
     display: flex;
@@ -21,17 +21,24 @@
     padding-top: 150px;
 }
 
-.display_content p {
+.display_content p { 
     color: white;
     text-align: center;
-    font-size: 22px;
-    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-family: 'Inter';
     font-weight:normal;  
-    line-height: 29.5px;
-    
+    line-height: 29.5px;  
 }
 .input-btn{
-    padding: 6px 35px !important;
+background: #2697FF;
+width: 140px;
+height: 50px;
+color: #FFFFFF;
+border: none;
+font-family: 'Inter';
+font-weight: 600;
+font-size: 16px;
+border-radius: 5px;
 }
 .search-filed {
     background-color: #EEF5FB;
@@ -40,14 +47,15 @@
     width: 58%;
     margin: auto;
     align-items:end;
+     
 }
 
 .search-filed input {
     background: #FFFFFF;
     border: 1px solid #BFBFBF;
     outline: 0;
-    width: 280px;
-    height: 38px;
+    width: 265px;
+    height: 50px;
     padding: 10px;
 }
 .search-filed label{
@@ -62,6 +70,16 @@
 .hero-bottom p{
     margin: 0;
 }
+.banner-text{
+font-family: 'Inter';
+font-weight: 600;
+font-size: 18px;
+line-height: 44px; 
+color: #FFFFFF;
+text-align: center;
+ 
+}
+
 @media screen and (max-width:1400px) {
     .search-filed {
         width: 65%;

@@ -105,3 +105,22 @@ text-align: right;
 height: 400px;
 width: 100%;
 }
+
+.apply_btn{
+        background: #2697FF;
+        border-radius: 6px;
+        color:#fff;
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+
+}
+.rec_btn{
+        background: #fff;
+        border-radius: 6px;
+        color:#2697FF;
+        border: 2px solid #2697FF;
+        font-size: 16px;
+        font-weight: 600;      
+}
+  

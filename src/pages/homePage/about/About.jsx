@@ -21,16 +21,16 @@ const About = () => {
     <div className="container">
         <div  className='row g-4  align-items-center justify-content-center'>
         <div className='col-lg-5 order-2 order-lg-1 col-12'>
-                <div >
-                 <h1 className='common-title mb-3'>Who we are</h1>
-                 <p  className='text-start'>               
+                <div>
+                 <h1 className='common_title mb-3'>Who we are</h1>
+                 <p  className='text-start common_paragraph'>               
                   In diam erat, malesuada sit amet sagittis vel, varius eu ante. Sed rutrum pretium magna sit amet dapibus. Pellentesque vitae diam sit amet nulla ultricies blandit vitae quis dui. Donec arcu massa, varius id ipsum a, lobortis lobortis nulla. Vestibulum hendrerit ex non <Link to="/">cursus lacinia</Link>
                  </p>
                  <button className="px-5 mt-3 common-btn">Learn more</button>
                 </div>
         </div>
         <div className='col-lg-7 order-1 order-lg-2 col-12'>
-          <h4>Featured teachers</h4>
+          <h4 className="common_h4">Featured teachers</h4>
           <div className='feaured_teachers'>
            <div>
              <img src={image1} alt="feaured_teachers" className='img-fluid'/>

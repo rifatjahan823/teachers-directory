@@ -24,7 +24,7 @@
         border: 1px solid #BFBFBF;
         outline: 0;
         width: 280px;
-        height: 38px;
+        height: 50px;
         padding: 5px;
     }
     .search-input{
@@ -37,9 +37,9 @@
     .location-div{
         position: absolute;
         width:1px;
-        height: 30px;
+        height: 40px;
         background-color: #BFBFBF;
-        top: 3px;
+        top: 4px;
         right: 130px;
     
     }

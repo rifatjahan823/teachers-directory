@@ -18,9 +18,7 @@
         font-weight: 400;
         margin: 0;
     }
-    .view-btn{
-        width: 40%;
-    }
+    
     
     @media screen and (max-width:767px) {
         .view-btn{

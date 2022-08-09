@@ -28,7 +28,7 @@ const JobDetails = () => {
            {/* main content  */}
             <div className="row mb-3">
              <div className=' col-lg-8 col-12 mb-3'>
-             <div className="info_section card">
+             <div  className="info_section card">
               <div className='d-flex justify-content-between profile_intro'>
                <div className='job_image mx-1'>
                 <img  src={detailsImage} alt="job_details" />
@@ -57,10 +57,10 @@ const JobDetails = () => {
              </div>
              {/* about job section  */}
            <div className='col-lg-4 col-12 mb-3'>
-           <div className="info_section card">
+           <div  className="info_section card">
             <h4>About the job</h4>        
            </div>
-           <div className='d-flex justify-content-around my-4'>
+           <div  className='d-flex justify-content-around my-4'>
             <div className="arrow_content">
               <p className='text-secondary fs-5'>Posted</p>
               <p>01/07/2022</p>
@@ -76,7 +76,7 @@ const JobDetails = () => {
             <p>01/08/2022</p>
             </div>
             </div>
-            <div className='card p-4 mt-2'>
+            <div  className='card p-4 mt-2'>
               <p className='fw-bold text-secondary'>Salary </p>
               <p>£28,290 - £34,850 per annum </p>
                
@@ -106,7 +106,7 @@ const JobDetails = () => {
           {/* document section  */}
             <div className="row mb-3">
              <div className=' col-lg-8 col-md-12 col-12 mb-3'>
-            <div className="p-4 card ">
+            <div  className="p-4 card ">
               <h4>Further documents</h4>
               <hr/>
               <div className='files_grid'>
@@ -162,30 +162,30 @@ const JobDetails = () => {
              </div>
              {/* apply section  */}
              <div className='col-lg-4 col-12 mb-3'>
-          <div className="info_section card">
+          <div  className="info_section card">
           <h4>How to apply</h4>
           <hr/>
-          <button className='register_btn py-3'>Quick apply</button>
+          <button className='apply_btn py-3'>Quick apply</button>
           <br/>
-          <button className='login_btn py-3 my-2'>Recruiter's website</button>
+          <button className='rec_btn py-3 my-2'>Recruiter's website</button>
           <br/>
-          <button className='login_btn py-3'>Recruiter's application form</button>
+          <button className='rec_btn py-3'>Recruiter's application form</button>
          </div>       
              </div>
              </div>
              {/* other job vaccancy  */}
              <div className="row mb-3">
              <div className='marginTop col-lg-8 col-md-12 col-12 mb-5'>
-             <div className="card p-3">
+             <div  className="card p-3">
                <h4>
                 Other job vacancies from <span style={{color:'#2697FF'}}>London Business School</span>
                </h4>
              </div>
-               <div className='d-flex mt-3  justify-content-between job_details_card'>
+               <div className='d-flex mt-3  justify-content-between job_details_card '>
                 <div>
-                <div className='px-5 card my-3'>
+                <div   className='px-5 card my-3'>
                  <h5 className='my-3'>Head of Department</h5>
-                 <div className='d-flex justify-content-between features_card'>
+                 <div  className='d-flex justify-content-between features_card'>
                  <div className='text-secondary'>
                  <p className='fw-bold'>Salary </p>
                  <p className='fw-bold'>Hours</p>
@@ -201,15 +201,15 @@ const JobDetails = () => {
                 </div>
                 <p className='text-center mt-2 deadline'><span className='text-info'>Clossing</span> 15/07/2022 <span className='mx-5'><span className='text-info'>Starts</span> <span>01/08/2022</span></span></p>
 
-                <div className='card py-4'>
-                <button className='login_btn mx-3 py-3'>
+                <div  className='card py-4'>
+                <button className='rec_btn mx-3 py-3'>
                  Veiw job details
                 </button>
                 </div>
                 </div>
 
                 <div>
-                <div  className='px-5 card my-3'>
+                <div   className='px-5 card my-3'>
                 <h5 className='my-3'>Supply Eanglish teacher</h5>
                 <div className='d-flex justify-content-between features_card'>
                  <div className='text-secondary'>
@@ -226,8 +226,8 @@ const JobDetails = () => {
                 </div>
                 <p className='text-center mt-2 deadline'><span className='text-info'>Clossing</span> 07/08/2022 <span className='mx-5'><span className='text-info'>Starts </span><span>01/09/2022</span></span></p>
 
-                <div className='card py-4'>
-                <button className='login_btn mx-3 py-3'>
+                <div  className='card py-4'>
+                <button className='rec_btn mx-3 py-3'>
                  Veiw job details
                 </button>
                 </div>
@@ -237,7 +237,7 @@ const JobDetails = () => {
                 <div className='my-3'>
                 <div className='location_grid'>
                 <div>
-                <div className='px-5 py-2 card'>
+                <div  className='px-5 py-2 card'>
                   <h5>Science teacher</h5>
                   <div className='d-flex justify-content-between features_card'>
                  <div className='text-secondary'>
@@ -253,8 +253,8 @@ const JobDetails = () => {
                  </div>               
                  </div>
                  <p className='text-center mt-2 deadline'><span className='text-info'>Clossing</span> 07/08/2022 <span className='mx-5'><span className='text-info'>Starts </span><span>01/09/2022</span></span></p>
-                 <div className='card py-4'>
-                <button className='login_btn mx-3 py-3'>
+                 <div  className='card py-4'>
+                <button className='rec_btn mx-3 py-3'>
                  Veiw job details
                 </button>
                 </div>
@@ -272,7 +272,7 @@ const JobDetails = () => {
              </div>
            {/* about the school section  */}
              <div className='col-lg-4 col-12 mb-3'>
-             <div className="info_section card">
+             <div  className="info_section card">
              <h4 >About the school</h4>
              <hr/>
             <div className='map_content'>

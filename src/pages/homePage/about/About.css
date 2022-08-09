@@ -1,45 +1,83 @@
-.feaured_teachers{
-    display: grid;
-    grid-template-columns: repeat(5,1fr); 
-    }
-    
-    .feaured_teachers div{
-    margin:5px 7px;
-     
-    }
-    .feaured_teachers div h6{
-    margin-bottom: 0px;
-    }
-    .feaured_teachers div p{
-     font-size: 12px;
-     color: gray;
-     margin:0;
-     padding: 0;    
-    }
-    .feaured_teachers div img{
-     object-fit: cover;
-     
-    }
-    .shape-img{
-        margin: 100px 0 30px 0;
-    }
-     .dot-top{
-        color: #2697FF;
-        font-size: 33px;
-       margin-right: -12px;
-       margin-left: -12px;
-     }
-     .dots{
-    color: #53AE32;
-     }
-    
-     @media screen  and (max-width:767px){
-      .feaured_teachers{
-        grid-template-columns: repeat(3,1fr); 
-        }
-     }
-     @media screen  and (max-width:400px){
-      .feaured_teachers{
-        grid-template-columns: repeat(2,1fr); 
-        }
-     }
+.feaured_teachers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.common_paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #1A1A2B;
+}
+
+.common_title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 73px;
+  color: #1A1A2B;
+  padding-right: 2rem;
+}
+
+.common_h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #1A1A2B;
+}
+
+.feaured_teachers div {
+  margin: 5px 7px;
+
+}
+
+.feaured_teachers div h6 {
+  margin-bottom: 0px;
+  font-family: 'Inter';
+  margin-bottom: 7px;
+}
+
+.feaured_teachers div p {
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+  padding: 0;
+  margin-top: -12px;
+}
+
+.feaured_teachers div img {
+  object-fit: cover;
+
+}
+
+.shape-img {
+  margin: 100px 0 30px 0;
+}
+
+.dot-top {
+  color: #2697FF;
+  font-size: 33px;
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+.dots {
+  color: #53AE32;
+}
+
+@media screen and (max-width:767px) {
+  .feaured_teachers {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width:400px) {
+  .feaured_teachers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

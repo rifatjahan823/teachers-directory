@@ -33,7 +33,7 @@ const TeachersSearchBar = () => {
                         </div>
                     </div>
                     <div className='ms-2 tecahers-div'>
-                        <button className='common-btn input-btn'>Search</button>
+                        <button className='input-btn'>Search</button>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ const TeachersSearchBar = () => {
                         </div>
                     </div>
                     <div className='ms-2 tecahers-div'>
-                        <button className='common-btn input-btn'>Search</button>
+                        <button className='input-btn'>Search</button>
                     </div>
                 </div>
             </div>

@@ -20,18 +20,18 @@ const HeroSection = () => {
                 <input type="text" placeholder='Location or postcode' name="" id="" />
                </div>
                <div>
-               <button className='common-btn input-btn'>Search</button>
+               <button className='input-btn'>Search</button>
                </div>
             </div>
             <div className='row hero-bottom g-4 justify-content-center'>
                 <div className='col-lg-4 col-md-6 col-12'>
-                    <p className='text-white mb-2 fs-5'>Connect with schools</p>
+                    <p className='banner-text'>Connect with schools</p>
                 </div>
                 <div className='col-lg-4 col-md-6 col-12'>
-                    <p className='text-white mb-2 fs-5'>Build your network</p>
+                    <p className='banner-text'>Build your network</p>
                 </div>
                 <div className='col-lg-4 col-md-6 col-12'>
-                    <p className='text-white mb-2 fs-5'>Search vacancies</p>
+                    <p className='banner-text'>Search vacancies</p>
                 </div>
             </div>
         </div>

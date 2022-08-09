@@ -1,0 +1,37 @@
+.select-width{
+    width: 50%;
+}
+.select-number{
+    width: 20%;
+}
+.contact-condition{
+    background-color:#F5F8FA;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.payment-table>thead{
+    color:#797995;
+    font-family:'Segoe UI';
+    font-size: 26px;
+}
+.payment-table, td{
+    color:#1A1A2B;
+    font-family:'Segoe UI';
+    font-size: 17px
+}
+.tbale-nth{
+    background-color: #F5F8FA;
+}
+.table-total{
+    background-color: rgba(38, 151, 255, 0.5);
+}
+
+@media screen and (max-width:767px){
+    .select-width{
+        width: 100%;
+    }
+    .select-number{
+        width: 100%;
+    } 
+}

@@ -31,11 +31,11 @@ const Header=()=>{
           </Nav>           
            <Link className='header_link' to='/search_teacher'>Search teachers</Link>
            <Link className='header_link' to='/job_search'>Job search</Link>
-           <Link className='header_link' to='/'>How it works</Link>
+           <Link className='header_link' to='/job_post'>How it works</Link>
            <Link className='header_link' to='/school_dashboard'>About us</Link>
            <Link className='header_link' to='/teacher_dashboard'>Contact us</Link>
            <Link className='header_link' to='/signup'>
-           <button  className="login_btn header_link">Login</button>
+           <button  className="login_btn">Login</button>
             </Link>
           
            {
@@ -47,7 +47,7 @@ const Header=()=>{
             </select></p>            
             </>:
         
-            <button onClick={handleLogin} className="register_btn header_link">Register</button>
+            <button onClick={handleLogin} className="register_btn">Register</button>
            
            } 
            

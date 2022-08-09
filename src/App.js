@@ -13,6 +13,7 @@ import ProfileLayout from './pages/teachersProfile/profileLayout/ProfileLayout';
 import SignUp from './pages/signUp/SignUp';
 import SignUpSchool from './pages/signUp/signUpSchool/SignUpSchool';
 import SignUpTeacher from './pages/signUp/signUpTeacher/SignUpTeacher';
+import JobPost from './pages/jobPost/JobPost';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route path='/signup' element={<SignUp/>}/> 
       <Route path='/signupschool' element={<SignUpSchool/>}/> 
       <Route path='/signupteacher' element={<SignUpTeacher/>}/> 
+      <Route path='/job_post' element={<JobPost/>}/> 
       </Routes>
       <Support></Support>
       <Footer></Footer>      
