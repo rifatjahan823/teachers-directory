@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className='col-lg-6 col-12'>
                   {/* -------------icon-area------- */}
                     <div className='d-flex justify-content-lg-end justify-content-start align-items-center'>
-                        <p>follow us</p>
+                        <p>Follow us</p>
                         <TiSocialTwitter className='footer-top-icon'/>
                         <IoLogoInstagram className='footer-top-icon'/>
                         <TiSocialLinkedin className='footer-top-icon'/>
