@@ -39,8 +39,8 @@ const SignUpSchool = () => {
     return (
         <div className='signup-school'>
             <div className="container">
-                <div className="form">
-                    <div className='my-3'>
+                <div className="">
+                    <div className='my-3 text-center'>
                         {
                             page === 0 ? <img className='img-fluid' src={bg1} alt="" /> : page === 1 ? <img className='img-fluid' src={bg2} alt="" /> : <img className='img-fluid' src={bg3} alt="" />
                         }

@@ -34,7 +34,7 @@ const Header=()=>{
            <Link className='header_link' to='/job_post'>How it works</Link>
            <Link className='header_link' to='/school_dashboard'>About us</Link>
            <Link className='header_link' to='/teacher_dashboard'>Contact us</Link>
-           <Link className='header_link' to='/signup'>
+           <Link className='me-3' to='/signup'>
            <button  className="login_btn">Login</button>
             </Link>
           

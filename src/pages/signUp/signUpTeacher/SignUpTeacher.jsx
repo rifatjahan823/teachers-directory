@@ -77,8 +77,8 @@ const SignUpTeacher = () => {
     return (
         <div className='signup-school'>
             <div className="container">
-                <div className="form">
-                    <div className='my-3'>
+                <div className="">
+                    <div className='my-3 text-center'>
                         {
                             page === 0 ? <img className='img-fluid' src={img1} alt="" /> : page === 1 ? <img className='img-fluid' src={img1} alt="" /> : page === 2 ? <img className='img-fluid' src={img2} alt="" /> : page === 3 ? <img className='img-fluid' src={img2} alt="" /> : page === 4 ? <img className='img-fluid' src={img3} alt="" /> : page === 5 ? <img className='img-fluid' src={img4} alt="" /> : page === 6 ? <img className='img-fluid' src={img5} alt="" /> : page === 7 ? <img className='img-fluid' src={img6} alt="" /> : page === 8 ? <img className='img-fluid' src={img6} alt="" /> : page === 9 ? <img className='img-fluid' src={img6} alt="" /> : ""
                         }

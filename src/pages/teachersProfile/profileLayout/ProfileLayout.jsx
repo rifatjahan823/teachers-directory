@@ -25,9 +25,9 @@ const ProfileLayout = () => {
          <Link className='text-decoration-none fw-bold my-5' to="">Next teacher <BsArrowRight/></Link>
         </div>
     <div className="row mb-3">
-      <div className=' col-lg-8 col-12 mb-3'>
+      <div className=' col-md-8 col-12 mb-3'>
         <div className="info_section card h-100">
-        <div className="d-flex justify-content-between profile_intro">
+        <div className="d-flex profile_intro">
            <div className="profile_image">
             <img src={profile} alt="profile_image" className=""/>
            </div>
@@ -35,20 +35,20 @@ const ProfileLayout = () => {
            <h3 className='mt-2 profile_name'>Jhon D. <span className="text-info">Math Teacher</span></h3>
            <p className='profile_name'><BsDot className='dot-1'/><span> Soho, London</span> <BsDot className='dot-2'/><span> Full-Time</span> <FaRegHeart style={{color:'#E882A5'}}/></p>
            <hr/>
-            <button className="common-btn m-1 common">15 year's experience</button>
-            <button className="common-btn m-1 common">Primary teacher HoD</button>
+            <button className="common-btn m-1 common color">15 year's experience</button>
+            <button className="common-btn m-1 common color">Primary teacher HoD</button>
             <br/>
             <button className="common-btn dbs-btn m-1 common"><BsCheckCircle className='fs-5'/> DBS checked</button>
-            <button className="common-btn m-1 replies-btn common">Replies in 3 hours</button>
-            <button className="common-btn full-btn m-1 common">Full time</button>
+            <button className="common-btn m-1 replies-btn common color">Replies in 3 hours</button>
+            <button className="common-btn full-btn m-1 common ">Full time</button>
              <br/>
-            <button className="common-btn m-1 common">Head of department</button>
+            <button className="common-btn m-1 common color ">Head of department</button>
            </div>
         </div>
     
         </div>      
       </div>
-      <div className='col-lg-4 col-12 mb-3'>
+      <div className='col-md-4 col-12 mb-3'>
       <div className="info_section card h-100">
       <h4>Schedule</h4>
       <hr/>

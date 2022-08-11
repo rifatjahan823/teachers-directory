@@ -41,9 +41,9 @@ const Address = ({ formData, setFormData }) => {
                 </div>
               </div>
               <div className='d-flex form-flex'>
-                <div className='mb-2 me-1'>
+                <div className='mb-2 me-1 width-50'>
                   <label for="exampleFormControlInput1" class="form-label">First Local authority</label>
-                  <select class="form-select width-50" aria-label="Default select example" value={formData.authority} onChange={(e) => {
+                  <select class="form-select" aria-label="Default select example" value={formData.authority} onChange={(e) => {
                     setFormData({ ...formData, authority: e.target.value });
                   }} required>
                     <option selected>Select</option>
@@ -52,9 +52,9 @@ const Address = ({ formData, setFormData }) => {
                     <option value="3">Three</option>
                   </select>
                 </div>
-                <div className='mb-2 ms-1'>
+                <div className='mb-2 ms-1 width-50'>
                   <label for="exampleFormControlInput1" class="form-label">School website (Optional)</label>
-                  <input className='form-control width-50'
+                  <input className='form-control'
                     type="text"
                     placeholder='https://myschool.ac.uk'
                     value={formData.website}

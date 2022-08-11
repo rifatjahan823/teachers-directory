@@ -62,22 +62,22 @@ const SchoolDetails = ({ formData, setFormData }) => {
                             </div>
                             {/* --------============----------- */}
                             <div className="d-flex form-flex">
-                                <div class="mb-2 me-1 mt-1">
+                                <div class="mb-2 me-1 mt-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">School website (optional) <IoInformationCircleOutline style={{color:"#2697FF"}}/></label>
                                     <input
                                         type="text"
-                                        class="form-control width-50"
+                                        class="form-control"
                                         placeholder="https://myschool.ac.uk/hon"
                                         value={formData.website}
                                         onChange={(e) => {
                                             setFormData({ ...formData, website: e.target.value });
                                         }} required />
                                 </div>
-                                <div class="mb-2 ms-1">
+                                <div class="mb-2 ms-1 mt-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Email to receive applications <IoInformationCircleOutline style={{color:"#2697FF"}}/></label>
                                     <input
                                         type="text"
-                                        class="form-control width-50"
+                                        class="form-control"
                                         placeholder="contact@myschool.ac.ukoeD"
                                         value={formData.applicationsSchool}
                                         onChange={(e) => {

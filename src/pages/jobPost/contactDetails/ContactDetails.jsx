@@ -14,20 +14,20 @@ const ContactDetails = ({ formData, setFormData }) => {
                         <div className="account-container">
                             {/* --------============------ */}
                             <div className='d-flex align-items-end justify-content-between form-flex'>
-                                <div class="mb-2 ms-1 address-width">
+                                <div class="mb-2 ms-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Title</label>
                                     <input
                                         type="text"
-                                        class="form-control width-100"
+                                        class="form-control"
                                         placeholder="Select"
                                         value={formData.contactTitle}
                                         onChange={(e) => {
                                             setFormData({ ...formData, contactTitle: e.target.value });
                                         }} required />
                                 </div>
-                                <div class="mb-2 ms-1 address-width">
+                                <div class="mb-2 ms-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Job title (optional)</label>
-                                    <select class="form-select width-50" aria-label="Default select example" value={formData.jobTitle} onChange={(e) => {
+                                    <select class="form-select " aria-label="Default select example" value={formData.jobTitle} onChange={(e) => {
                                         setFormData({ ...formData, jobTitle: e.target.value });
                                     }} required>
                                         <option selected>Principal</option>
@@ -39,22 +39,22 @@ const ContactDetails = ({ formData, setFormData }) => {
                             </div>
                             {/* --------============------ */}
                             <div className='d-flex align-items-end justify-content-between form-flex'>
-                                <div class="mb-2 ms-1 address-width">
+                                <div class="mb-2 ms-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">First name</label>
                                     <input
                                         type="text"
-                                        class="form-control width-100"
+                                        class="form-control"
                                         placeholder="John"
                                         value={formData.firstName}
                                         onChange={(e) => {
                                             setFormData({ ...formData, firstName: e.target.value });
                                         }} required />
                                 </div>
-                                <div class="mb-2 ms-1 address-width">
+                                <div class="mb-2 ms-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Surname</label>
                                     <input
                                         type="text"
-                                        class="form-control width-100"
+                                        class="form-control"
                                         placeholder="Doe"
                                         value={formData.sureName}
                                         onChange={(e) => {
@@ -64,22 +64,22 @@ const ContactDetails = ({ formData, setFormData }) => {
                             </div>
                             {/* --------============----------- */}
                             <div className="d-flex form-flex">
-                                <div class="mb-2 me-1">
+                                <div class="mb-2 me-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Email address <IoInformationCircleOutline style={{ color: "#2697FF" }} /></label>
                                     <input
                                         type="email"
-                                        class="form-control width-50"
+                                        class="form-control"
                                         placeholder="me@myschool.ac.uk"
                                         value={formData.email}
                                         onChange={(e) => {
                                             setFormData({ ...formData, email: e.target.value });
                                         }} required />
                                 </div>
-                                <div class="mb-2 ms-1">
+                                <div class="mb-2 ms-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Phone number (optional) <IoInformationCircleOutline style={{ color: "#2697FF" }} /></label>
                                     <input
                                         type="number"
-                                        class="form-control width-50"
+                                        class="form-control"
                                         value={formData.phoneNumber}
                                         onChange={(e) => {
                                             setFormData({ ...formData, phoneNumber: e.target.value });

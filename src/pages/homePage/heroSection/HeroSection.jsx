@@ -4,8 +4,8 @@ import './HeroSection.css'
 const HeroSection = () => {
     return (
         <div className='hero-section'>
-            <div className='container'>
-                <div className='display_content'>
+            <div className='container display_content'>
+                <div className=''>
                     <h1>The UK's First Teachers' Directory</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec dolor<br/> condimentum sapien placerat fringilla et luctus massa.</p>
@@ -25,13 +25,16 @@ const HeroSection = () => {
                 </div>
                 <div className='row hero-bottom g-4 justify-content-center'>
                     <div className='col-lg-4 col-md-6 col-12'>
-                        <p className='banner-text'>Connect with schools</p>
+                        <br /><br />
+                        <div className='banner-text mt-5'>Connect with schools</div>
                     </div>
                     <div className='col-lg-4 col-md-6 col-12'>
-                        <p className='banner-text'>Build your network</p>
+                        <br /><br />
+                        <div className='banner-text mt-5'>Build your network</div>
                     </div>
-                    <div className='col-lg-4 col-md-6 col-12 mb-5'>
-                        <p className='banner-text'>Search vacancies</p>
+                    <div className='col-lg-4 col-md-6 col-12 '>
+                        <br /><br />
+                        <div className='banner-text mt-5'>Search vacancies</div>
                     </div>
                 </div>
             </div>

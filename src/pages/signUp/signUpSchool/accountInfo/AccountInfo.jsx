@@ -18,22 +18,22 @@ const AccountInfo = ({ formData, setFormData }) => {
                     <div className="col-lg-8">
                         <div className="account-container">
                             <div className="d-flex form-flex">
-                                <div class="mb-2 me-1">
+                                <div class="mb-2 me-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">First name</label>
                                     <input
                                         type="text"
-                                        class="form-control width-50"
+                                        class="form-control"
                                         placeholder="Jhon"
                                         value={formData.firstName}
                                         onChange={(e) => {
                                             setFormData({ ...formData, firstName: e.target.value });
                                         }} required />
                                 </div>
-                                <div class="mb-2 ms-1">
+                                <div class="mb-2 ms-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Surname</label>
                                     <input
                                         type="text"
-                                        class="form-control width-50"
+                                        class="form-control"
                                         placeholder="Doe"
                                         value={formData.sureName}
                                         onChange={(e) => {
@@ -53,9 +53,9 @@ const AccountInfo = ({ formData, setFormData }) => {
                                     required />
                             </div>
                             <div className='d-flex form-flex'>
-                                <div className='mb-2 me-1'>
+                                <div className='mb-2 me-1 width-50'>
                                     <label for="exampleFormControlInput3" class="form-label">Email address</label>
-                                    <input className='form-control width-50'
+                                    <input className='form-control'
                                         type="email"
                                         placeholder="contact@myschool.ac.uk"
                                         value={formData.email}
@@ -65,10 +65,10 @@ const AccountInfo = ({ formData, setFormData }) => {
                                         required />
                                     <p className='card-p'><  IoInformationCircleOutline />  Must be a valid school/organisational email address.</p>
                                 </div>
-                                <div className='mb-2 ms-1'>
+                                <div className='mb-2 ms-1 width-50'>
                                     <label for="exampleFormControlInput1" class="form-label">Password</label>
                                     <div className='input-group'>
-                                        <input className='form-control width-50  border-end-0'
+                                        <input className='form-control  border-end-0'
                                             type={showPassword?"text":"password"}
                                             value={formData.password}
                                             onChange={(e) => {

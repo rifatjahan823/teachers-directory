@@ -67,7 +67,7 @@ color:black;
     width:100%;
 }
 .width-50{
-    width:350px;
+    width:50%;
 }
 .address-width{
   width: 75%;
@@ -76,28 +76,16 @@ color:black;
 .form-control:focus {
   box-shadow: none;
 }
-@media screen and (max-width:1408px){
-  .width-50{
-    width:290px;
-}
+ 
 
-}
 @media screen and (max-width:1200px){
   .address-width{
     width: 70%;
     margin-right: 2%;
   }
 }
-@media screen and (max-width:1206px){
-  .width-50{
-    width:235px;
-}
-
-}
+ 
 @media screen and (max-width:991px){
-  .width-50{
-    width:263px;
-}
 .address-width{
   width: 70%;
   margin-right: 2%;

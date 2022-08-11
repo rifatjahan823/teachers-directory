@@ -40,7 +40,7 @@ const TeachersInfo = () => {
                         <TeachersDetails></TeachersDetails>
                         <TeachersDetails></TeachersDetails>
                         <TeachersDetails></TeachersDetails>
-                        <button className='common-btn d-block m-auto mt-5'>load more teachers</button>
+                        <button className='common-btn d-block m-auto mt-5'>Load more teachers</button>
                     </div>
                 </div>
             </div>

@@ -71,9 +71,9 @@ const JobDetailsTwo = ({ formData, setFormData }) => {
                             </div>
                             {/* -----------=============----------- */}
                             <div className='d-flex align-items-end justify-content-between form-flex mt-2'>
-                                <div class="mb-2 address-width">
+                                <div class="mb-2 width-50 address-width">
                                     <label for="exampleFormControlInput1" class="form-label">Contract type</label>
-                                    <select class="form-select width-50" aria-label="Default select example" value={formData.contact} onChange={(e) => {
+                                    <select class="form-select " aria-label="Default select example" value={formData.contact} onChange={(e) => {
                                         setFormData({ ...formData, contact: e.target.value });
                                     }} >
                                         <option selected>Select salary range</option>
@@ -102,9 +102,9 @@ const JobDetailsTwo = ({ formData, setFormData }) => {
                             </div>
                             {/* ---------==================--------- */}
                             <div className='d-flex align-items-end justify-content-between form-flex mt-2'>
-                                <div class="mb-2 ms-1 address-width">
+                                <div class="mb-2 me-md-2 me-0 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Salary range (optional)</label>
-                                    <select class="form-select width-50" aria-label="Default select example" value={formData.contact} onChange={(e) => {
+                                    <select class="form-select " aria-label="Default select example" value={formData.contact} onChange={(e) => {
                                         setFormData({ ...formData, contact: e.target.value });
                                     }} >
                                         <option selected>Select salary range</option>
@@ -113,9 +113,9 @@ const JobDetailsTwo = ({ formData, setFormData }) => {
                                         <option value="3">Three</option>
                                     </select>
                                 </div>
-                                <div class="mb-2 ms-1 address-width">
+                                <div class="mb-2 ms-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Grade (optional)</label>
-                                    <select class="form-select width-50" aria-label="Default select example" value={formData.hour} onChange={(e) => {
+                                    <select class="form-select " aria-label="Default select example" value={formData.hour} onChange={(e) => {
                                         setFormData({ ...formData, hour: e.target.value });
                                     }} >
                                         <option selected>Select grade</option>

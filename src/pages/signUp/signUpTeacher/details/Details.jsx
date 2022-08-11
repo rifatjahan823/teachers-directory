@@ -17,9 +17,9 @@ const Details = ({ formData, setFormData }) => {
                     <div className="col-lg-8">
                         <div className="account-container">
                             <div className='d-flex form-flex'>
-                                <div className='mb-2 me-1'>
+                                <div className='mb-2 me-1 width-50'>
                                     <label for="exampleFormControlInput1" class="form-label">Position</label>
-                                    <select class="form-select width-50" aria-label="Default select example" value={formData.position} onChange={(e) => {
+                                    <select class="form-select " aria-label="Default select example" value={formData.position} onChange={(e) => {
                                         setFormData({ ...formData, position: e.target.value });
                                     }} required>
                                         <option selected>Select position</option>
@@ -28,9 +28,9 @@ const Details = ({ formData, setFormData }) => {
                                         <option value="3">Three</option>
                                     </select>
                                 </div>
-                                <div className='mb-2 ms-1'>
+                                <div className='mb-2 ms-1 width-50'>
                                     <label for="exampleFormControlInput1" class="form-label">Workplace</label>
-                                    <select class="form-select width-50" aria-label="Default select example" value={formData.workplace} onChange={(e) => {
+                                    <select class="form-select " aria-label="Default select example" value={formData.workplace} onChange={(e) => {
                                         setFormData({ ...formData, workplace: e.target.value });
                                     }} required>
                                         <option selected>Select workplace</option>

@@ -47,7 +47,7 @@ const JobApplictaion = () => {
                             </div>
                             <p className='mt-2'>Suspendisse tristique blandit tincidunt. Etiam euismod ipsum mattis augue mollis auctor. Etiam iaculis tortor ipsum, eu tincidunt nisl imperdiet quis. Maecenas sapien sapien, lacinia non ante...</p>
                         </div>
-                        <div className='my-2'> <button className='rec_btn px-5 py-2 mt-4 d-block m-auto'>View my applications</button></div>
+                        <div className='my-5'> <button className='rec_btn px-5 py-2 mt-5 d-block m-auto'>View my applications</button></div>
                     </div>
                 </div>
                 {/* --------------inbox-------------- */}

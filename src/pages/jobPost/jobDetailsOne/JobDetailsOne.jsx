@@ -36,22 +36,22 @@ const JobDetailsOne = ({ formData, setFormData }) => {
                                     }} required />
                             </div>
                             <div className='d-flex align-items-end justify-content-between form-flex'>
-                                <div class="mb-2 ms-1 address-width">
+                                <div class="mb-2 ms-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Advert expiry date</label>
                                     <input
                                     type="date"
-                                    class="form-control width-100"
+                                    class="form-control"
                                     placeholder="John"
                                     value={formData.expiryDate}
                                     onChange={(e) => {
                                         setFormData({ ...formData, expiryDate: e.target.value });
                                     }} required />
                                 </div>
-                                <div class="mb-2 ms-1 address-width">
+                                <div class="mb-2 ms-1 width-50">
                                     <label for="exampleFormControlInput1" class="form-label">Advert expiry date</label>
                                     <input
                                     type="time"
-                                    class="form-control width-100"
+                                    class="form-control"
                                     placeholder="11:59 pm"
                                     value={formData.time}
                                     onChange={(e) => {

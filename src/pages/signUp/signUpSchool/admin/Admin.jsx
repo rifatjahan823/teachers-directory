@@ -47,10 +47,10 @@ const Admin = ({ formData, setFormData }) => {
                   <button className='add-btn'>Add manually</button>
                 </div>
               </div>
-              <div className='d-flex form-flex'>
-                <div className='mb-2 me-1'>
+              <div className='d-flex form-flex '>
+                <div className='mb-2 me-1 width-50'>
                   <label for="exampleFormControlInput1" class="form-label">Administrator's email</label>
-                  <input className='form-control width-50'
+                  <input className='form-control'
                     type="email"
                     placeholder='admin@myschool.ac.uk'
                     value={formData.administratorEmail}
@@ -61,9 +61,9 @@ const Admin = ({ formData, setFormData }) => {
                   <p className='card-p'><  IoInformationCircleOutline />  Must be a valid school / organisational email
                     address.</p>
                 </div>
-                <div className='mb-2 ms-1'>
+                <div className='mb-2 ms-1 width-50'>
                   <label for="exampleFormControlInput1" class="form-label">Phone number (optional)</label>
-                  <input className='form-control width-50'
+                  <input className='form-control'
                     type="text"
                     placeholder='https://myschool.ac.uk'
                     value={formData.number}

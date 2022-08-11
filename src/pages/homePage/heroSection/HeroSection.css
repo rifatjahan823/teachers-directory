@@ -3,7 +3,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-     
+
+}
+.display_content {
+padding: 35px 0;         
 }
 
 .display_content h1 {
@@ -14,42 +17,39 @@
     font-weight: 600;
     line-height: 71.4px;
 }
-.display_content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 150px;
-}
 
-.display_content p { 
+
+
+.display_content p {
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 18px;   
     font-family: 'Inter';
-    font-weight:400;  
+    font-weight: 400;
     line-height: 29.5px;
-    
+    margin-top: 2rem;
 }
-.input-btn{
-background: #2697FF;
-width: 140px;
-height: 50px;
-color: #FFFFFF;
-border: none;
-font-family: 'Inter';
-font-weight: 600;
-font-size: 16px;
-border-radius: 5px;
+
+.input-btn {
+    background: #2697FF;
+    width: 140px;
+    height: 50px;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
 }
+
 .search-filed {
     background-color: #EEF5FB;
     border-radius: 5px;
     padding: 20px 0;
-    width: 58%;
+    width: 85%;
     margin: auto;
-    align-items:end;
-     
+    align-items: end;
+
 }
 
 .search-filed input {
@@ -60,35 +60,62 @@ border-radius: 5px;
     height: 50px;
     padding: 10px;
 }
-.search-filed label{
+
+.search-filed label {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 6px;
 }
-.hero-bottom{
-    margin-top:16%;
-}
-.hero-bottom p{
-    margin:-10px;
-}
-.banner-text{
-font-family: 'Inter';
-font-weight: 600;
-font-size: 26px;
-line-height: 44px; 
-color: #FFFFFF;
-text-align: center;
-font-style: normal;
+
+.hero-bottom {
+    margin-top: 14%;
 }
 
-@media screen and (min-width:1500px) {
+.hero-bottom p {
+    margin: -10px;
+}
+
+.banner-text {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    color: #FFFFFF;   
+    text-align: center;
+    font-style: normal;
+
+}
+
+@media screen and (min-width:1411px) {
     .hero-section {
-        background-image: url('../../../assets/home/background.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center; 
+        padding-top: 230px;
+        padding-bottom: 0px;
     }
+    .display_content {
+        padding: 100px 0;
+             
+        }
+    .hero-bottom p {
+        margin: 0;
+    }
+
+    .display_content p {
+        font-size: 24px;
+    }
+
+    .display_content h1 {
+        font-size: 62px;
+        margin-top: -120px;
+    }
+
+    .search-filed input {
+        width: 450px;    
+    }
+    .search-filed{
+        margin-top: 40px;
+    }
+
     
 }
 
@@ -97,66 +124,76 @@ font-style: normal;
         width: 65%;
     }
 }
+
 @media screen and (max-width:1200px) {
     .search-filed input {
         width: 200px;
         height: 38px;
     }
 }
+
 @media screen and (max-width:992px) {
     .hero-section {
-        padding-top:90px;
+        padding-top: 90px;
     }
-    .input-btn{
+
+    .input-btn {
         padding: 5px 25px !important;
     }
+
     .search-filed {
         width: 80%;
     }
+
     .search-filed input {
         width: 180px;
         height: 38px;
     }
+    .display_content p{
+        text-align: start;
+        padding-left:20px;
+        font-size: 16px;
+    }
 }
+
 @media screen and (max-width:765px) {
     .hero-section {
-        padding-top:90px;
+        padding-top: 90px;
+        width: 100%;
     }
-    .hero-section h1 {
-        font-size: 45px;
-    }
-    .hero-section p {
-        font-size: 18px;
-    }
+
     .search-filed {
         width: 100%;
     }
+
     .search-filed input {
         width: 170px;
         height: 38px;
     }
 }
+
 @media screen and (max-width:501px) {
-  
+
     .search-filed {
-        width:100%;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .search-filed input {
-        width:300px;
+        width: 300px;
         height: 38px;
     }
-    .input-btn{
+
+    .input-btn {
         margin-top: 10%;
     }
-    .display_content h1{
-        font-size: 40px;
-        }
-        .display_content p{
-        font-size: 16px;
-         
-        }
+
+    .display_content h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    
 }
- 
