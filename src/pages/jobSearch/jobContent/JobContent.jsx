@@ -26,7 +26,7 @@ const JobContent = () => {
                                 <button className='apply-btn'>Apply now</button>
                             </div>
                         </div>
-                        <div className='d-flex job-description align-items-start align-items-md-center mb-3 mt-3'>
+                        <div className='d-flex job-description align-items-start align-items-md-center mb-2 mt-3'>
                             <div className='me-5 pe-4 '>
                                 <h5>Subjects</h5>
                             </div>
@@ -36,17 +36,17 @@ const JobContent = () => {
                         </div>
                         </div>
                         {/* --------==========----------- */}
-                        <div className='d-flex align-items-start align-items-md-center mb-3 job-description '>
+                        <div className='d-flex align-items-start align-items-md-center mb-2 job-description '>
                          <div className='me-5 pe-5'> <h5>Salary</h5></div>
                         <div><p>£24,290 - £29,850 per annum, pro rata</p></div>
                         </div>
                         {/* --------==========----------- */}
-                        <div className='d-flex align-items-start align-items-md-center mb-3  '>
+                        <div className='d-flex align-items-start align-items-md-center mb-2  '>
                           <div className='me-5 pe-5'><h5>Hours</h5></div>
                          <div><p>Full-time</p></div>
                         </div>
                         {/* --------==========----------- */}
-                        <div className='d-flex align-items-start align-items-md-center mb-3  '>
+                        <div className='d-flex align-items-start align-items-md-center mb-2  '>
                           <div className='me-4 pe-2'><h5>Contract type</h5></div>
                          <div><p>Fixed term</p></div>
                         </div>
@@ -87,7 +87,7 @@ const JobContent = () => {
                                 <button className='apply-btn'>Apply now</button>
                             </div>
                         </div>
-                        <div className='d-flex job-description align-items-start align-items-md-center mb-3 mt-3'>
+                        <div className='d-flex job-description align-items-start align-items-md-center mb-2 mt-3'>
                             <div className='me-5 pe-4 '>
                                 <h5>Subjects</h5>
                             </div>
@@ -97,17 +97,17 @@ const JobContent = () => {
                         </div>
                         </div>
                         {/* --------==========----------- */}
-                        <div className='d-flex align-items-start align-items-md-center mb-3  '>
+                        <div className='d-flex align-items-start align-items-md-center mb-2 '>
                          <div className='me-5 pe-5'> <h5>Salary</h5></div>
                         <div><p>Part-time</p></div>
                         </div>
                         {/* --------==========----------- */}
-                        <div className='d-flex align-items-start align-items-md-center mb-3  '>
+                        <div className='d-flex align-items-start align-items-md-center mb-2  '>
                           <div className='me-5 pe-5'><h5>Hours</h5></div>
                          <div><p>Supply</p></div>
                         </div>
                         {/* --------==========----------- */}
-                        <div className='d-flex align-items-start align-items-md-center mb-3 '>
+                        <div className='d-flex align-items-start align-items-md-center mb-2 '>
                           <div className='me-4 pe-2'><h5>Contract type</h5></div>
                          <div><p>Supply</p></div>
                         </div>

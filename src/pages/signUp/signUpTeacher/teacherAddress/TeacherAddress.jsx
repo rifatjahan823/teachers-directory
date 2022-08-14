@@ -24,7 +24,7 @@ const TeacherAddress = ({ formData, setFormData }) => {
                                             setFormData({ ...formData, address: e.target.value });
                                         }} required />
                                 </div>
-                                <div className='mb-2 address-btn-width'>
+                                <div className='mb-2'>
                                     <button className='add-btn'>Add manually</button>
                                 </div>
                             </div>

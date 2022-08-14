@@ -24,15 +24,13 @@ const TeachersDetails = () => {
                             <div className='d-flex btn_res
                             '>
                              <Link to="/teacher_profile">
-                            <button className='m-2 input-btn'>View Profile</button>
+                            <button className='m-2 profile_veiw_btn'>View Profile</button>
                             </Link>
-                             <Link to="/teacher_profile">
-                            <button className='m-2 input-btn'>Get in touch</button>
-                            </Link>
+                              
 
                             </div>
                         </div>
-                        <div className='content-paragrapgh mt-3'>
+                        <div className=' mt-3'>
                             <p>Maecenas tempus, ligula eget dapibus viverra, tellus risus fringilla lacus, a pellentesque lorem quam vitae dolor. Ut ut sapien quis tortor fringilla interdum. Nam at gravida sem. In ultricies ante non enim rhoncus, gravida tempor dolor varius. Cras vitae sapien et neque tristique vehicula volutpat vitae ante. Ut convallis id dui nec...</p>
                         </div>
                     </div>
@@ -65,14 +63,12 @@ const TeachersDetails = () => {
                             </div>
                             <div className="d-flex btn_res">
                             <Link to="/teacher_profile">
-                            <button className='m-2 input-btn'>View Profile</button>
+                            <button className='m-2 profile_veiw_btn'>View Profile</button>
                             </Link>
-                            <Link to="/teacher_profile">
-                            <button className='m-2 input-btn px-3'>Get in touch</button>
-                            </Link>
+                            
                             </div>
                         </div>
-                        <div className='content-paragrapgh mt-3'>
+                        <div className=' mt-3'>
                             <p>Maecenas tempus, ligula eget dapibus viverra, tellus risus fringilla lacus, a pellentesque lorem quam vitae dolor. Ut ut sapien quis tortor fringilla interdum. Nam at gravida sem. In ultricies ante non enim rhoncus, gravida tempor dolor varius. Cras vitae sapien et neque tristique vehicula volutpat vitae ante. Ut convallis id dui nec...</p>
                         </div>
                     </div>
@@ -105,14 +101,12 @@ const TeachersDetails = () => {
                             </div>
                             <div className='d-flex btn_res'>
                             <Link to="/teacher_profile">
-                            <button className='m-2 input-btn'>View Profile</button>
+                            <button className='m-2 profile_veiw_btn'>View Profile</button>
                             </Link>
-                            <Link to="/teacher_profile">
-                            <button className='input-btn px-3 m-2'>Get in touch</button>
-                            </Link>
+                             
                             </div>
                         </div>
-                        <div className='content-paragrapgh mt-3'>
+                        <div className=' mt-3'>
                             <p>Maecenas tempus, ligula eget dapibus viverra, tellus risus fringilla lacus, a pellentesque lorem quam vitae dolor. Ut ut sapien quis tortor fringilla interdum. Nam at gravida sem. In ultricies ante non enim rhoncus, gravida tempor dolor varius. Cras vitae sapien et neque tristique vehicula volutpat vitae ante. Ut convallis id dui nec...</p>
                         </div>
                     </div>

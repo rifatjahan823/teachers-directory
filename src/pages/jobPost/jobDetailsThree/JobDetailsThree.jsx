@@ -10,7 +10,7 @@ const JobDetailsThree = ({ formData, setFormData }) => {
                 <div className="row gy-5 gx-3 align-items-start justify-content-center">
                     <div className="col-lg-4">
                         <h4 className='fw-bold'>Job details</h4>
-                        <p>Advertise your vacancy. These details will be shown to registered teachers who fit your needs.You can save your progress at any moment.</p>
+                        <p className="details_paragraph">Advertise your vacancy. These details will be shown to registered teachers who fit your needs.You can save your progress at any moment.</p>
                     </div>
                     <div className="col-lg-8">
                         <div className="account-container">

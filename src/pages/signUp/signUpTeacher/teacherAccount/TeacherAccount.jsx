@@ -41,17 +41,7 @@ const TeacherAccount = ({ formData, setFormData }) => {
                                         }} required />
                                 </div>
                             </div>
-                            <div className='mb-2 '>
-                                <label for="exampleFormControlInput1" class="form-label">Job title</label>
-                                <input className='form-control width-100'
-                                    type="text"
-                                    placeholder="Head of Department"
-                                    value={formData.jobTitle}
-                                    onChange={(e) => {
-                                        setFormData({ ...formData, jobTitle: e.target.value });
-                                    }}
-                                    required />
-                            </div>
+                             
                             <div className='d-flex form-flex'>
                                 <div className='mb-2 me-1 width-50'>
                                     <label for="exampleFormControlInput3" class="form-label">Email address</label>

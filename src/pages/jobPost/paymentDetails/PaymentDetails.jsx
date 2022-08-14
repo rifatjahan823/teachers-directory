@@ -8,7 +8,7 @@ const PaymentDetails = ({ formData, setFormData }) => {
                     <div className="col-lg-4">
                         <h3 className='fw-bold'>Payment details <br />
                             <span style={{ color: '#2697FF' }}> Invoice</span></h3>
-                        <p>Aenean finibus risus a sodales tincidunt. Mauris fringilla varius ex sed imperdiet. Donec blandit, nibh quis sagittis vulputate, quam sapien vulputate odio.</p>
+                        <p className='details_paragraph'>Aenean finibus risus a sodales tincidunt. Mauris fringilla varius ex sed imperdiet. Donec blandit, nibh quis sagittis vulputate, quam sapien vulputate odio.</p>
                     </div>
                     <div className="col-lg-8">
                         <div className="account-container">

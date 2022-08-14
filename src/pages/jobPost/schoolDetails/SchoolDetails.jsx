@@ -11,8 +11,8 @@ const SchoolDetails = ({ formData, setFormData }) => {
                 <div className="row gy-5 gx-3 align-items-start justify-content-center">
                     <div className="col-lg-4">
                         <h4 className='fw-bold'>School /
-                            Organisation details</h4>
-                        <p>Give more details about your school/organisation. This will be used to create a school profile.</p>
+                          <br/>  Organisation details</h4>
+                        <p className='details_paragraph'>Give more details about your school/organisation. This will be used to create a school profile.</p>
                     </div>
                     <div className="col-lg-8">
                         <div className="account-container">
@@ -88,9 +88,9 @@ const SchoolDetails = ({ formData, setFormData }) => {
                             {/* -----------+++++++++++------------ */}
                             <div className="row gx-2 gy-3 align-items-ceneter">
                                 <div className="col-lg-8 col-12">
-                                    <div className=''>
+                                    <div>
                                         <h6>School logo (optional)</h6>
-                                        <div className='card px-3 py-5 text-center'>
+                                        <div style={{background:'whitesmoke'}} className='card px-3 py-5 text-center'>
                                             <img className='union-img' src={union} alt="" />
                                             <h6>Select a file or drag it here</h6>
                                             <button className='prev details-btn'>Select a file</button>
@@ -104,9 +104,13 @@ const SchoolDetails = ({ formData, setFormData }) => {
                                 </div>
                             </div>
                             {/* --------============----------- */}
+                            <label>School website (optional)</label>
                             <div className="d-flex form-flex ter mt-2">
+                            
                                 <div class="mb-2 me-1 d-flex  align-items-center width-50">
-                                <div className='pe-2'>From</div> 
+                                
+                                <div className='pe-2 text-secondary'>From</div> 
+                                
                                     <input
                                         type="number"
                                         class="form-control"
@@ -117,7 +121,7 @@ const SchoolDetails = ({ formData, setFormData }) => {
                                         }} required />
                                 </div>
                                 <div class="mb-2 ms-1 d-flex  align-items-center width-50">
-                                <div className='pe-2'>To</div>
+                                <div className='pe-2 text-secondary'>To</div>
                                     <input
                                         type="number"
                                         class="form-control "

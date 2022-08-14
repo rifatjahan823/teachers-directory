@@ -1,11 +1,13 @@
 .teachers-info{
-        background: #EEF5FB;
+        background:#EEF5FB;
         padding: 80px 0;
+        
     }
     .teachers-area-title {
         color:#1A1A2B;
-        text-transform: capitalize;
         font-size: 24px;
+        font-weight:500;
+        font-family: 'Inter';
     }
     .view p{
         margin: 0;

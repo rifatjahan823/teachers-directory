@@ -75,7 +75,7 @@ const Address = ({ formData, setFormData }) => {
                       setFormData({ ...formData, urn: e.target.value });
                     }}
                     required />
-                  <p className='card-p'><  IoInformationCircleOutline />  Must be 8 characters long and must contain at least 1 uppercase letter and 1 digit character.</p>
+                  <p className='card-p'><  IoInformationCircleOutline /> 6 digit number used by the government to identify educational establishments.</p>
                 </div>
             </div>
           </div>

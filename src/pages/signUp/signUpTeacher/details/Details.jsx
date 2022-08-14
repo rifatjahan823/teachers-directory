@@ -41,9 +41,9 @@ const Details = ({ formData, setFormData }) => {
                                 </div>
                             </div>
                             <div className='d-flex form-flex'>
-                                <div className='mb-2 me-1'>
+                                <div className='mb-2 me-1 width-50'>
                                     <label for="exampleFormControlInput1" class="form-label">What position do you hold? (optional)</label>
-                                    <select class="form-select width-50" aria-label="Default select example" value={formData.optionalPosition} onChange={(e) => {
+                                    <select class="form-select " aria-label="Default select example" value={formData.optionalPosition} onChange={(e) => {
                                         setFormData({ ...formData, optionalPosition: e.target.value });
                                     }} >
                                         <option selected>Select position</option>
@@ -52,9 +52,9 @@ const Details = ({ formData, setFormData }) => {
                                         <option value="3">Three</option>
                                     </select>
                                 </div>
-                                <div className='mb-2 ms-1'>
+                                <div className='mb-2 ms-1 width-50'>
                                     <label for="exampleFormControlInput1" class="form-label">How long have you been teaching? (optional)</label>
-                                    <select class="form-select width-50" aria-label="Default select example" value={formData.workTime} onChange={(e) => {
+                                    <select class="form-select " aria-label="Default select example" value={formData.workTime} onChange={(e) => {
                                         setFormData({ ...formData, workTime: e.target.value });
                                     }} >
                                         <option selected>Select number of years</option>

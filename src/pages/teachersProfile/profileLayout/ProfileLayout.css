@@ -2,7 +2,8 @@
 background:aliceblue;
 }
 .first-div{
-padding-right:7px;   
+padding-right:7px;
+   
 }
 .message-btn{
 background:#fff;
@@ -17,9 +18,9 @@ font-size: 18px;
 .table_body{
 display: grid;
 grid-template-columns: repeat(8,1fr);
-grid-gap: 5px; 
 align-items: center;
-justify-content: center;    
+justify-content: center;
+grid-gap:3px;    
 }
 .info_section{
   padding:2rem 1.5rem;
@@ -93,7 +94,7 @@ color:#FFA700
 }
 .check_mark{
 color: #1D9BF0;
- font-size: 32px; 
+ font-size: 35px; 
 }
 .files_grid{
 display: grid;
@@ -117,6 +118,34 @@ font-size: 50px;
 margin-right: -10px;
 margin-left: -12px;
 }
+.back_btn{
+color:#2697FF;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 29px;
+margin:2rem 0;
+}
+ 
+.file_span{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #1A1A2B;
+}
+.table_30{
+width:30%
+}
+.table_80{
+width:55%;
+}
+.table_20{
+width:15%;
+}
+
 @media(max-width:767px){
 .profile_name{
 padding-left: 15px;
@@ -156,4 +185,7 @@ grid-template-columns: auto;
   margin-left: 40px;
   }
    
+  .check_mark{
+  font-size: 50px;
+  }
  }

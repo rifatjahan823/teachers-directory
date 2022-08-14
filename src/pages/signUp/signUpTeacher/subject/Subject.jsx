@@ -15,11 +15,11 @@ const Subject = ({ formData, setFormData }) => {
                     </div>
                     <div className="col-lg-8">
                         <div className="account-container">
-                            <div class="mb-2 me-1">
+                            <div class="mb-2 me-1 w-100">
                                 <label for="exampleFormControlInput1" class="form-label">Title <  IoInformationCircleOutline style={{ color: "#2697FF" }} /></label>
                                 <input
                                     type="text"
-                                    class="form-control width-100"
+                                    class="form-control "
                                     placeholder="Business School of London"
                                     value={formData.schoolName}
                                     onChange={(e) => {
@@ -85,7 +85,7 @@ const Subject = ({ formData, setFormData }) => {
                                         <option value="3">Three</option>
                                     </select>
                                 </div>
-                                <div className='ms-0 ms-md-2 mt-2 mt-md-0 '>
+                                <div className='mt-2 mt-md-0 '>
                                     <button className='adds-btn'>Add manually</button>
                                 </div>
                             </div>

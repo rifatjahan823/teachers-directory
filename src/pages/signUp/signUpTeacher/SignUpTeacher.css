@@ -1,5 +1,16 @@
 .card {
-    background-color: #Ffff;
+ background-color: #Ffff;
+}
+
+input::placeholder{
+font-size:18px;
+line-height:22px;
+font-family:'Inter';
+color:#797995;
+}
+.account-section .form-check-input {
+width: 20px !important;
+height: 20px !important;
 }
 .card-p{
     color: #2697FF;
@@ -63,7 +74,7 @@ textarea{
     border-radius: 5px;
 }
 .form-width{
-    width: 35%;
+    width: 40%;
 }
 .profile-width{
     width: 45%;

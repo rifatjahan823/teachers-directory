@@ -18,6 +18,7 @@
         width: 80%;
         margin: auto;
         align-items:end;
+        font-family:'Inter';
     }
     .teachers-input {
         background: #FFFFFF;
@@ -159,3 +160,42 @@
             width: 350px; 
         }
     }
+    
+
+    /* Job serachBar css  */
+
+    .search-job{
+        width: 500px 
+        }
+        
+        @media screen and (min-width:1700px){
+            .search-job{
+                width: 760px
+            }
+        }
+        @media screen and (max-width:1500px){
+            .search-job{
+                width: 600px
+            }
+        }
+        
+        @media screen and (max-width:1214px){
+                .search-job{
+                    width: 450px; 
+                }
+        }
+        
+        @media screen and (max-width:991px){
+         
+        .search-job{
+         width: 350px
+         }
+        }
+        
+        @media screen and (max-width:667px){
+                .search-job{
+                    width: 400px ;
+                }
+            }
+        
+        

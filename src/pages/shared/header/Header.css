@@ -1,3 +1,8 @@
+/* .logo_img{
+object-fit: contain;
+} */
+
+
 .user_img{
 height: 50px;
 width: 50px;
@@ -21,6 +26,14 @@ font-weight: 400;
 Line-height:19.36px;
 font-family: 'Inter';
 }
+.header_link:hover,.header_link:focus{
+color: black;
+font-weight:600;
+}
+.login_btn:hover{
+color: #1A1A2B;       
+}
+
 .login_btn{
 border:2px solid #2697FF;
 border-radius: 6px;
@@ -55,3 +68,16 @@ margin-right: 0px;
 margin-top: 3px;
 }      
 }
+
+/* 
+@media screen and (min-width:1411px){
+.header_link{
+font-size: 20px;
+}
+.register_btn{
+font-size: 20px;
+}
+.login_btn{
+font-size: 20px;      
+}
+} */

@@ -150,77 +150,77 @@ const JobFilter = () => {
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault14" />
                                                 <label class="form-check-label" for="flexCheckDefault14">
-                                                    <h4 className='text-uppercase'>Maths <span>(320)</span></h4>
+                                                    <h4 >Maths <span>(320)</span></h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15" />
                                                 <label class="form-check-label" for="flexCheckDefault15">
-                                                    <h4 className='text-uppercase'> Science <span>(254)</span> </h4>
+                                                    <h4 > Science <span>(254)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault16" />
                                                 <label class="form-check-label" for="flexCheckDefault16">
-                                                    <h4 className='text-uppercase'> Computing <span>(0)</span> </h4>
+                                                    <h4 > Computing <span>(0)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault17" />
                                                 <label class="form-check-label" for="flexCheckDefault17">
-                                                    <h4 className='text-uppercase'> English <span>(67)</span> </h4>
+                                                    <h4 > English <span>(67)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault18" />
                                                 <label class="form-check-label" for="flexCheckDefault18">
-                                                    <h4 className='text-uppercase'> Literature <span>(2)</span> </h4>
+                                                    <h4 > Literature <span>(2)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault19" />
                                                 <label class="form-check-label" for="flexCheckDefault19">
-                                                    <h4 className='text-uppercase'> History <span>(41)</span> </h4>
+                                                    <h4 > History <span>(41)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault20" />
                                                 <label class="form-check-label" for="flexCheckDefault20">
-                                                    <h4 className='text-uppercase'> Geography <span>(0)</span> </h4>
+                                                    <h4 > Geography <span>(0)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault21" />
                                                 <label class="form-check-label" for="flexCheckDefault21">
-                                                    <h4 className='text-uppercase'>Art <span>(0)</span> </h4>
+                                                    <h4 >Art <span>(0)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault22" />
                                                 <label class="form-check-label" for="flexCheckDefault22">
-                                                    <h4 className='text-uppercase'>Music <span>(0)</span> </h4>
+                                                    <h4 >Music <span>(0)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault23" />
                                                 <label class="form-check-label" for="flexCheckDefault23">
-                                                    <h4 className='text-uppercase'>Biology <span>(0)</span> </h4>
+                                                    <h4 >Biology <span>(0)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault24" />
                                                 <label class="form-check-label" for="flexCheckDefault24">
-                                                    <h4 className='text-uppercase'>French <span>(18)</span> </h4>
+                                                    <h4 >French <span>(18)</span> </h4>
                                                 </label>
                                             </div>
                                         </div>
@@ -238,21 +238,21 @@ const JobFilter = () => {
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault25" />
                                                 <label class="form-check-label" for="flexCheckDefault25">
-                                                    <h4 className='text-uppercase'> Full-time <span>(564)</span></h4>
+                                                    <h4 > Full-time <span>(564)</span></h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault26" />
                                                 <label class="form-check-label" for="flexCheckDefault26">
-                                                    <h4 className='text-uppercase'> Part-time <span>(87)</span> </h4>
+                                                    <h4 > Part-time <span>(87)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault27" />
                                                 <label class="form-check-label" for="flexCheckDefault27">
-                                                    <h4 className='text-uppercase'> Supply work <span>(135)</span></h4>
+                                                    <h4 > Supply work <span>(135)</span></h4>
                                                 </label>
                                             </div>
                                         </div>
@@ -270,35 +270,35 @@ const JobFilter = () => {
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault28" />
                                                 <label class="form-check-label" for="flexCheckDefault28">
-                                                    <h4 className='text-uppercase'> Fixed term <span>(52)</span></h4>
+                                                    <h4 > Fixed term <span>(52)</span></h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault29" />
                                                 <label class="form-check-label" for="flexCheckDefault29">
-                                                    <h4 className='text-uppercase'> Maternity cover <span>(4)</span> </h4>
+                                                    <h4 > Maternity cover <span>(4)</span> </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault30" />
                                                 <label class="form-check-label" for="flexCheckDefault30">
-                                                    <h4 className='text-uppercase'> Permanent <span>(89)</span></h4>
+                                                    <h4 > Permanent <span>(89)</span></h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault31" />
                                                 <label class="form-check-label" for="flexCheckDefault31">
-                                                    <h4 className='text-uppercase'>Supply <span>(13)</span></h4>
+                                                    <h4 >Supply <span>(13)</span></h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault32" />
                                                 <label class="form-check-label" for="flexCheckDefault32">
-                                                    <h4 className='text-uppercase'>Temporary <span>(26)</span></h4>
+                                                    <h4 >Temporary <span>(26)</span></h4>
                                                 </label>
                                             </div>
                                         </div>
@@ -316,7 +316,7 @@ const JobFilter = () => {
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault33" />
                                                 <label class="form-check-label" for="flexCheckDefault33">
-                                                    <h4 className='text-uppercase'>Early career teachers (NQTs) <span>(74)</span></h4>
+                                                    <h4  >Early career teachers (NQTs) <span>(74)</span></h4>
                                                 </label>
                                             </div>
                                         </div>
@@ -334,14 +334,14 @@ const JobFilter = () => {
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault34" />
                                                 <label class="form-check-label" for="flexCheckDefault34">
-                                                    <h4 className='text-uppercase'>Male </h4>
+                                                    <h4>Male </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault35" />
                                                 <label class="form-check-label" for="flexCheckDefault35">
-                                                    <h4 className='text-uppercase'>Female</h4>
+                                                    <h4  >Female</h4>
                                                 </label>
                                             </div>
                                         </div>

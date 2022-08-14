@@ -161,14 +161,14 @@ const TeachersFilter = () => {
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault16" />
                                                 <label class="form-check-label" for="flexCheckDefault16">
-                                                    <h4 className='text-uppercase'> CCEA </h4>
+                                                    <h4> CCEA </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault17" />
                                                 <label class="form-check-label" for="flexCheckDefault17">
-                                                    <h4 className='text-uppercase'> WJEC/ Eduqas </h4>
+                                                    <h4> WJEC/ Eduqas </h4>
                                                 </label>
                                             </div>
                                         </div>
@@ -186,28 +186,28 @@ const TeachersFilter = () => {
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault18" />
                                                 <label class="form-check-label" for="flexCheckDefault18">
-                                                    <h4 className='text-uppercase'> male</h4>
+                                                    <h4>Male</h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault19" />
                                                 <label class="form-check-label" for="flexCheckDefault19">
-                                                    <h4 className='text-uppercase'> female </h4>
+                                                    <h4> Female </h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault20" />
                                                 <label class="form-check-label" for="flexCheckDefault20">
-                                                    <h4 className='text-uppercase'> DBS checked</h4>
+                                                    <h4> DBS checked</h4>
                                                 </label>
                                             </div>
                                             {/* --------------====------------- */}
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault21" />
                                                 <label class="form-check-label" for="flexCheckDefault21">
-                                                    <h4 className='text-uppercase'> ECTs / NQTs </h4>
+                                                    <h4> ECTs / NQTs </h4>
                                                 </label>
                                             </div>
                                         </div>

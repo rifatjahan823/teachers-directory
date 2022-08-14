@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import TeachersSearchBar from '../shared/teachersSearchBar/TeachersSearchBar';
+import JobSearchBar from '../shared/jobSearchBar/JobSearchBar';
 import { BsArrowLeft,BsArrowRight,BsDot} from "react-icons/bs";
 import { AiOutlineBell} from "react-icons/ai";
 import {FaMapMarkerAlt } from "react-icons/fa";
@@ -18,27 +18,27 @@ const JobDetails = () => {
   return (
          <>
          {/* serach bar */}
-          <TeachersSearchBar></TeachersSearchBar>
+          <JobSearchBar></JobSearchBar>
           <div className="container-fluid  profile-section px-4">
             {/* left right arrow section  */}
            <div className='d-flex justify-content-between align-items-center'>
-           <Link className='text-decoration-none fw-bold my-5' to=""><BsArrowLeft/> Previous teacher</Link>
-           <Link className='text-decoration-none fw-bold my-5' to="">Next teacher <BsArrowRight/></Link>
+           <Link className='text-decoration-none back_btn' to="/search_teacher"><BsArrowLeft/> Previous teacher</Link>
+           <Link className='text-decoration-none back_btn' to="">Next teacher <BsArrowRight/></Link>
            </div>
            {/* main content  */}
             <div className="row mb-3">
              <div className=' col-lg-8 col-12 mb-3'>
-             <div  className="info_section card">
+             <div  className="info_section card h-100">
               <div className='d-flex justify-content-between profile_intro'>
                <div className='job_image mx-1'>
                 <img  src={detailsImage} alt="job_details" />
                </div>
                <div className="profile_content">
-               <h3 className='profile_name'>Math Teacher <span className="text-info">London Business School</span></h3>
+               <h3 className='profile_name'>Math Teacher <span  style={{color:"#2697FF"}}>London Business School</span></h3>
               <p className='profile_name text-secondary job_location'><BsDot className='dot-1'/> Regent's ParkLondonNW1 4SA <FaRegHeart style={{color:'#E882A5',marginLeft:'15px'}}/></p>
               <hr/>
-              <p className='px-2'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit fringilla lectus nec elementum. Suspendisse lobortis ultrices turpis at fermentum. Aliquam finibus consectetur sem, vitae efficitur sapien hendrerit a. Mauris nec lectus blandit, dictum metus ac, egestas nibh. Nam eu dolor eu felis pharetra semper sit amet ac arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla quis dolor ut nisl suscipit ullamcorper.  Pellentesque tristique sollicitudin semper. Aenean auctor facilisis quam, sit amet rhoncus nisi pharetra et. Donec elementum erat justo, sed cursus velit ullamcorper sed. Curabitur ullamcorper mi augue, non tincidunt purus ultricies in. Proin malesuada ultricies pretium.
+              <p className='px-2 span_paragraph'>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit fringilla lectus nec elementum. Suspendisse lobortis ultrices turpis at fermentum. Aliquam finibus consectetur sem, vitae efficitur sapien hendrerit a. Mauris nec lectus blandit, dictum metus ac, egestas nibh. Nam eu dolor eu felis pharetra semper sit amet ac arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla quis dolor ut nisl suscipit ullamcorper. Aenean hendrerit ex neque, pretium tincidunt risus porttitor ac. Ut tellus quam, ornare at lobortis nec, laoreet at tellus. Aliquam nec quam diam. Aenean tincidunt neque magna, non congue tellus viverra id. Pellentesque tristique sollicitudin semper. Aenean auctor facilisis quam, sit amet rhoncus nisi pharetra et. Donec elementum erat justo, sed cursus velit ullamcorper sed. Curabitur ullamcorper mi augue, non tincidunt purus ultricies in. Proin malesuada ultricies pretium.
               </p>
               <ul className='ul'>
                 <li> <span className='span_paragraph'>Nullam lorem magna, pretium eget semper sed,  Nam et aliquam lorem. Vivamus commodo urna purus, a gravida nibh ultricies in.</span></li>
@@ -47,11 +47,10 @@ const JobDetails = () => {
                 <li><span className='span_paragraph'>
                 Nulla ut pretium turpis. Nunc suscipit urna et nibh  gravida molestie. In condimentum mollis hendrerit.</span></li>
               </ul>
-              
-            <p className='px-2'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit fringilla lectus nec elementum. Suspendisse lobortis ultrices turpis at fermentum. Aliquam finibus consectetur sem, vitae efficitur sapien hendrerit a. Mauris nec lectus blandit, dictum metus ac, egestas nibh. Nam eu dolor eu felis pharetra semper sit amet ac arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla quis dolor ut nisl suscipit ullamcorper. Aenean hendrerit ex neque, pretium tincidunt risus porttitor ac. Ut tellus quam, ornare at lobortis nec, laoreet at tellus. Aliquam nec quam diam. Aenean tincidunt neque magna, non congue tellus viverra id. Pellentesque tristique sollicitudin semper.  
-            </p>
-           </div>
+              <p className='px-2 span_paragraph'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit fringilla lectus nec elementum. Suspendisse lobortis ultrices turpis at fermentum. Aliquam finibus consectetur sem, vitae efficitur sapien hendrerit a. Mauris nec lectus blandit, dictum metus ac, egestas nibh. Nam eu dolor eu felis pharetra semper sit amet ac arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla quis dolor ut nisl suscipit ullamcorper. Aenean hendrerit ex neque, pretium tincidunt risus porttitor ac. Ut tellus quam, ornare at lobortis nec, laoreet at tellus. Aliquam nec quam diam. Aenean tincidunt neque magna, non congue tellus viverra id. Pellentesque tristique sollicitudin semper. Aenean auctor facilisis quam, sit amet rhoncus nisi pharetra et. Donec elementum erat justo, sed cursus velit ullamcorper sed. Curabitur ullamcorper mi augue, non tincidunt purus ultricies in. Proin malesuada ultricies pretium. 
+            </p>           
+             </div>
               </div>        
              </div>      
              </div>
@@ -60,34 +59,36 @@ const JobDetails = () => {
            <div  className="info_section card">
             <h4>About the job</h4>        
            </div>
+           {/* arrow content  */}
            <div  className='d-flex justify-content-around my-4'>
             <div className="arrow_content">
-              <p className='text-secondary fs-5'>Posted</p>
+              <p className=''>Posted</p>
               <p>01/07/2022</p>
             </div>
-            <div><FaArrowRight className='text-info fs-3'/></div>
+            <div><FaArrowRight className='arrow'/></div>
             <div className="arrow_content">
-            <p className='text-secondary fs-5'>Clossing</p>
+            <p className=''>Clossing</p>
             <p>15/07/2022</p>
             </div>
-            <div><FaArrowRight className='text-info fs-3'/></div>
+            <div><FaArrowRight className='arrow'/></div>
             <div className="arrow_content">
-            <p className='text-secondary fs-5'>Starts</p>
+            <p className=''>Starts</p>
             <p>01/08/2022</p>
             </div>
             </div>
-            <div  className='card p-4 mt-2'>
-              <p className='fw-bold text-secondary'>Salary </p>
+            {/* below of arrow content */}
+            <div  className='card p-4 mt-2 arrow_below'>
+              <p className='fw-bold'>Salary </p>
               <p>£28,290 - £34,850 per annum </p>
                
-              <p className='fw-bold text-secondary'>Hours</p>
+              <p className='fw-bold'>Hours</p>
               <p>Full-Time</p>
             
-              <p className='fw-bold text-secondary'>Contract type</p>
+              <p className='fw-bold'>Contract type</p>
               <p>Permanent</p>
               <hr/>
                 <button className='save_btn py-3 my-4'>
-                  <FaRegHeart/>  save to my job
+                  <FaRegHeart/>  Save to my job
                 </button>
                 <p className='fw-bold text-secondary text-center fs-5'>or</p>
                 <Link to="" className='text-center mb-3'>
@@ -95,10 +96,10 @@ const JobDetails = () => {
                 </Link>
                 <hr className='mt-4'/>
                 <button className='alert_btn py-3 my-4'>
-                <AiOutlineBell className='fs-4'/> Alert me when similar jobs are posted
+                <AiOutlineBell className='fs-3'/> Alert me when similar jobs are posted
                 </button>
                 <p className='fw-bold text-center my-4 text-secondary'>Share 
-                 <FaRegEnvelopeOpen className='footer-top-icon '/> 
+                 <FaRegEnvelopeOpen className='footer-top-icon fs-5'/> 
                 <TiSocialTwitter className='footer-top-icon fs-3'/> <TiSocialLinkedin className='footer-top-icon fs-3'/> <TiSocialFacebook className='footer-top-icon fs-3'/></p>
             </div>           
            </div>          
@@ -167,7 +168,7 @@ const JobDetails = () => {
           <hr/>
           <button className='apply_btn py-3'>Quick apply</button>
           <br/>
-          <button className='rec_btn py-3 my-2'>Recruiter's website</button>
+          <button className='rec_btn py-3 my-4'>Recruiter's website</button>
           <br/>
           <button className='rec_btn py-3'>Recruiter's application form</button>
          </div>       
@@ -181,9 +182,10 @@ const JobDetails = () => {
                 Other job vacancies from <span style={{color:'#2697FF'}}>London Business School</span>
                </h4>
              </div>
-               <div className='d-flex mt-3  justify-content-between job_details_card '>
+             {/* teachers features card  */}
+               <div className='location_grid mt-3'>
                 <div>
-                <div   className='px-5 card my-3'>
+                <div className='px-4 card my-3'>
                  <h5 className='my-3'>Head of Department</h5>
                  <div  className='d-flex justify-content-between features_card'>
                  <div className='text-secondary'>
@@ -209,7 +211,7 @@ const JobDetails = () => {
                 </div>
 
                 <div>
-                <div   className='px-5 card my-3'>
+                <div   className='px-4 card my-3'>
                 <h5 className='my-3'>Supply Eanglish teacher</h5>
                 <div className='d-flex justify-content-between features_card'>
                  <div className='text-secondary'>
@@ -237,7 +239,7 @@ const JobDetails = () => {
                 <div className='my-3'>
                 <div className='location_grid'>
                 <div>
-                <div  className='px-5 py-2 card'>
+                <div  className='px-4 py-2 card'>
                   <h5>Science teacher</h5>
                   <div className='d-flex justify-content-between features_card'>
                  <div className='text-secondary'>

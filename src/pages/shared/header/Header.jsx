@@ -17,7 +17,7 @@ const Header=()=>{
       <Container fluid>
         <Navbar.Brand>
         <Link to="/">
-        <img className='img-fluid' src={logo} alt="logo" />
+        <img className='img-fluid logo_img' src={logo} alt="logo" />
         </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -42,7 +42,7 @@ const Header=()=>{
             login?<>
             <span className='line'></span>
             <img className='user_img' src={user} alt="user" />
-            <p className='pt-3 px-2 text-info fw-bold'>Hi Jane <select style={{border:'none'}}>
+            <p style={{color:'#2697FF'}} className='pt-3 px-2 fw-bold'>Hi Jane <select style={{border:'none'}}>
               <option value="1"></option>               
             </select></p>            
             </>:

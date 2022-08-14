@@ -4,12 +4,12 @@ import JobFilter from './jobFilter/JobFilter';
 import { BsFillGrid3X3GapFill, BsListUl } from "react-icons/bs";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import './JobSearchLayout.css';
-import TeachersSearchBar from '../shared/teachersSearchBar/TeachersSearchBar';
+import JobSearchBar from '../shared/jobSearchBar/JobSearchBar';
 
 const JobSearchLayout = () => {
     return (
         <div>
-            <TeachersSearchBar></TeachersSearchBar>
+             <JobSearchBar></JobSearchBar>
             <div className='teachers-info'>
                 <div className='container-fluid px-3 px-lg-5'>
                     <div className='row gx-3 gy-4 justify-content-center align-items-start'>

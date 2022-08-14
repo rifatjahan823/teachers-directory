@@ -32,7 +32,7 @@ color:black;
     color:#2697FF;
     border: 2px solid #2697FF;
     border-radius: 5px;
-    padding: 5px 7px;
+    padding: 5px 8px;
    font-weight: 600;
    font-size: 16px;
   }
@@ -70,7 +70,7 @@ color:black;
     width:50%;
 }
 .address-width{
-  width: 75%;
+  width: 82%;
   margin-right: 2%;
 }
 .form-control:focus {
@@ -80,7 +80,7 @@ color:black;
 
 @media screen and (max-width:1200px){
   .address-width{
-    width: 70%;
+    width: 75%;
     margin-right: 2%;
   }
 }

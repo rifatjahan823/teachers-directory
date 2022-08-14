@@ -96,7 +96,7 @@ const SignUpTeacher = () => {
                                 Back
                             </button>
                             <div>
-                            <button className='prev me-2'>svae as a draft</button>
+                            <button className='prev me-2'>save as a draft</button>
                                 <button className='next'
                                     onClick={() => {
                                         if (page === FormTitles.length - 1) {

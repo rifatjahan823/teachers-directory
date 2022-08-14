@@ -20,7 +20,7 @@ const Application = () => {
                                 </div>
                                 <p >23/06/22</p>
                             </div>
-                            <p className='mt-2'>Suspendisse tristique blandit tincidunt. Etiam euismod ipsum mattis augue mollis auctor. Etiam iaculis tortor ipsum, eu tincidunt nisl imperdiet quis. Maecenas sapien sapien, lacinia non ante...</p>
+                            <p className='mt-2 details_paragraph'>Suspendisse tristique blandit tincidunt. Etiam euismod ipsum mattis augue mollis auctor. Etiam iaculis tortor ipsum, eu tincidunt nisl imperdiet quis. Maecenas sapien sapien, lacinia non ante...</p>
                         </div>
                         {/* ---------===========----------- */}
                         <div className=' border-bottom py-3'>
@@ -31,7 +31,7 @@ const Application = () => {
                                 </div>
                                 <p >19/04/22</p>
                             </div>
-                            <p className='mt-2'>Suspendisse tristique blandit tincidunt. Etiam euismod ipsum mattis augue mollis auctor. Etiam iaculis tortor ipsum, eu tincidunt nisl imperdiet quis. Maecenas sapien sapien, lacinia non ante...</p>
+                            <p className='mt-2 details_paragraph'>Suspendisse tristique blandit tincidunt. Etiam euismod ipsum mattis augue mollis auctor. Etiam iaculis tortor ipsum, eu tincidunt nisl imperdiet quis. Maecenas sapien sapien, lacinia non ante...</p>
                         </div>
                         {/* ---------===========----------- */}
                         <div className=' border-bottom py-3'>
@@ -42,7 +42,7 @@ const Application = () => {
                                 </div>
                                 <p >23/06/22</p>
                             </div>
-                            <p className='mt-2'>Suspendisse tristique blandit tincidunt. Etiam euismod ipsum mattis augue mollis auctor. Etiam iaculis tortor ipsum, eu tincidunt nisl imperdiet quis. Maecenas sapien sapien, lacinia non ante...</p>
+                            <p className='mt-2 details_paragraph'>Suspendisse tristique blandit tincidunt. Etiam euismod ipsum mattis augue mollis auctor. Etiam iaculis tortor ipsum, eu tincidunt nisl imperdiet quis. Maecenas sapien sapien, lacinia non ante...</p>
                         </div>
                         <div className='my-5'> <button className='rec_btn px-5 py-2 mt-5 d-block m-auto'>View my applications</button></div>
                     </div>
@@ -88,7 +88,7 @@ const Application = () => {
                                 <h5>John Doe </h5>
                                 <h5 ><span className='ms-3' style={{ fontWeight: "400", fontSize: "16px" }}>Lorem ipsum dolor sit amet</span></h5>
                             </div>
-                            <p >27/06/22</p>
+                            <p>27/06/22</p>
                         </div>
                         {/* --------=====-------------- */}
                         <div className='d-flex align-items-center justify-content-between border-bottom py-3 job-flex'>

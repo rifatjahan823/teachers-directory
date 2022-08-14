@@ -15,11 +15,11 @@
         font-family: 'Inter', sans-serif;
         font-weight: 600;
     }
-    .tearcher-title h6 {
+    .tearcher-title div h6 {
         color: #1A1A2B;
-        font-size: 24px;
+        font-size: 20px;
         font-family: 'Inter', sans-serif;
-        font-weight: 600;
+        font-weight: 700;
         text-transform: capitalize;
     }
     .teacher-title-span {
@@ -56,6 +56,17 @@
         font-size: 14px;
         color: #797995;
         display: inline-block;
+    }
+    .profile_veiw_btn{
+        background:white;
+        width:206px;
+        height: 50px;
+        color: #2697FF;
+        border: 2px solid #2697FF;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 5px;
     }
     @media screen and (min-width:1411px){
         .teachers-content img{
