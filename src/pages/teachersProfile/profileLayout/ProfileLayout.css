@@ -56,12 +56,13 @@ background:#EA9D0D;
  
 .profile_image img{ 
  height:100%;
- width: 90%;
- border-radius: 10px;
- object-fit:cover; 
+ width: 100%;
+ border-radius: 7px;
+ object-fit:cover;
+  
 }
 .profile_content{
-margin-left: -20px;
+margin-left:5px;
 }
 .social_link{
 position: relative;
@@ -146,6 +147,15 @@ width:55%;
 width:15%;
 }
 
+.info_section th{
+color: #797995!important;
+font-family: 'Inter';
+}
+.info_section td{
+font-size: 16px;
+font-family:'Inter';
+}
+ 
 @media(max-width:767px){
 .profile_name{
 padding-left: 15px;

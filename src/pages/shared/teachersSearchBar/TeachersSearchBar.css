@@ -74,6 +74,15 @@
             width: 90%
         }
     }
+    @media screen and (min-width:1700px){
+        .search-input{
+            width: 450px;
+            
+        }
+        .edu-select {
+            width: 300px;
+        }   
+    }
     @media screen and (max-width:1328px){
         .teachers-search-filed{
             width: 98%

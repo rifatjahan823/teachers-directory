@@ -26,7 +26,7 @@ const ProfileLayout = () => {
         </div>
     <div className="row mb-3">
       <div className=' col-md-8 col-12 mb-3'>
-        <div className="info_section card h-100">
+        <div className="info_section card">
         <div className="d-flex profile_intro">
            <div className="profile_image">
             <img src={profile} alt="profile_image" className=""/>
@@ -117,22 +117,22 @@ const ProfileLayout = () => {
          <Table bordered className="mt-3">
       <thead>
         <tr>           
-          <th className="py-3  text-secondary ">Subject</th>
-          <th className="py-3 text-secondary ">Level taught</th>          
+          <th className="py-3  text-secondary ps-3">Subject</th>
+          <th className="py-3 text-secondary ps-3">Level taught</th>          
         </tr>
       </thead>
       <tbody>
         <tr>          
-          <td className="py-3 ">Math</td>
-          <td className="py-3 ">primary,secondary,GCSE</td>
+          <td className="py-3 ps-3">Math</td>
+          <td className="py-3 ps-3">primary,secondary,GCSE</td>
         </tr>
         <tr>
-          <td className="py-3 ">Science</td>
-          <td className="py-3 ">secondary, Further education</td>           
+          <td className="py-3 ps-3">Science</td>
+          <td className="py-3 ps-3">secondary, Further education</td>           
         </tr>
         <tr>
-          <td className="py-3 ">Computing</td>
-          <td className="py-3 ">Further education</td>           
+          <td className="py-3 ps-3">Computing</td>
+          <td className="py-3 ps-3">Further education</td>           
         </tr>
       </tbody>
     </Table>
@@ -175,26 +175,26 @@ const ProfileLayout = () => {
          <Table bordered>
       <thead>
         <tr>           
-          <th className='text-secondary '>Awards</th>
-          <th className='text-secondary '>Sponsor</th>          
-          <th className='text-secondary '>Year</th>          
+          <th className='text-secondary ps-3'>Awards</th>
+          <th className='text-secondary ps-3'>Sponsor</th>          
+          <th className='text-secondary ps-3'>Year</th>          
         </tr>
       </thead>
       <tbody>
         <tr>          
-          <td className='py-3 '>Global Teacher Prize</td>
-          <td className='py-3 '>Varkey foundation</td>
-          <td className='py-3 '>2016</td>
+          <td className='py-3 ps-3'>Global Teacher Prize</td>
+          <td className='py-3 ps-3'>Varkey foundation</td>
+          <td className='py-3 ps-3'>2016</td>
         </tr>
         <tr>
-          <td className='py-3 '>Internationa School Awards</td>
-          <td className='py-3 '>British council</td>           
-          <td className='py-3 '>2013</td>           
+          <td className='py-3 ps-3'>Internationa School Awards</td>
+          <td className='py-3 ps-3'>British council</td>           
+          <td className='py-3 ps-3'>2013</td>           
         </tr>
         <tr>
-          <td className='py-3 '>AoC Becon Awards</td>
-          <td className='py-3 '>Association of colleges</td>           
-          <td className='py-3 '>2001</td>           
+          <td className='py-3 ps-3'>AoC Becon Awards</td>
+          <td className='py-3 ps-3'>Association of colleges</td>           
+          <td className='py-3 ps-3'>2001</td>           
         </tr>
       </tbody>
       </Table>
@@ -228,22 +228,22 @@ const ProfileLayout = () => {
          <Table bordered>
       <thead>
         <tr>           
-          <th className='text-secondary  py-3 table_30'>University</th>
-          <th  className='text-secondary  py-3 table_80'>Subject</th>          
-          <th className='text-secondary  py-3 table_20'>Level</th>          
+          <th className='text-secondary  py-3 table_30 ps-3'>University</th>
+          <th  className='text-secondary  py-3 table_80 ps-3'>Subject</th>          
+          <th className='text-secondary  py-3 table_20 ps-3'>Level</th>          
         </tr>
       </thead>
       <tbody>
         <tr>          
-           <td className='py-3 table_30'>Brunel University London</td>
-           <td className='py-3 table_80'> BSc(Hons) Mathematics and   Statistics with Management             
+           <td className='py-3 table_30 ps-3'>Brunel University London</td>
+           <td className='py-3 table_80 ps-3'> BSc(Hons) Mathematics and   Statistics with Management             
            </td>
-          <td className='py-3 table_20'>Degree</td>
+          <td className='py-3 table_20 ps-3'>Degree</td>
         </tr>
         <tr className="mt-3">
-          <td className='py-3 table_30'>London University</td>
-          <td className='py-3 table_80'>Advanced Sciences</td>           
-          <td className='py-3 table_20'>B</td>           
+          <td className='py-3 table_30 ps-3'>London University</td>
+          <td className='py-3 table_80 ps-3'>Advanced Sciences</td>           
+          <td className='py-3 table_20 ps-3'>B</td>           
         </tr>     
       </tbody>
       {/* second table  */}
@@ -251,17 +251,17 @@ const ProfileLayout = () => {
          <Table bordered>
       <thead>
         <tr>           
-          <th className='text-secondary  py-3 table_30'>School</th>
-          <th className='text-secondary  py-3 table_80'>Subject</th>          
-          <th className='text-secondary  py-3 table_20'>Level</th>          
+          <th className='text-secondary  py-3 table_30 ps-3'>School</th>
+          <th className='text-secondary  py-3 table_80 ps-3'>Subject</th>          
+          <th className='text-secondary  py-3 table_20 ps-3'>Level</th>          
         </tr>
       </thead>
       <tbody>
         
         <tr>
-          <td className='py-3 table_30'>Alleyn's School </td>
-          <td className='py-3 table_80' >Physics and Maths A-Levels</td>           
-          <td className='py-3 table_20'>A</td>           
+          <td className='py-3 table_30 ps-3'>Alleyn's School </td>
+          <td className='py-3 table_80 ps-3' >Physics and Maths A-Levels</td>           
+          <td className='py-3 table_20 ps-3'>A</td>           
         </tr>       
       </tbody>
     </Table>
